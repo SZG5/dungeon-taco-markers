@@ -1,0 +1,155 @@
+<!-- 
+Beta Version: 0.01
+POIs: IGN: S Z G.4359
+
+General Notes
+
+SKIPS
+- Start only mark if needed
+- Leap is leap to target area
+- Jumps should require anything but light skill
+- Blink is a teleport skill
+
+COLORS
+- Red P1
+- Blue P2
+- Green P3
+- Purple P4
+- Yellow if needed
+
+ -->
+<OverlayData>
+	<MarkerCategory name="dungeons" DisplayName="Dungeon Helper">
+		<MarkerCategory name="collect" DisplayName="Collectible" iconFile="Frac\Collections.png"/>
+		<MarkerCategory name="freq" DisplayName="Dungeon Freq" iconFile="Frac\Collections.png" achievementId="2963"/>
+		
+		<MarkerCategory name="dangers" DisplayName="Show Trap/Hazards" iconFile="Frac\Danger.png" fadeNear="1600"  fadeFar="1700"/>
+		<MarkerCategory name="ac" DisplayName="Ascalonian Catacombs">
+			<MarkerCategory name="p1" DisplayName="AC Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000">
+				<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Frac\Arrow.png"/>
+			</MarkerCategory>
+			<MarkerCategory name="p2" DisplayName="AC Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="AC Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="cm" DisplayName="Caudecus's Manor">
+			<MarkerCategory name="p1" DisplayName="CM Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="CM Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="CM Path 3" iconFile="FrCM\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="ta" DisplayName="Twilight Arbor">
+			<MarkerCategory name="up" DisplayName="TA Up" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="aether" DisplayName="TA Aether" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="fwd" DisplayName="TA Fwd" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="se" DisplayName="Sorrow's Embrace">
+			<MarkerCategory name="p1" DisplayName="SE Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="SE Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="SE Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="cof" DisplayName="Citadel of Flame">
+			<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="CoF Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="hotw" DisplayName="Honor of the Waves">
+			<MarkerCategory name="p1" DisplayName="HotW Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="HotW Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="HotW Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="coe" DisplayName="Crucible of Eternity">
+			<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="arah" DisplayName="The Ruined City of Arah">
+			<MarkerCategory name="p1" DisplayName="Arah Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p2" DisplayName="Arah Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p3" DisplayName="Arah Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="p4" DisplayName="Arah Path 4" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600"  fadeFar="3000"/>
+			<MarkerCategory name="dangers" DisplayName="Dangers" iconFile="Frac\Arrow.png"/>
+		</MarkerCategory>
+		<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Frac\Arrow.png"/>
+		<MarkerCategory name="skips" DisplayName="Skips">
+			<MarkerCategory name="start" DisplayName="Start" iconFile="Frac\Arrow.png"/>
+			<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Frac\Blink.png"/>
+			<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Frac\Leap.png"/>
+			<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Frac\Jumping_Puzzles.png"/>
+		</MarkerCategory>
+	</MarkerCategory>
+	<POIs>
+		<!-- General AC -->
+		<!-- Chains after the Spider Queen -->
+		<POI MapID="36" xpos="36.9874" ypos="26.9184" zpos="-130.92" type="dungeons.ac" GUID="9p0hRWtZZkuTcZ7Xg1/VJA==" iconFile="Frac\F_Key.png" behavior="6"/>
+		
+		<!-- AC P1 Archive Room Burrows -->
+		
+		<!-- TODO Mark the other 2 -->
+		
+		<POI MapID="36" xpos="103.344" ypos="14.2846" zpos="-202.768" GUID="ajW7k4BCREGRYeE/z+0TvA=="/>
+		<POI MapID="36" xpos="142.742" ypos="15.1553" zpos="-237.546" GUID="/IVkno2BT0q68Lyj9IEXPQ=="/>
+		<POI MapID="36" xpos="44.78" ypos="14.322" zpos="-203.195" GUID="GG3f0yWcmky7YbCU0EAPDw=="/>
+		<POI MapID="36" xpos="61.3194" ypos="15.8786" zpos="-222.31" GUID="tLB/In36GE6j6OuQNYVTMA=="/>
+		<!-- AC P1 Scepter Pieces -->
+		<POI MapID="36" xpos="-71.0625" ypos="69.2192" zpos="167.774" type="dungeons.ac.p1.scepter" GUID="tsHlyuWaO0S8SlYBmsv82g=="/>
+		<POI MapID="36" xpos="13.789" ypos="66.6659" zpos="117.866" type="dungeons.ac.p1.scepter" GUID="FrSH8OdCbU6uVf9SGmO1zA=="/>
+		<POI MapID="36" xpos="98.6329" ypos="66.673" zpos="122.296" type="dungeons.ac.p1.scepter" GUID="aWboIbTQd0y51Filq5iIiw=="/>
+		<POI MapID="36" xpos="150.931" ypos="66.6661" zpos="140.092" type="dungeons.ac.p1.scepter" GUID="qoA4UQ7mAUGX97JvBl6QtQ=="/>
+		<POI MapID="36" xpos="103.363" ypos="66.6727" zpos="158.56" type="dungeons.ac.p1.scepter" GUID="e6+wf8aSX0iySjjtdodkhg=="/>
+
+		<!-- P2 Stack -->
+		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="dungeons.stack" GUID="DAr+G4p2bkCWRwykNm8p+w=="/>
+
+
+		<!-- AC P3 Burrows -->
+		<POI MapID="36" xpos="346.596" ypos="19.4427" zpos="-35.4894" type="dungeons.ac.p3" GUID="ZMlI8GZ4HUS0tPDhWWGQMw==" iconFile="Frac\1.png"/>
+		<POI MapID="36" xpos="341.993" ypos="19.7263" zpos="-55.6433" type="dungeons.ac.p3" GUID="UPfAJwKaVkq5WAVlIcc5tA==" iconFile="Frac\2.png"/>
+		<POI MapID="36" xpos="299.456" ypos="24.0659" zpos="-48.4585" type="dungeons.ac.p3" GUID="1seMk4HmKUaR0jpqMVKOgg==" iconFile="Frac\3.png"/>
+		<POI MapID="36" xpos="337.809" ypos="24.0373" zpos="-80.7124" type="dungeons.ac.p3" GUID="toa7VCX2+E2QOqurhOQCxQ==" iconFile="Frac\4.png"/>
+		<POI MapID="36" xpos="302.199" ypos="19.4427" zpos="-69.8763" type="dungeons.ac.p3" GUID="Z+JNKc17rUiz+Xiy2wU+0w==" iconFile="Frac\5.png"/>
+		<POI MapID="36" xpos="369.089" ypos="24.0357" zpos="-47.7714" type="dungeons.ac.p3" GUID="B16k24yS+EiAvowJuao3HA==" iconFile="Frac\6.png"/>
+		<POI MapID="36" xpos="337.865" ypos="24.15" zpos="-18.1369" type="dungeons.ac.p3" GUID="oMi3txUYn0iXKLvfk6wyzQ==" iconFile="Frac\7.png"/>
+		<POI MapID="36" xpos="360.474" ypos="20.4739" zpos="-39.9605" type="dungeons.ac.p3" GUID="SN0S7ji86ECEBDbTBJXopw==" iconFile="Frac\8.png"/>
+		<POI MapID="36" xpos="334.413" ypos="19.716" zpos="-42.216" type="dungeons.ac.p3" GUID="irQFKZUOukKRWi0l9amiHg==" iconFile="Frac\9.png"/>
+		<POI MapID="36" xpos="320.695" ypos="19.444" zpos="-76.4703" type="dungeons.ac.p3" GUID="WyOisUzROk6aXNighaz6OQ==" iconFile="Frac\10.png"/>
+		<POI MapID="36" xpos="354.065" ypos="24.1483" zpos="-79.3404" type="dungeons.ac.p3" GUID="JGT31f1ixU29ynqJ23IwDw==" iconFile="Frac\11.png"/>
+		<POI MapID="36" xpos="314.486" ypos="24.1057" zpos="-33.3769" type="dungeons.ac.p3" GUID="9dp48RT4RkS9bE1+sFj9Dg==" iconFile="Frac\12.png"/>
+		<POI MapID="36" xpos="361.104" ypos="19.4518" zpos="-34.0157" type="dungeons.ac.p3" GUID="3X2jb1B+1EmkWE7shdqZTg==" iconFile="Frac\13.png"/>
+		<POI MapID="36" xpos="324.679" ypos="19.4525" zpos="-61.5729" type="dungeons.ac.p3" GUID="dfroI2UyNk6KbpJUFyjeog==" iconFile="Frac\14.png"/>
+		<POI MapID="36" xpos="368.462" ypos="19.4427" zpos="-21.8511" type="dungeons.ac.p3" GUID="obaRajm0eECgxOX2nCU0GA==" iconFile="Frac\15.png"/>
+		
+		<!-- CM -->
+		
+		
+		
+		<!-- TA -->
+		
+		
+		<!-- TA FWD -->
+		<Trail type="dungeons.ta.fwd" GUID="Pye+yC2h7UO05jVzgFTv+Q==" trailData="Frac\TA_FWD.trl" texture="Frac\Yellow_Dot.png" color="ffffff00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1"/>
+		
+		<POI MapID="67" xpos="-157.274" ypos="-0.162724" zpos="-0.949965" type="dungeons.skips.start" GUID="BHm89N8JxEmoXv4Mx5+FPw=="/>
+		<POI MapID="67" xpos="-152.589" ypos="5.70392" zpos="14.7041" type="dungeons.skips.blink" GUID="CP+IAv1lmUKj8VRnLZFn5Q=="/>
+		
+		<POI MapID="67" xpos="-70.2194" ypos="21.9996" zpos="129.578" type="dungeons.skips.blink" GUID="ZPyGmAxIHk2R9ylt8kn7zQ=="/>
+		
+		
+		
+		
+		
+		
+		<!-- Dungeon Freq Icons -- API KEY NEEDED to Work
+			iconSize=".25"
+				-->
+		
+		<POI MapID="872" xpos="75.9384" ypos="236.545" zpos="-18.8189" GUID="XFaRLTHT/kCu8zqseH8jGg==" type="dungeons.freq" achievementBit="22"/>
+
+		
+	</POIs>
+</OverlayData>
