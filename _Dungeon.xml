@@ -100,7 +100,14 @@ CONSIDER making a trail for each dungeon path?
 				<MarkerCategory name="p3" DisplayName="CM Path 3 - Butler" iconFile="FrCM\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="ta" DisplayName="Twilight Arbor">
-				<MarkerCategory name="up" DisplayName="TA Up - Leurent" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="up" DisplayName="TA Up - Leurent" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="TA Up Leurent - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="TA Up Leurent Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 				<MarkerCategory name="aether" DisplayName="TA Aether" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="fwd" DisplayName="TA Fwd - Vevina" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
@@ -268,7 +275,22 @@ CONSIDER making a trail for each dungeon path?
 		
 		
 		<!-- TA -->
-		
+		<!-- General Path -->
+		<POI MapID="67" xpos="136.208" ypos="43.0386" zpos="-248.437" type="fvd_guide.dungeons.ta.general.path" GUID="VwB1pYk5xk+OrMAcK/x8ig==" iconFile="Frac\Jumping_Puzzles.png" info="Path for Up or Forward"/>
+		<Trail trailData="Frac\TA_General.trl" type="fvd_guide.dungeons.ta.general.path" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="67" xpos="223.739" ypos="41.7439" zpos="-139.306" type="fvd_guide.dungeons.ta.general.info" GUID="jeVe8LnvC0CuNKg1fmqGlg==" info="Apply stealth if you want to skip the mobs."/>
+		<!-- TA UP -->
+		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.dungeons.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="TA UP Path"/>
+		<Trail trailData="Frac\TA_Up_Part1.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="67" xpos="17.3442" ypos="29.7404" zpos="-178.605" type="fvd_guide.dungeons.ta.up.info" GUID="qvIquZPSw0yUkdPA3rIktg==" info="Pull spiders and kill them before facing the boss.&#xA;Boss has projectile attack which hits hard, spread out or stay at ranged to avoid a group wipe."/>
+		<POI MapID="67" xpos="80.3755" ypos="40.3224" zpos="-167.524" GUID="uWwQa7YxJ063kzTUiXhSkQ==" type="fvd_guide.dungeons.ta.up.info" info="Stealth is advisable for these parts otherwise bring stun breakers for the mobs and range for the flowers."/>
+		<Trail trailData="Frac\TA_Up_Part2.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="67" xpos="182.607" ypos="52.5834" zpos="-82.0904" GUID="lAK6Z5PeiESf6MGSG3R2yQ==" type="fvd_guide.dungeons.ta.up.info" info="If you aren't aggro'd you can wait here and apply more stealth."/>
+		<POI MapID="67" xpos="278.525" ypos="36.2407" zpos="23.7486" GUID="8zLDK3P3yUiSoj3YkxOpoQ==" type="fvd_guide.dungeons.ta.up.info" info="Run into the spider egg sacs before the boss spawns to avoid more adds."/>
+		<Trail trailData="Frac\TA_Up_Part3.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="67" xpos="271.982" ypos="43.9515" zpos="152.025" GUID="SdOEs3MFl0u9HPNsTVI9QA==" type="fvd_guide.dungeons.ta.up.info" info="Stealth is advisable."/>
+		<Trail trailData="Frac\TA_Up_Part4.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+
 		
 		<!-- TA FWD -->
 		
