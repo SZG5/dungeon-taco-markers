@@ -1,0 +1,26 @@
+# Folders
+Crashlogs
+tw_ALL_IN_ONE
+tw_ALL_IN_ONE.taco
+POIs/GW2 TacO ReActif EN External.taco
+
+# TACO Files
+crash.log
+debug.log
+categorydata.xml
+activationdata.xml
+GW2TacO.exe
+GW2TacO.pdb
+GW2TacO.log
+hpgrids.xml
+locationaltimers.xml
+maptimer.xml
+poidata.xml
+UI.wbs
+UI.xml
+UI_large.css
+UI_larger.css
+UI_small.css
+UI_normal.css
+TacO_Language_en.xml
+TacOConfig.xml
