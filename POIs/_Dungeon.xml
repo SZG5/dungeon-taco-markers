@@ -64,91 +64,91 @@ CONSIDER making a trail for each dungeon path?
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon/Fractal Guide">
 		<MarkerCategory name="separatormenu01" IsSeparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="dungeons" DisplayName="Dungeon Markers">
-			<MarkerCategory name="stack" DisplayName="Stack Spot" iconFile="Frac\Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
-			<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Frac\Arrow.png"/>
+			<MarkerCategory name="stack" DisplayName="Stack Spot" iconFile="Data\Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
+			<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data\Arrow.png"/>
 			<MarkerCategory name="skips" DisplayName="Skips">
-				<MarkerCategory name="start" DisplayName="Start" iconFile="Frac\Arrow.png"/>
-				<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Frac\Blink.png"/>
-				<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Frac\Leap.png"/>
-				<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Frac\Jumping_Puzzles.png"/>
+				<MarkerCategory name="start" DisplayName="Start" iconFile="Data\Arrow.png"/>
+				<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Data\Blink.png"/>
+				<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Data\Leap.png"/>
+				<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Data\Jumping_Puzzles.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="separatormenu02" IsSeparator="1" DisplayName="-----Dungeon Specific----"/>
 			<MarkerCategory name="ac" DisplayName="Ascalonian Catacombs">
 				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p1" DisplayName="AC Path 1 - Hodgins" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p1" DisplayName="AC Path 1 - Hodgins" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="AC Path 1 - Hodgins Trail" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="Hodgins Path Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
-					<MarkerCategory name="burrow" DisplayName="Archive Room Burrows" iconFile="Frac\Arrow.png"/>
-					<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Frac\Arrow.png"/>
+					<MarkerCategory name="info" DisplayName="Hodgins Path Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="burrow" DisplayName="Archive Room Burrows" iconFile="Data\Arrow.png"/>
+					<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Data\Arrow.png"/>
 				</MarkerCategory>
-				<MarkerCategory name="p2" DisplayName="AC Path 2 - Detha" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p2" DisplayName="AC Path 2 - Detha" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="AC Path 2 - Detha Trail"/>
-					<MarkerCategory name="info" DisplayName="Detha Path Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="Detha Path Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p3" DisplayName="AC Path 3 - Tzark" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p3" DisplayName="AC Path 3 - Tzark" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="AC Path 3 - Tzark Trail"/>
-					<MarkerCategory name="info" DisplayName="Tzark Path Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="Tzark Path Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 					<MarkerCategory name="burrow" DisplayName="Lovers' Crypt Burrows"/>
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="cm" DisplayName="Caudecus's Manor">
-				<MarkerCategory name="p1" DisplayName="CM Path 1 - Asura" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CM Path 2 - Seraph" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="CM Path 1 - Asura" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="CM Path 2 - Seraph" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="p3" DisplayName="CM Path 3 - Butler" iconFile="FrCM\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="ta" DisplayName="Twilight Arbor">
 				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="up" DisplayName="TA Up - Leurent" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="up" DisplayName="TA Up - Leurent" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="TA Up Leurent - Trail" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="TA Up Leurent Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="TA Up Leurent Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="aether" DisplayName="TA Aether" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="fwd" DisplayName="TA Fwd - Vevina" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="aether" DisplayName="TA Aether" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="fwd" DisplayName="TA Fwd - Vevina" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="TA Fwd - Vevina - Trail" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="TA Fwd - Vevina Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="TA Fwd - Vevina Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="se" DisplayName="Sorrow's Embrace">
-				<MarkerCategory name="p1" DisplayName="SE Path 1 - Fergg" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="SE Path 2 - Rasolov" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="SE Path 3 - Koptev" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="SE Path 1 - Fergg" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="SE Path 2 - Rasolov" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="SE Path 3 - Koptev" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="cof" DisplayName="Citadel of Flame">
-				<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="CoF Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="CoF Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="hotw" DisplayName="Honor of the Waves">
-				<MarkerCategory name="p1" DisplayName="HotW Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p1" DisplayName="HotW Path 1 - The Butcher" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="HotW Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="HotW Path 1 - Specific Info" iconFile="Frac\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="HotW Path 1 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p2" DisplayName="HotW Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="HotW Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="HotW Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="HotW Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="coe" DisplayName="Crucible of Eternity">
-				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 			<MarkerCategory name="arah" DisplayName="The Ruined City of Arah">
-				<MarkerCategory name="p1" DisplayName="Arah Path 1" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="Arah Path 2" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="Arah Path 3" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p4" DisplayName="Arah Path 4" iconFile="Frac\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="Arah Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p2" DisplayName="Arah Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="Arah Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p4" DisplayName="Arah Path 4" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
 		<!-- General AC -->
 		<POI MapID="36" xpos="-168.199" ypos="59.3948" zpos="-233.188" type="fvd_guide.dungeons.ac.general.info" GUID="vzXpAg8CLUuIrQk5gaXmYQ==" info="Have someone select the path while the others move down to the Spider Queen area."/>
-		<Trail trailData="Frac\AC_General.trl" type="fvd_guide.dungeons.ac.general.path" color="ffffff00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_General.trl" type="fvd_guide.dungeons.ac.general.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="36" xpos="-85.3458" ypos="20.5563" zpos="-180.2" type="fvd_guide.dungeons.ac.general.info" GUID="YOY7+dWI1USxS3F+yDTi5Q==" info="Take out the other spiders and the before killing the low level spiders, which summon the Spider Queen."/>
 		<POI MapID="36" xpos="-40.5139" ypos="11.8824" zpos="-169.287" type="fvd_guide.dungeons.ac.general.info" GUID="Xda8dUGdUEGMAETW0qRr+A==" info="Lure the mob back here and kill them before running past the traps. "/>
 		<POI MapID="36" xpos="-18.5672" ypos="12.4633" zpos="-163.899" type="fvd_guide.dungeons.ac.general.info" GUID="3CGfp3MLpkW2AU/dNQrEUA==" info="Green are generally safe areas. Disable the traps with the chain."/>
@@ -167,14 +167,14 @@ CONSIDER making a trail for each dungeon path?
 		<POI MapID="36" xpos="34.0809" ypos="25.1312" zpos="-142.142" type="fvd_guide.dungeons.ac.general.info" color="FF00FF00" GUID="ZLSpi82pi0O2GR60e9Nbtw=="/>
 		
 		<!-- Trap Disable Pull Chain -->
-		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.dungeons.ac.general.path" iconFile="Frac\F_Key.png" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable to traps." behavior="6"/>
+		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.dungeons.ac.general.path" iconFile="Data\F_Key.png" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable to traps." behavior="6"/>
 		
 		<!-- Kholer -->
 		<POI MapID="36" xpos="69.8096" ypos="41.2402" zpos="-58.358" type="fvd_guide.dungeons.ac.general.info" GUID="nShA9gvku0+9TNCN3nCogQ==" info="Stack in the corner and pull the boss."/>
 	
 		<!-- Path 1; Part 1 -->
 		<POI MapID="36" xpos="96.2715" ypos="40.0835" zpos="-86.4533" type="fvd_guide.dungeons.ac.p1.path" GUID="Ag2IB83K/E+uoOY6qM0AoQ==" info="P1: Hodgins - Start"/>
-		<Trail trailData="Frac\AC_P1_Part1.trl" type="fvd_guide.dungeons.ac.p1.path" color="ffed1a1e" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P1_Part1.trl" type="fvd_guide.dungeons.ac.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 
 		<!-- Fire Stairs Warning -->
 		<POI MapID="36" xpos="97.6486" ypos="27.1103" zpos="-147.638" type="fvd_guide.dungeons.ac.p1.info" color="FFFF0000" GUID="h2lcN67QdU256AljpXo6ww==" info="Info wait for the fire then run."/>
@@ -194,19 +194,19 @@ CONSIDER making a trail for each dungeon path?
 		<POI MapID="36" xpos="102.349" ypos="14.2837" zpos="-244.238" type="fvd_guide.dungeons.ac.p1.info" GUID="5iSPL3rTIUOxkkHvYm6Uiw==" info="With blinks and teleports you can get to the scepter faster after the graveling event finishes. Return to the center WP."/>
 
 		<!-- Scepter Piece -->
-		<POI MapID="36" xpos="97.6657" ypos="30.1564" zpos="-261.471" type="fvd_guide.dungeons.ac.p1.info" GUID="JDxb08ZIK0++9iGC6bNuOg==" iconFile="Frac\Arrow.png" info="Grab and then WP to the center/Foefire's Heart"/>
+		<POI MapID="36" xpos="97.6657" ypos="30.1564" zpos="-261.471" type="fvd_guide.dungeons.ac.p1.info" GUID="JDxb08ZIK0++9iGC6bNuOg==" iconFile="Data\Arrow.png" info="Grab and then WP to the center/Foefire's Heart"/>
 
 		<!-- Path 1; Part 2 -->
 		<POI MapID="36" xpos="98.5981" ypos="43.8665" zpos="-59.8497" type="fvd_guide.dungeons.ac.p1.path" GUID="4la8CYnTeUeuV/BkYvHZxg==" info="P1: Hodgins - Part 2"/>
-		<Trail trailData="Frac\AC_P1_Part2.trl" type="fvd_guide.dungeons.ac.p1.path" color="ffed1a1e" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P1_Part2.trl" type="fvd_guide.dungeons.ac.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 
 		<!-- Ooze Warning -->
-		<POI MapID="36" xpos="-55.6273" ypos="54.5136" zpos="43.6874" GUID="cqtlS3IBJ0OEiih5KFFftQ==" type="fvd_guide.dungeons.ac.p1" iconFile="Frac\forbidden.png"/>
+		<POI MapID="36" xpos="-55.6273" ypos="54.5136" zpos="43.6874" GUID="cqtlS3IBJ0OEiih5KFFftQ==" type="fvd_guide.dungeons.ac.p1" iconFile="Data\forbidden.png"/>
 		<POI MapID="36" xpos="-42.7611" ypos="54.58" zpos="31.4016" GUID="xlRYHgHgTkOzITuoifk7Dw==" type="fvd_guide.dungeons.ac.p1.info" info="Avoid that side to prevent the ooze from spawning."/>
 
 		<!-- Hodgins Scepter Hunt -->
 		<POI MapID="36" xpos="-118.249" ypos="54.8858" zpos="76.7453" GUID="lxu3K9YCuECS02a1BZfSOQ==" type="fvd_guide.dungeons.ac.p1.info" info="Collect the scepter pieces and turn them in here."/>
-		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.dungeons.ac.p1.info" iconFile="Frac\Arrow.png" info="Arrows mark the general area for the pieces. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
+		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.dungeons.ac.p1.info" iconFile="Data\Arrow.png" info="Arrows mark the general area for the pieces. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
 
 		<!-- AC P1 Scepter Pieces -->
 		<POI MapID="36" xpos="-71.0625" ypos="69.2192" zpos="167.774" type="fvd_guide.dungeons.ac.p1.scepter" GUID="tsHlyuWaO0S8SlYBmsv82g=="/>
@@ -217,26 +217,26 @@ CONSIDER making a trail for each dungeon path?
 
 		<!-- Path 1; Part 3 -->
 		<POI MapID="36" xpos="-115.829" ypos="54.8849" zpos="77.9846" type="fvd_guide.dungeons.ac.p1.path" GUID="5pT1bINrSkm0NEBkNY1EOw==" info="P1: Hodgins - Part 3 - After turning in the pieces."/>
-		<Trail trailData="Frac\AC_P1_Part3.trl" type="fvd_guide.dungeons.ac.p1.path" color="ffed1a1e" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P1_Part3.trl" type="fvd_guide.dungeons.ac.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="36" xpos="-26.99" ypos="50.3054" zpos="10.5079" type="fvd_guide.dungeons.ac.p1.info" GUID="BNynlWcc506gSayCFrPA+Q==" info="Bring stun breakers and run past the mobs."/>
 
 
 
 		<!-- AC Path 2 -->
 		<POI MapID="36" xpos="113.645" ypos="41.9676" zpos="-48.8143" type="fvd_guide.dungeons.ac.p2.path" GUID="SrBNto4DFUyrIh6UTpoVpw==" info="P2: Detha - Start"/>
-		<Trail trailData="Frac\AC_P2_Part1.trl" type="fvd_guide.dungeons.ac.p2.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P2_Part1.trl" type="fvd_guide.dungeons.ac.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="36" xpos="299.738" ypos="-0.680672" zpos="-185.943" type="fvd_guide.dungeons.ac.p2.info" GUID="HvK0BJGMx0GhASaabvJjug==" info="Have people stack on the spot and cleave the mob once Detha triggers the event. &#xA; Once it finishes WP back to the center/Foefire's Heart"/>
 		<!-- Stack Spot -->
-		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="fvd_guide.dungeons.ac.p2.info" GUID="DAr+G4p2bkCWRwykNm8p+w==" iconFile="Frac\Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
+		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="fvd_guide.dungeons.ac.p2.info" GUID="DAr+G4p2bkCWRwykNm8p+w==" iconFile="Data\Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
 		
 		<!-- Graveling Trap Chain -->
 		<!-- <POI MapID="36" xpos="327.163" ypos="5.62619" zpos="-192.002" GUID="+6n9yq5jP02Q7NVRahyC6A=="/> -->
 		
 		<!-- AC Path 2; Part 2 -->
 		<POI MapID="36" xpos="105.295" ypos="43.5387" zpos="-49.5394" type="fvd_guide.dungeons.ac.p2.path" GUID="Tb6E5Zh+WkGdYj7snE/bkg==" info="P2: Detha - Part 2"/>
-		<Trail trailData="Frac\AC_P2_Part2.trl" type="fvd_guide.dungeons.ac.p2.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P2_Part2.trl" type="fvd_guide.dungeons.ac.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<!-- Chain to open the gate reminder -->
-		<POI MapID="36" xpos="137.688" ypos="67.2695" zpos="68.1835" GUID="rXtzk5CpP0OobY6WWMdxEA==" type="fvd_guide.dungeons.ac.p2.path" iconFile="Frac\F_Key.png" behavior="6" info="Interact with the chain to open the gate."/>
+		<POI MapID="36" xpos="137.688" ypos="67.2695" zpos="68.1835" GUID="rXtzk5CpP0OobY6WWMdxEA==" type="fvd_guide.dungeons.ac.p2.path" iconFile="Data\F_Key.png" behavior="6" info="Interact with the chain to open the gate."/>
 
 		<POI MapID="36" xpos="97.9322" ypos="71.1423" zpos="191.038" GUID="h8MDvPERkESeFSlU/0HAwg==" type="fvd_guide.dungeons.ac.p2.info" info="If Detha hasn't followed pull back here or a bit further and she should spawn,&#xA; then you can move back and it should trigger the defense trap event. "/>
 		<POI MapID="36" xpos="93.4327" ypos="66.6669" zpos="148.404" GUID="Ve0+e7AZqUWVYNM9KjI/1Q==" type="fvd_guide.dungeons.ac.p2.info" info="Defend Detha as she sets up the trap. Then talk to her to start the next event where&#xA; you use the gun to lift the ectoplasmic oozes into the traps to charge it. Once the &#xA; trap is charged, lure the boss on to it and kill it when its not longer a blue ghost. "/>
@@ -244,35 +244,35 @@ CONSIDER making a trail for each dungeon path?
 		
 		<!-- AC Path 3 -->
 		<POI MapID="36" xpos="113.008" ypos="42.8166" zpos="-51.9069" type="fvd_guide.dungeons.ac.p3.path" GUID="z7UZ0ACmP0OaED5lPRstkQ==" info="P3: Tzark - Start"/>
-		<Trail trailData="Frac\AC_P3_Part1.trl" type="fvd_guide.dungeons.ac.p3.path" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P3_Part1.trl" type="fvd_guide.dungeons.ac.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 
 		<!-- Burrow Wait -->
 		<POI MapID="36" xpos="342.55" ypos="19.7664" zpos="-48.5326" type="fvd_guide.dungeons.ac.p3.info" GUID="/OLiBT02CUW3544ius0t8Q==" info="Kill each of the burrows as they spawn then after the last one go to the door."/>
 
 
 		<!-- AC P3 Burrows -->
-		<POI MapID="36" xpos="346.596" ypos="19.4427" zpos="-35.4894" type="fvd_guide.dungeons.ac.p3.burrow" GUID="ZMlI8GZ4HUS0tPDhWWGQMw==" iconFile="Frac\1.png"/>
-		<POI MapID="36" xpos="341.993" ypos="19.7263" zpos="-55.6433" type="fvd_guide.dungeons.ac.p3.burrow" GUID="UPfAJwKaVkq5WAVlIcc5tA==" iconFile="Frac\2.png"/>
-		<POI MapID="36" xpos="299.456" ypos="24.0659" zpos="-48.4585" type="fvd_guide.dungeons.ac.p3.burrow" GUID="1seMk4HmKUaR0jpqMVKOgg==" iconFile="Frac\3.png"/>
-		<POI MapID="36" xpos="337.809" ypos="24.0373" zpos="-80.7124" type="fvd_guide.dungeons.ac.p3.burrow" GUID="toa7VCX2+E2QOqurhOQCxQ==" iconFile="Frac\4.png"/>
-		<POI MapID="36" xpos="302.199" ypos="19.4427" zpos="-69.8763" type="fvd_guide.dungeons.ac.p3.burrow" GUID="Z+JNKc17rUiz+Xiy2wU+0w==" iconFile="Frac\5.png"/>
-		<POI MapID="36" xpos="369.089" ypos="24.0357" zpos="-47.7714" type="fvd_guide.dungeons.ac.p3.burrow" GUID="B16k24yS+EiAvowJuao3HA==" iconFile="Frac\6.png"/>
-		<POI MapID="36" xpos="337.865" ypos="24.15" zpos="-18.1369" type="fvd_guide.dungeons.ac.p3.burrow" GUID="oMi3txUYn0iXKLvfk6wyzQ==" iconFile="Frac\7.png"/>
-		<POI MapID="36" xpos="360.474" ypos="20.4739" zpos="-39.9605" type="fvd_guide.dungeons.ac.p3.burrow" GUID="SN0S7ji86ECEBDbTBJXopw==" iconFile="Frac\8.png"/>
-		<POI MapID="36" xpos="334.413" ypos="19.716" zpos="-42.216" type="fvd_guide.dungeons.ac.p3.burrow" GUID="irQFKZUOukKRWi0l9amiHg==" iconFile="Frac\9.png"/>
-		<POI MapID="36" xpos="320.695" ypos="19.444" zpos="-76.4703" type="fvd_guide.dungeons.ac.p3.burrow" GUID="WyOisUzROk6aXNighaz6OQ==" iconFile="Frac\10.png"/>
-		<POI MapID="36" xpos="354.065" ypos="24.1483" zpos="-79.3404" type="fvd_guide.dungeons.ac.p3.burrow" GUID="JGT31f1ixU29ynqJ23IwDw==" iconFile="Frac\11.png"/>
-		<POI MapID="36" xpos="314.486" ypos="24.1057" zpos="-33.3769" type="fvd_guide.dungeons.ac.p3.burrow" GUID="9dp48RT4RkS9bE1+sFj9Dg==" iconFile="Frac\12.png"/>
-		<POI MapID="36" xpos="361.104" ypos="19.4518" zpos="-34.0157" type="fvd_guide.dungeons.ac.p3.burrow" GUID="3X2jb1B+1EmkWE7shdqZTg==" iconFile="Frac\13.png"/>
-		<POI MapID="36" xpos="324.679" ypos="19.4525" zpos="-61.5729" type="fvd_guide.dungeons.ac.p3.burrow" GUID="dfroI2UyNk6KbpJUFyjeog==" iconFile="Frac\14.png"/>
-		<POI MapID="36" xpos="368.462" ypos="19.4427" zpos="-21.8511" type="fvd_guide.dungeons.ac.p3.burrow" GUID="obaRajm0eECgxOX2nCU0GA==" iconFile="Frac\15.png"/>
+		<POI MapID="36" xpos="346.596" ypos="19.4427" zpos="-35.4894" type="fvd_guide.dungeons.ac.p3.burrow" GUID="ZMlI8GZ4HUS0tPDhWWGQMw==" iconFile="Data\1.png"/>
+		<POI MapID="36" xpos="341.993" ypos="19.7263" zpos="-55.6433" type="fvd_guide.dungeons.ac.p3.burrow" GUID="UPfAJwKaVkq5WAVlIcc5tA==" iconFile="Data\2.png"/>
+		<POI MapID="36" xpos="299.456" ypos="24.0659" zpos="-48.4585" type="fvd_guide.dungeons.ac.p3.burrow" GUID="1seMk4HmKUaR0jpqMVKOgg==" iconFile="Data\3.png"/>
+		<POI MapID="36" xpos="337.809" ypos="24.0373" zpos="-80.7124" type="fvd_guide.dungeons.ac.p3.burrow" GUID="toa7VCX2+E2QOqurhOQCxQ==" iconFile="Data\4.png"/>
+		<POI MapID="36" xpos="302.199" ypos="19.4427" zpos="-69.8763" type="fvd_guide.dungeons.ac.p3.burrow" GUID="Z+JNKc17rUiz+Xiy2wU+0w==" iconFile="Data\5.png"/>
+		<POI MapID="36" xpos="369.089" ypos="24.0357" zpos="-47.7714" type="fvd_guide.dungeons.ac.p3.burrow" GUID="B16k24yS+EiAvowJuao3HA==" iconFile="Data\6.png"/>
+		<POI MapID="36" xpos="337.865" ypos="24.15" zpos="-18.1369" type="fvd_guide.dungeons.ac.p3.burrow" GUID="oMi3txUYn0iXKLvfk6wyzQ==" iconFile="Data\7.png"/>
+		<POI MapID="36" xpos="360.474" ypos="20.4739" zpos="-39.9605" type="fvd_guide.dungeons.ac.p3.burrow" GUID="SN0S7ji86ECEBDbTBJXopw==" iconFile="Data\8.png"/>
+		<POI MapID="36" xpos="334.413" ypos="19.716" zpos="-42.216" type="fvd_guide.dungeons.ac.p3.burrow" GUID="irQFKZUOukKRWi0l9amiHg==" iconFile="Data\9.png"/>
+		<POI MapID="36" xpos="320.695" ypos="19.444" zpos="-76.4703" type="fvd_guide.dungeons.ac.p3.burrow" GUID="WyOisUzROk6aXNighaz6OQ==" iconFile="Data\10.png"/>
+		<POI MapID="36" xpos="354.065" ypos="24.1483" zpos="-79.3404" type="fvd_guide.dungeons.ac.p3.burrow" GUID="JGT31f1ixU29ynqJ23IwDw==" iconFile="Data\11.png"/>
+		<POI MapID="36" xpos="314.486" ypos="24.1057" zpos="-33.3769" type="fvd_guide.dungeons.ac.p3.burrow" GUID="9dp48RT4RkS9bE1+sFj9Dg==" iconFile="Data\12.png"/>
+		<POI MapID="36" xpos="361.104" ypos="19.4518" zpos="-34.0157" type="fvd_guide.dungeons.ac.p3.burrow" GUID="3X2jb1B+1EmkWE7shdqZTg==" iconFile="Data\13.png"/>
+		<POI MapID="36" xpos="324.679" ypos="19.4525" zpos="-61.5729" type="fvd_guide.dungeons.ac.p3.burrow" GUID="dfroI2UyNk6KbpJUFyjeog==" iconFile="Data\14.png"/>
+		<POI MapID="36" xpos="368.462" ypos="19.4427" zpos="-21.8511" type="fvd_guide.dungeons.ac.p3.burrow" GUID="obaRajm0eECgxOX2nCU0GA==" iconFile="Data\15.png"/>
 		
 		<!-- AC Path 3; Part 2 -->
 		<POI MapID="36" xpos="344.228" ypos="27.4193" zpos="-7.74978" type="fvd_guide.dungeons.ac.p3.path" GUID="Hy0NJWjAWUKfh9XLeApWsg==" info="P3: Tzark - Part 2"/>
-		<Trail trailData="Frac\AC_P3_Part2.trl" type="fvd_guide.dungeons.ac.p3.path" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P3_Part2.trl" type="fvd_guide.dungeons.ac.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="36" xpos="282.315" ypos="66.6871" zpos="167.774" GUID="3agQk495SE6okC3YaNQj2w==" info="Have someone run ahead to trigger the event and kill the burrow to the right.&#xA;After killing all the burrows and getting out of combat you can WP to the newly&#xA;unlocked WP in the Rockfall Chamber."/>
 		<POI MapID="36" xpos="-76.0972" ypos="51.8909" zpos="73.3788" type="fvd_guide.dungeons.ac.p3.path" GUID="XsbxmS8djESNzb6k417z3Q==" info="P3: Tzark - Part 3"/>
-		<Trail trailData="Frac\AC_P3_Part3.trl" type="fvd_guide.dungeons.ac.p3.path" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\AC\AC_P3_Part3.trl" type="fvd_guide.dungeons.ac.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 
 
 		
@@ -282,54 +282,54 @@ CONSIDER making a trail for each dungeon path?
 		
 		<!-- TA -->
 		<!-- General Path -->
-		<POI MapID="67" xpos="136.208" ypos="43.0386" zpos="-248.437" type="fvd_guide.dungeons.ta.general.path" GUID="VwB1pYk5xk+OrMAcK/x8ig==" iconFile="Frac\Jumping_Puzzles.png" info="Path for Up or Forward"/>
-		<Trail trailData="Frac\TA_General.trl" type="fvd_guide.dungeons.ta.general.path" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="67" xpos="136.208" ypos="43.0386" zpos="-248.437" type="fvd_guide.dungeons.ta.general.path" GUID="VwB1pYk5xk+OrMAcK/x8ig==" iconFile="Data\Jumping_Puzzles.png" info="Path for Up or Forward"/>
+		<Trail trailData="Data\Trails\TA\TA_General.trl" type="fvd_guide.dungeons.ta.general.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="67" xpos="223.739" ypos="41.7439" zpos="-139.306" type="fvd_guide.dungeons.ta.general.info" GUID="jeVe8LnvC0CuNKg1fmqGlg==" info="Apply stealth if you want to skip the mobs."/>
 		
 		<!-- TA UP -->
 		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.dungeons.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="TA UP Path"/>
-		<Trail trailData="Frac\TA_Up_Part1.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\TA\TA_Up_Part1.trl" type="fvd_guide.dungeons.ta.up.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="67" xpos="17.3442" ypos="29.7404" zpos="-178.605" type="fvd_guide.dungeons.ta.up.info" GUID="qvIquZPSw0yUkdPA3rIktg==" info="Pull spiders and kill them before facing the boss.&#xA;Boss has projectile attack which hits hard, spread out or stay at ranged to avoid a group wipe."/>
 		<POI MapID="67" xpos="80.3755" ypos="40.3224" zpos="-167.524" GUID="uWwQa7YxJ063kzTUiXhSkQ==" type="fvd_guide.dungeons.ta.up.info" info="Stealth is advisable for these parts otherwise bring stun breakers for the mobs and range for the flowers."/>
-		<Trail trailData="Frac\TA_Up_Part2.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<Trail trailData="Data\Trails\TA\TA_Up_Part2.trl" type="fvd_guide.dungeons.ta.up.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="182.607" ypos="52.5834" zpos="-82.0904" GUID="lAK6Z5PeiESf6MGSG3R2yQ==" type="fvd_guide.dungeons.ta.up.info" info="If you aren't aggro'd you can wait here and apply more stealth."/>
 		<POI MapID="67" xpos="278.525" ypos="36.2407" zpos="23.7486" GUID="8zLDK3P3yUiSoj3YkxOpoQ==" type="fvd_guide.dungeons.ta.up.info" info="Run into the spider egg sacs before the boss spawns to avoid more adds."/>
-		<Trail trailData="Frac\TA_Up_Part3.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<Trail trailData="Data\Trails\TA\TA_Up_Part3.trl" type="fvd_guide.dungeons.ta.up.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="271.982" ypos="43.9515" zpos="152.025" GUID="SdOEs3MFl0u9HPNsTVI9QA==" type="fvd_guide.dungeons.ta.up.info" info="Stealth is advisable."/>
-		<POI MapID="67" xpos="154.887" ypos="39.3791" zpos="34.6345" type="fvd_guide.dungeons.ta.up.path" GUID="gHP8kJKo1k2aTslsT804cg==" iconFile="Frac\Jumping_Puzzles.png" info="Up Path - Part 4"/>
-		<Trail trailData="Frac\TA_Up_Part4.trl" type="fvd_guide.dungeons.ta.up.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="67" xpos="154.887" ypos="39.3791" zpos="34.6345" type="fvd_guide.dungeons.ta.up.path" GUID="gHP8kJKo1k2aTslsT804cg==" iconFile="Data\Jumping_Puzzles.png" info="Up Path - Part 4"/>
+		<Trail trailData="Data\Trails\TA\TA_Up_Part4.trl" type="fvd_guide.dungeons.ta.up.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		
 		<!-- TA FWD -->
 		<POI MapID="67" xpos="-1.01219" ypos="14.6634" zpos="-134.404" type="fvd_guide.dungeons.ta.up.path" GUID="uG5pYOq1m0aXcSK258VgqQ==" info="TA - Forward"/>
-		<Trail trailData="Frac\TA_Forward_Part1.trl" type="fvd_guide.dungeons.ta.fwd.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
-		<POI MapID="67" xpos="-116.312" ypos="1.19439" zpos="-126.241" type="fvd_guide.dungeons.ta.fwd.path" GUID="7pzoz0q8X0iKoKcYwmOKXQ==" iconFile="Frac\Jumping_Puzzles.png" info="Forward Path - Part 2"/>
-		<Trail trailData="Frac\TA_Forward_Part2.trl" type="fvd_guide.dungeons.ta.fwd.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<Trail trailData="Data\Trails\TA\TA_Forward_Part1.trl" type="fvd_guide.dungeons.ta.fwd.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="67" xpos="-116.312" ypos="1.19439" zpos="-126.241" type="fvd_guide.dungeons.ta.fwd.path" GUID="7pzoz0q8X0iKoKcYwmOKXQ==" iconFile="Data\Jumping_Puzzles.png" info="Forward Path - Part 2"/>
+		<Trail trailData="Data\Trails\TA\TA_Forward_Part2.trl" type="fvd_guide.dungeons.ta.fwd.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="-179.353" ypos="0.382908" zpos="-33.1254" type="fvd_guide.dungeons.ta.fwd.info" GUID="S037glYIO0G1EsQOW/NjNw==" info="Optional: Blink skip at arrow."/>
-		<POI MapID="67" xpos="-157.274" ypos="-0.162724" zpos="-0.949965" type="fvd_guide.dungeons.ta.fwd.info" GUID="BHm89N8JxEmoXv4Mx5+FPw==" iconFile="Frac\Arrow.png" info="Get super close to the crack and target the blink skill on the other side."/>
-		<POI MapID="67" xpos="-152.589" ypos="5.70392" zpos="14.7041" type="fvd_guide.dungeons.ta.fwd.info" GUID="CP+IAv1lmUKj8VRnLZFn5Q==" iconFile="Frac\Blink.png"/>
+		<POI MapID="67" xpos="-157.274" ypos="-0.162724" zpos="-0.949965" type="fvd_guide.dungeons.ta.fwd.info" GUID="BHm89N8JxEmoXv4Mx5+FPw==" iconFile="Data\Arrow.png" info="Get super close to the crack and target the blink skill on the other side."/>
+		<POI MapID="67" xpos="-152.589" ypos="5.70392" zpos="14.7041" type="fvd_guide.dungeons.ta.fwd.info" GUID="CP+IAv1lmUKj8VRnLZFn5Q==" iconFile="Data\Blink.png"/>
 		<POI MapID="67" xpos="-168.009" ypos="4.11561" zpos="37.3054" type="fvd_guide.dungeons.ta.fwd.info" GUID="v5RZIO1WZ0CSFnTcvvdEyQ==" info="Watch the cog and wait for it to be in a bubble and then walk into the blue portals to get inside the bubbles.&#xA;Do not collide with the bubble or you will down."/>
-		<POI MapID="67" xpos="-99.5457" ypos="4.77237" zpos="36.6082" type="fvd_guide.dungeons.ta.fwd.path" GUID="7ykiQGNBWUuHRS794tqErA==" iconFile="Frac\Jumping_Puzzles.png" info="Forward Path - Part 3"/>
-		<Trail trailData="Frac\TA_Forward_Part3.trl" type="fvd_guide.dungeons.ta.fwd.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="67" xpos="-99.5457" ypos="4.77237" zpos="36.6082" type="fvd_guide.dungeons.ta.fwd.path" GUID="7ykiQGNBWUuHRS794tqErA==" iconFile="Data\Jumping_Puzzles.png" info="Forward Path - Part 3"/>
+		<Trail trailData="Data\Trails\TA\TA_Forward_Part3.trl" type="fvd_guide.dungeons.ta.fwd.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="-92.2976" ypos="5.07472" zpos="38.4414" type="fvd_guide.dungeons.ta.fwd.info" GUID="eYOo4OO3fEuh8iZohFxlqg==" info="Optional: Stealth past the mobs."/>
-		<POI MapID="67" xpos="-70.2194" ypos="21.9996" zpos="129.578" type="fvd_guide.dungeons.ta.fwd.info" GUID="ZPyGmAxIHk2R9ylt8kn7zQ==" iconFile="Frac\Blink.png"/>
+		<POI MapID="67" xpos="-70.2194" ypos="21.9996" zpos="129.578" type="fvd_guide.dungeons.ta.fwd.info" GUID="ZPyGmAxIHk2R9ylt8kn7zQ==" iconFile="Data\Blink.png"/>
 		<POI MapID="67" xpos="-76.2473" ypos="21.8462" zpos="126.322" type="fvd_guide.dungeons.ta.fwd.info" GUID="BIRUedOigUm9MRL9OgjR/w==" info="Optional: (Wait for CDs) and stealth past the mobs.&#xA;If you down in the tunnel, you can rally off the flowers."/>
-		<POI MapID="67" xpos="154.887" ypos="39.3791" zpos="34.6345" type="fvd_guide.dungeons.ta.fwd.path" GUID="FUBeug8+zEacJULNVXbJTQ==" iconFile="Frac\Jumping_Puzzles.png" info="Forward Path - Part 4"/>
-		<Trail trailData="Frac\TA_Forward_Part4.trl" type="fvd_guide.dungeons.ta.fwd.path" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="67" xpos="154.887" ypos="39.3791" zpos="34.6345" type="fvd_guide.dungeons.ta.fwd.path" GUID="FUBeug8+zEacJULNVXbJTQ==" iconFile="Data\Jumping_Puzzles.png" info="Forward Path - Part 4"/>
+		<Trail trailData="Data\Trails\TA\TA_Forward_Part4.trl" type="fvd_guide.dungeons.ta.fwd.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		
 		<!-- HotW -->
 		<!-- Path 1 -->
 		<POI MapID="71" xpos="-81.6052" ypos="52.3168" zpos="-16.52" type="fvd_guide.dungeons.hotw.p1.path" GUID="vpM9UpYtUkmDsRFo8B3aJQ==" info="P1: The Butcher - Start"/>
-		<Trail trailData="Frac\HOTW_P1_Part1.trl" type="fvd_guide.dungeons.hotw.p1.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part1.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 		<POI MapID="71" xpos="-160.139" ypos="56.2439" zpos="21.0542" GUID="z9LeROQf1UCMaIWexA4XWw==" type="fvd_guide.dungeons.hotw.p1.info" info="You can run past this event to the stairs."/>
 		<POI MapID="71" xpos="-120.931" ypos="55.7803" zpos="147.46" GUID="Gn1gqFJzFkatw6DDB5/bwQ==" type="fvd_guide.dungeons.hotw.p1.info" info="Troll has knockdown and can hit hard, bring stun breakers and stability."/>
 		<POI MapID="71" xpos="-126.041" ypos="39.1777" zpos="153.975" GUID="RRgzPT+5jU2m9xm9V4BxyQ==" type="fvd_guide.dungeons.hotw.p1.path" info="P1 - Part 2"/>
-		<Trail trailData="Frac\HOTW_P1_Part2.trl" type="fvd_guide.dungeons.hotw.p1.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part2.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="-41.2893" ypos="34.675" zpos="166.973" GUID="PvEx3LLirEuU16VG6qzfCQ==" type="fvd_guide.dungeons.hotw.p1.info" info="Boss has a mechanic where he reflects projectiles and absorbs attacks.&#xA;Attacks will remove the buff from him.&#xA;Watch out for his ice field and the adds he summons."/>
 		<POI MapID="71" xpos="-40.2796" ypos="34.2956" zpos="173.188" GUID="OmNUCoa2kUGC3qs85Mmqbw==" type="fvd_guide.dungeons.hotw.p1.path" info="P1 - Part 3"/>
 		<POI MapID="71" xpos="-72.3617" ypos="2.22048" zpos="122.775" GUID="W1vBtXDULkCtJG5j+h7DzQ==" type="fvd_guide.dungeons.hotw.p1.info" info="Avoid the red circles or be sent back to the start. Stay to the edges."/>
-		<Trail trailData="Frac\HOTW_P1_Part3.trl" type="fvd_guide.dungeons.hotw.p1.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part3.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="-78.6392" ypos="11.1361" zpos="39.2375" GUID="lGeldPaM4UOewyBcpxk/dw==" type="fvd_guide.dungeons.hotw.p1.path" info="P1 - Part 4"/>
-		<Trail trailData="Frac\HOTW_P1_Part4.trl" type="fvd_guide.dungeons.hotw.p1.path" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part4.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="-51.4405" ypos="19.7676" zpos="-64.3502" GUID="Tjkf5jvT60avS7dSmrCRmw==" type="fvd_guide.dungeons.hotw.p1.info" info="Totems give the boss boons.&#xA;Prioritize killing the protection totem.&#xA;If your team is condi take out resolution totem instead.&#xA;Pull the boss over and you can cleave them both."/>
 	</POIs>
 </OverlayData>

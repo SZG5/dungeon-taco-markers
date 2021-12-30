@@ -4,18 +4,18 @@
 		<MarkerCategory name="separatormenu01" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="raids" DisplayName="Raid Wings">
 			<MarkerCategory name="spiritvale" DisplayName="W1: Spirit Vale">
-				<MarkerCategory name="chests" DisplayName="Spirit Vale Chests" behavior="1" iconFile="Frac\Chest.png"/>
-				<MarkerCategory name="ghostspawn" DisplayName="Ghost Spawns" behavior="1" iconFile="Frac\Ghost_Spawn.png"/>
-				<MarkerCategory name="buttons" DisplayName="Button Pads" info="Have 5 people stand on them at the same time." iconFile="Frac\Arrow.png"/>
+				<MarkerCategory name="chests" DisplayName="Spirit Vale Chests" behavior="1" iconFile="Data\Chest.png"/>
+				<MarkerCategory name="ghostspawn" DisplayName="Ghost Spawns" behavior="1" iconFile="Data\Ghost_Spawn.png"/>
+				<MarkerCategory name="buttons" DisplayName="Button Pads" info="Have 5 people stand on them at the same time." iconFile="Data\Arrow.png"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
 		<!-- Spirit Vale Chests -->
 		
-		<POI MapID="1062" xpos="-85.785" ypos="41.857" zpos="-214.902" GUID="xd6APQPY9UmYpfSCoFgW3w==" miniMapVisibility="0" mapVisibility="0" iconFile="Frac\Informational.png" type="fvd_guide.raids.spiritvale.chests" info="--&gt; Chest reachable after the torch run from the jumping mushroom. &lt;--" tip-description="Chest reachable after the torch run from the jumping mushroom."/>
+		<POI MapID="1062" xpos="-85.785" ypos="41.857" zpos="-214.902" GUID="xd6APQPY9UmYpfSCoFgW3w==" miniMapVisibility="0" mapVisibility="0" iconFile="Data\Informational.png" type="fvd_guide.raids.spiritvale.chests" info="--&gt; Chest reachable after the torch run from the jumping mushroom. &lt;--" tip-description="Chest reachable after the torch run from the jumping mushroom."/>
 		<POI MapID="1062" xpos="-125.362" ypos="30.635" zpos="-222.956" GUID="thrfcoOd6U+y7d+SW+bP0w==" type="fvd_guide.raids.spiritvale.chests" tip-name="Spirit Vale Chest 1"/>
-		<POI MapID="1062" xpos="-81.4965" ypos="53.272" zpos="-163.582" GUID="EBSZRMNHXU2WSCC/p/KANQ==" miniMapVisibility="0" mapVisibility="0" iconFile="Frac\Informational.png" type="fvd_guide.raids.spiritvale.chests" info="--&gt; Jumping mushroom to Chest 2; Glide to it. &lt;--" tip-description="Jumping mushroom to Chest 2; Glide to it."/>
+		<POI MapID="1062" xpos="-81.4965" ypos="53.272" zpos="-163.582" GUID="EBSZRMNHXU2WSCC/p/KANQ==" miniMapVisibility="0" mapVisibility="0" iconFile="Data\Informational.png" type="fvd_guide.raids.spiritvale.chests" info="--&gt; Jumping mushroom to Chest 2; Glide to it. &lt;--" tip-description="Jumping mushroom to Chest 2; Glide to it."/>
 		<POI MapID="1062" xpos="-85.7997" ypos="75.2192" zpos="-209.772" GUID="6JyyYE2xoECeTlXGixd34g==" type="fvd_guide.raids.spiritvale.chests" tip-name="Spirit Vale Chest 2" tip-description="Do the spirit run and then before Gorseval take the jumping mushroom and glide to the chest."/>
 		<POI MapID="1062" xpos="-63.101" ypos="55.4829" zpos="-154.756" GUID="A0ZDVKnvzkSTwvzF0E0Gqw==" type="fvd_guide.raids.spiritvale.chests" tip-name="Spirit Vale Chest 3" info="--&gt; Only exists when the brazier is lit. &lt;--" tip-description="Only exists when the brazier is lit."/>
 		<POI MapID="1062" xpos="-288.941" ypos="89.3278" zpos="108.765" GUID="qmQNSvyNQ0aNtcZCe94nOA==" type="fvd_guide.raids.spiritvale.chests" tip-name="Spirit Vale Chest 4" info="--&gt; Only available after Sabetha is defeated. &lt;--" tip-description="Only available after Sabetha is defeated."/>
