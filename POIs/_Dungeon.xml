@@ -133,7 +133,10 @@ CONSIDER making a trail for each dungeon path?
 					<MarkerCategory name="path" DisplayName="HotW Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="HotW Path 2 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p3" DisplayName="HotW Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="HotW Path 3 - The Zealot" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="HotW Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="HotW Path 3 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="coe" DisplayName="Crucible of Eternity">
 				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
@@ -323,8 +326,9 @@ CONSIDER making a trail for each dungeon path?
 		<!-- Path 1 -->
 		<POI MapID="71" xpos="-81.6052" ypos="52.3168" zpos="-16.52" type="fvd_guide.dungeons.hotw.p1.path" GUID="vpM9UpYtUkmDsRFo8B3aJQ==" info="P1: The Butcher - Start"/>
 		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part1.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
-		<POI MapID="71" xpos="-160.139" ypos="56.2439" zpos="21.0542" GUID="z9LeROQf1UCMaIWexA4XWw==" type="fvd_guide.dungeons.hotw.p1.info" info="You can run past this event to the stairs."/>
+		<POI MapID="71" xpos="-160.402" ypos="56.1109" zpos="21.4002" GUID="+hyovew2gkS7Hwfxb9tCOg==" type="fvd_guide.dungeons.hotw.p1.info" info="You can run past this event to the stairs."/>
 		<POI MapID="71" xpos="-120.931" ypos="55.7803" zpos="147.46" GUID="Gn1gqFJzFkatw6DDB5/bwQ==" type="fvd_guide.dungeons.hotw.p1.info" info="Troll has knockdown and can hit hard, bring stun breakers and stability."/>
+		<POI MapID="71" xpos="-136.437" ypos="58.8665" zpos="120.422" GUID="6Q/MVonWhkaUmUbqO2gP9Q==" type="fvd_guide.dungeons.hotw.p1.info" info="Wolves hit hard and have knockdown. Bring stability."/>
 		<POI MapID="71" xpos="-126.041" ypos="39.1777" zpos="153.975" GUID="RRgzPT+5jU2m9xm9V4BxyQ==" type="fvd_guide.dungeons.hotw.p1.path" info="P1 - Part 2"/>
 		<Trail trailData="Data\Trails\HOTW\HOTW_P1_Part2.trl" type="fvd_guide.dungeons.hotw.p1.path" texture="trail.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="-41.2893" ypos="34.675" zpos="166.973" GUID="PvEx3LLirEuU16VG6qzfCQ==" type="fvd_guide.dungeons.hotw.p1.info" info="Boss has a mechanic where he reflects projectiles and absorbs attacks.&#xA;Attacks will remove the buff from him.&#xA;Watch out for his ice field and the adds he summons."/>
@@ -344,10 +348,25 @@ CONSIDER making a trail for each dungeon path?
 		<POI MapID="71" xpos="17.994" ypos="1.005" zpos="66.7056" type="fvd_guide.dungeons.hotw.p2.info" GUID="YpefMI+C00eIb6+ozstdWA==" info="You can pull the two quaggans and kill them separately.&#xA;Boss has a high damage cone aoe and drops ice spikes aoe which also hit hard."/>
 		<POI MapID="71" xpos="28.636" ypos="5.02327" zpos="39.1237" type="fvd_guide.dungeons.hotw.p2.path" GUID="+0nDSEGMBk6fsoTYSc3+MQ==" info="P2 - Part 2"/>
 		<Trail trailData="Data\Trails\HOTW\HOTW_P2_Part2.trl" type="fvd_guide.dungeons.hotw.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
-		<POI MapID="71" xpos="31.9061" ypos="-13.7731" zpos="47.2716" type="fvd_guide.dungeons.hotw.p2.info" GUID="8+o3X9xYlUmP4s1LSY6oeg==" info="Its all underwater from here. - If you have a lot of stealth you can sneak past and get into the boss room.&#xA;Otherwise, it might be best to kill the enemies here."/>
+		<POI MapID="71" xpos="31.9061" ypos="-13.7731" zpos="47.2716" type="fvd_guide.dungeons.hotw.p2.info" GUID="8+o3X9xYlUmP4s1LSY6oeg==" info="Rest of the path is underwater. - If you have a lot of stealth you can sneak past and get into the boss room.&#xA;Otherwise, it might be best to kill the enemies here."/>
 		<POI MapID="71" xpos="3.69091" ypos="-26.4864" zpos="137.951" type="fvd_guide.dungeons.hotw.p2.info" GUID="cPf9j3bbB0q2kFBhuyTSog==" info="Consider stealthing or killing the enemies."/>
 		<POI MapID="71" xpos="-121.855" ypos="-34.2142" zpos="130.243" type="fvd_guide.dungeons.hotw.p2.info" GUID="goVue0VyXkmXiNqSGyxkkA==" info="You might be able to break aggro in the corner, before facing the boss.&#xA;Boss has a high damage charge attack and will toss mines. Multiple hits from the mines can down a player."/>
 
+		<!-- HotW Path 3 -->
+		<POI MapID="71" xpos="-82.188" ypos="52.8776" zpos="-19.6137" type="fvd_guide.dungeons.hotw.p3.path" GUID="5WLTuHvtyEGXD3mVCRgS7w==" info="P3: Zealot - Start"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P3_Part1.trl" type="fvd_guide.dungeons.hotw.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="71" xpos="-161.402" ypos="55.8928" zpos="23.4" GUID="z9LeROQf1UCMaIWexA4XWw==" type="fvd_guide.dungeons.hotw.p3.info" info="You can run past this event to the stairs."/>		
+		<POI MapID="71" xpos="-134.818" ypos="59.0844" zpos="118.612" type="fvd_guide.dungeons.hotw.p3.info" GUID="DU1KET2taEWT4K9kpc6xng==" info="Wolves hit hard and have knockdown. Bring stability."/>
+		<POI MapID="71" xpos="-150.264" ypos="54.5226" zpos="158.605" type="fvd_guide.dungeons.hotw.p3.info" GUID="weJzaJS2G0ylF5Qkpklzyg==" info="Boss isn't much of a threat but totem might shoot knockdown bolts."/>
+		<POI MapID="71" xpos="-168.958" ypos="52.7722" zpos="173.328" type="fvd_guide.dungeons.hotw.p3.path" GUID="63ClXaZcuE6Bl0WKB8TLmg==" info="P3 - Part 2"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P3_Part2.trl" type="fvd_guide.dungeons.hotw.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="71" xpos="-178.584" ypos="46.1046" zpos="205.469" type="fvd_guide.dungeons.hotw.p3.info" GUID="kYqLw8ZchkaocOSaWLg3CQ==" info="Most attacks are melee; Occasionally howls and immobilizes players."/>
+		<POI MapID="71" xpos="-163.465" ypos="39.8124" zpos="237.91" type="fvd_guide.dungeons.hotw.p3.info" GUID="lZ7UMBTP30uPECYGVG1KeQ==" info="Recommend: Killing bolt launchers and adds."/>
+		<POI MapID="71" xpos="-150.081" ypos="12.0156" zpos="36.5313" type="fvd_guide.dungeons.hotw.p3.info" GUID="hQuqzl85aEiMHtBPnnBnYA==" info="Boss has launches and knockdowns, bring stability.&#xA;Occasionally encases self in ice, attack to stop regeneration."/>
+		<POI MapID="71" xpos="-129.518" ypos="14.7994" zpos="18.421" type="fvd_guide.dungeons.hotw.p3.path" GUID="hg8daL92vU+ZfPCPdigJ6Q==" info="P3 - Part 3"/>
+		<Trail trailData="Data\Trails\HOTW\HOTW_P3_Part3.trl" type="fvd_guide.dungeons.hotw.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="71" xpos="29.3846" ypos="-7.62398" zpos="15.7622" type="fvd_guide.dungeons.hotw.p3.info" GUID="6hSr/fOMOU6px+vSDh3r2A==" info="Rest of the path is underwater. Consider: Stealthing past enemies."/>
+		<POI MapID="71" xpos="-51.7964" ypos="-13.4727" zpos="7.90949" type="fvd_guide.dungeons.hotw.p3.info" GUID="phQ0F2eesES5RM0q/5MkkA==" info="Boss summons: Jellyfish which explode for high aoe damage and Barracuda moderate damage.&#xA;If you choose to fight him on land on the stairs to the left, he hits a lot harder."/>
 
 	</POIs>
 </OverlayData>
