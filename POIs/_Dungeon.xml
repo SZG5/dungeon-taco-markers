@@ -64,7 +64,10 @@ POIs: IGN: S Z G.4359
 			<MarkerCategory name="cof" DisplayName="Citadel of Flame">
 				<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="CoF Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p3" DisplayName="CoF Path 3 - Rhiannon" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoF Path 3 - Rhiannon - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CoF Path 3 - Rhiannon - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="hotw" DisplayName="Honor of the Waves">
 				<MarkerCategory name="p1" DisplayName="HotW Path 1 - The Butcher" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
@@ -309,6 +312,44 @@ POIs: IGN: S Z G.4359
 		<Trail trailData="Data\Trails\HOTW\HOTW_P3_Part3.trl" type="fvd_guide.dungeons.hotw.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="29.3846" ypos="-7.62398" zpos="15.7622" type="fvd_guide.dungeons.hotw.p3.info" GUID="6hSr/fOMOU6px+vSDh3r2A==" info="Rest of the path is underwater. Consider: Stealthing past enemies."/>
 		<POI MapID="71" xpos="-51.7964" ypos="-13.4727" zpos="7.90949" type="fvd_guide.dungeons.hotw.p3.info" GUID="phQ0F2eesES5RM0q/5MkkA==" info="Boss summons: Jellyfish which explode for high aoe damage and Barracuda moderate damage.&#xA;If you choose to fight him on land on the stairs to the left, he hits a lot harder."/>
+
+		<!-- COF Path 3 -->
+		<POI MapID="69" xpos="-71.1485" ypos="49.215" zpos="-41.4584" type="fvd_guide.dungeons.cof.p3.path" GUID="pxkUNGGyDEmLAl1JQkZI/g==" info="P3: Rhiannon - Start"/>
+		<Trail trailData="Data\Trails\COF\COF_P3_Part1.trl" type="fvd_guide.dungeons.cof.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="69" xpos="-16.2769" ypos="6.28789" zpos="-75.4852" type="fvd_guide.dungeons.cof.p3.info" GUID="VUcE8fVbOEKSw2vXr/Wbwg==" info="You must light 3 torches in a small time frame.&#xA;If someone has stealth, it makes it easier for them to light the torch without getting interrupted.&#xA;Otherwise, kill all but on enemy from the group and it shouldn't respawn."/>
+		<!-- Torches -->
+		<POI MapID="69" xpos="40.8796" ypos="1.3858" zpos="-39.1312" type="fvd_guide.dungeons.cof.p3.info" GUID="AtbIFumTZEOSJ0aw1zKAuQ==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="-41.2859" ypos="0.487118" zpos="42.5003" type="fvd_guide.dungeons.cof.p3.info" GUID="Vv7jq0NnaE2lF25k8n+M7Q==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="33.62" ypos="6.82823" zpos="70.5082" type="fvd_guide.dungeons.cof.p3.info" GUID="+QE5zUQb8Ui0N/j/L5bxZw==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<!-- -->
+		<POI MapID="69" xpos="26.7043" ypos="2.25477" zpos="70.4778" type="fvd_guide.dungeons.cof.p3.path" GUID="KbENCUfWRku6HhqKvIpYeQ==" info="P3 - Part 2"/>
+		<Trail trailData="Data\Trails\COF\COF_P3_Part2.trl" type="fvd_guide.dungeons.cof.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="69" xpos="165.547" ypos="70.9173" zpos="-58.7283" type="fvd_guide.dungeons.cof.p3.info" GUID="Bx5Im9K2yk2Yb8jcMZrCJA==" info="Defend event or if you are really good you can skip it but more than not you'll miss the jump."/>
+		
+
+		<!-- Super hard skip wip, not viable for most people. -->
+		<POI MapID="69" xpos="177.164" ypos="74.4855" zpos="-69.1989" type="fvd_guide.dungeons.cof.p3.info" GUID="WCEbGRjgKkWMRR54pL6sOA=="/>
+		<POI MapID="69" xpos="183.337" ypos="81.4748" zpos="-67.8059" type="fvd_guide.dungeons.cof.p3.info" GUID="vFVPFVKdCk67ofskgSZLaA=="/>
+		<POI MapID="69" xpos="189.831" ypos="83.2586" zpos="-59.1091" type="fvd_guide.dungeons.cof.p3.info" GUID="2he/lpSKZEOJYMzKGERTsA=="/>
+		<POI MapID="69" xpos="192.759" ypos="85.0621" zpos="-55.99" type="fvd_guide.dungeons.cof.p3.info" GUID="4SD8MLG1E0yHJ1LaE9YWpQ=="/>
+		<POI MapID="69" xpos="199.717" ypos="82.0728" zpos="-41.9581" type="fvd_guide.dungeons.cof.p3.info" GUID="71DNG7ISZkawXcqJEQX9eA=="/>
+		
+		<!-- -->
+		<POI MapID="69" xpos="209.865" ypos="76.6631" zpos="-13.6833" type="fvd_guide.dungeons.cof.p3.path" GUID="HrgIK+Rd2UmulZ7EzYdNQg==" info="P3 - Part 3"/>
+		<Trail trailData="Data\Trails\COF\COF_P3_Part3.trl" type="fvd_guide.dungeons.cof.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="69" xpos="219.788" ypos="79.435" zpos="-6.76806" type="fvd_guide.dungeons.cof.p3.info" GUID="CmP8xsv8iU+nQSa3+M8ogQ==" info="Avoid the bombs when they are on, or use stealth. Safe spots are marked with an arrow. You can kill the pet drake and open a new waypoint."/>
+		<POI MapID="69" xpos="238.206" ypos="86.115" zpos="10.947" type="fvd_guide.dungeons.cof.p3.info" GUID="j6x1ncygik6NbZcV21C1Pw==" info="Wait for the cycle and be careful bc team members can trigger the bomb blast.&#xA;Even if you are in a safe spot, if the bomb is armed the aoe will kill you there.&#xA;If you see the aoe, dodge to avoid the damage."/>
+
+		<!-- Bomb Safe Spots; Cause them to trigger when near so you dont blind people. -->
+		<POI MapID="69" xpos="216.992" ypos="95.7723" zpos="29.4783" type="fvd_guide.dungeons.cof.p3.info" GUID="aqIcc6HmI0mthDDux2cTew==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="220.594" ypos="99.9459" zpos="44.1865" type="fvd_guide.dungeons.cof.p3.info" GUID="llnvB9Aq4Uy7tHjk/V7CjQ==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="207.14" ypos="103.613" zpos="51.627" type="fvd_guide.dungeons.cof.p3.info" GUID="t1u6fM0maUKIn3qc3vo70g==" iconFile="Data\Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+
+		<POI MapID="69" xpos="272.674" ypos="109.764" zpos="83.8965" type="fvd_guide.dungeons.cof.p3.info" GUID="s+rwaC0f0UuJgrjB7Krhug==" info="Save spot from turrets." iconFile="Data\Arrow.png"/>
+		<POI MapID="69" xpos="273.942" ypos="111.736" zpos="77.8461" type="fvd_guide.dungeons.cof.p3.path" GUID="WjdD/PFiiEGTtfSv5TzS7A==" info="P3 - Part 4&#xA;If you are still missing teammates you can kill the pet to get the waypoint up."/>
+		<Trail trailData="Data\Trails\COF\COF_P3_Part4.trl" type="fvd_guide.dungeons.cof.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="69" xpos="212.689" ypos="134.328" zpos="222.965" type="fvd_guide.dungeons.cof.p3.info" GUID="UaAzFLq6JE6X+937CazKJw==" info="Boss can bat you straight into the lava stay away from the edges&#xA;When he runs to the center, he's about to do the ring attack, dodge towards him as the earth rings popup.&#xA;Consider bringing stability."/>
+
 
 	</POIs>
 </OverlayData>
