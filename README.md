@@ -1,3 +1,9 @@
+Markers Tool: https://www.heinze.fr/taco/tool.php?lang=en
+
+Marker notes: https://www.heinze.fr/taco/?lang=en
+
+
+
 ```
 <Trail trailData="Data\Trails\AC\AC_P3_Part2.trl" type="fvd_guide.dungeons.ac.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 ```
@@ -48,7 +54,7 @@ Dungeons:
 * Laser room
 
 
-### Arah~~~~
+### Arah
 * Skips 
 * Corrupted Light marker for place to stand and toss??
 
