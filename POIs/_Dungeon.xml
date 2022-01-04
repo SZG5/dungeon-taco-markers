@@ -350,6 +350,25 @@ POIs: IGN: S Z G.4359
 		<!-- =================================================== -->
 		<!-- =================      COF       ================== -->
 		<!-- =================================================== -->
+		<!-- Outside gate to the dungeon -->
+		<POI MapID="22" xpos="899.256" ypos="97.3188" zpos="704.034" GUID="RHiWd4TtV02aUL+zp5bB6A=="/>
+		<POI MapID="22" xpos="890.71" ypos="72.4781" zpos="691.406" GUID="5tNSc5j5QUm4fjkv82g2Xw=="/>
+
+
+		<!-- COF Path 1 Should be red, but thats hard to see. So FFFFFF00 (Yellow) -->
+		<POI MapID="69" xpos="-68.5736" ypos="50.4836" zpos="-26.7586" type="fvd_guide.dungeons.cof.p1.path" GUID="rPzQ1V+pb0e7X7zaqArrZg==" info="P1: Ferrah - Start"/>
+		<Trail trailData="Data\Trails\COF\COF_P1_Part1.trl" type="fvd_guide.dungeons.cof.p1.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="-251.063" ypos="64.1369" zpos="21.9247" type="fvd_guide.dungeons.cof.p1.info" GUID="qQl/EJ5dxEyXFgYX0qYYpQ==" info="Focus the slave driver. The Effigy will respawn."/>
+		<POI MapID="69" xpos="-292.282" ypos="57.0455" zpos="46.9105" type="fvd_guide.dungeons.cof.p1.path" GUID="ff7vnP9GTkirZo0Y+LJ+2w==" info="P1 - Part 2"/>
+		<Trail trailData="Data\Trails\COF\COF_P1_Part2.trl" type="fvd_guide.dungeons.cof.p1.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="69" xpos="-161.768" ypos="105.257" zpos="217.876" type="fvd_guide.dungeons.cof.p1.info" GUID="TBD2ZvuMykyQhtJLBl3GoQ==" info="Kill 10 acolytes. (Acolytes respawn every 40~ seconds) You can ignore everyone else."/>
+		<POI MapID="69" xpos="-129.813" ypos="109.629" zpos="221.85" type="fvd_guide.dungeons.cof.p1.path" GUID="i+yGrHMRdkiv8YAaRgQO5w==" info="P1 - Part 3"/>
+		<Trail trailData="Data\Trails\COF\COF_P1_Part3.trl" type="fvd_guide.dungeons.cof.p1.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="-125.115" ypos="110.455" zpos="210.479" type="fvd_guide.dungeons.cof.p1.info" GUID="DpsOInKT1Eq94sCeFzFImQ==" info="If you have a blink skill, you move past the locked gate before the event fire boulder room&#xA;event starts to take out the gate controller and skip the mandatory 5 people for the braziers.&#xA;After the controller is destroyed, come back to do the flame boulders."/>
+		<POI MapID="69" xpos="-106.388" ypos="113.445" zpos="191.673" type="fvd_guide.dungeons.cof.p1.info" GUID="BLM9mP1zFEGGHdsgdRoqoQ==" info="If you are skipping, blink past this gate.&#xA;To do the fire boulder room, you must take the flame and light 3 braziers at the end&#xA;with in 15 seconds of each other.&#xA;The flame in you hand will also expire if you take to long holding it.&#xA;Portals will make this a lot easier.&#xA;If not, hug the wall and time the boulders to get across."/>
+		<POI MapID="69" xpos="-47.3284" ypos="110.243" zpos="190.921" type="fvd_guide.dungeons.cof.p1.info" GUID="bpAWfJjfLkGqKc0den5zxw==" info="If no one skipped the section, you must have 4 people continue to stand in the 4 braziers creating a dome.&#xA;Only then, the 5th player can attack the door controller to progress the dungeon.&#xA;Once the controller is destroyed, everyone can move off and continue to the boss fight."/>
+		<POI MapID="69" xpos="20.2429" ypos="118.708" zpos="269.033" type="fvd_guide.dungeons.cof.p1.info" GUID="znim+NIR5UC2pHhfS1FXmQ==" info="Easy fight. The crystals heal the boss by can be ignored with high DPS"/>
+
 
 		<!-- COF Path 2 -->
 		<POI MapID="69" xpos="-47.822" ypos="50.9814" zpos="-53.7494" type="fvd_guide.dungeons.cof.p2.path" GUID="Z3QfZ7DBv0Smrm0gHS7Yxw==" info="P2: Magg - Start"/>
