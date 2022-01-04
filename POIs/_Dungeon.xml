@@ -71,8 +71,14 @@ POIs: IGN: S Z G.4359
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="cof" DisplayName="Citadel of Flame">
-				<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoF Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CoF Path 1 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoF Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CoF Path 2 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 				<MarkerCategory name="p3" DisplayName="CoF Path 3 - Rhiannon" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="CoF Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="CoF Path 3 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
@@ -340,6 +346,30 @@ POIs: IGN: S Z G.4359
 		<Trail trailData="Data\Trails\HOTW\HOTW_P3_Part3.trl" type="fvd_guide.dungeons.hotw.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="29.3846" ypos="-7.62398" zpos="15.7622" type="fvd_guide.dungeons.hotw.p3.info" GUID="6hSr/fOMOU6px+vSDh3r2A==" info="Rest of the path is underwater. Consider: Stealthing past enemies."/>
 		<POI MapID="71" xpos="-51.7964" ypos="-13.4727" zpos="7.90949" type="fvd_guide.dungeons.hotw.p3.info" GUID="phQ0F2eesES5RM0q/5MkkA==" info="Boss summons: Jellyfish which explode for high aoe damage and Barracuda moderate damage.&#xA;If you choose to fight him on land on the stairs to the left, he hits a lot harder."/>
+
+		<!-- =================================================== -->
+		<!-- =================      COF       ================== -->
+		<!-- =================================================== -->
+
+		<!-- COF Path 2 -->
+		<POI MapID="69" xpos="-47.822" ypos="50.9814" zpos="-53.7494" type="fvd_guide.dungeons.cof.p2.path" GUID="Z3QfZ7DBv0Smrm0gHS7Yxw==" info="P2: Magg - Start"/>
+		<Trail trailData="Data\Trails\COF\COF_P2_Part1.trl" type="fvd_guide.dungeons.cof.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="8.47502" ypos="78.0896" zpos="-260.846" type="fvd_guide.dungeons.cof.p2.path" GUID="7Eod36D8EU2RVQfs9vt01g==" info="P2 - Part 2"/>
+		<Trail trailData="Data\Trails\COF\COF_P2_Part2.trl" type="fvd_guide.dungeons.cof.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="-24.0717" ypos="84.3592" zpos="-286.058" type="fvd_guide.dungeons.cof.p2.info" GUID="rwcTFqG8pE2VhkFBhb4ySw==" info="Focus the nests and go up."/>
+		<POI MapID="69" xpos="105.149" ypos="101.391" zpos="-312.201" type="fvd_guide.dungeons.cof.p2.info" GUID="Z9ssDQ99P06Ja/zxmhge9w==" info="Use the chains."/>
+		<POI MapID="69" xpos="98.1913" ypos="102.18" zpos="-323.123" type="fvd_guide.dungeons.cof.p2.info" GUID="Os5YwWnedkqT1CXLZcVFCQ==" iconFile="Data\Arrow.png" behavior="6"/>
+		<POI MapID="69" xpos="97.467" ypos="82.6614" zpos="-216.414" type="fvd_guide.dungeons.cof.p2.info" GUID="nBpzBhN94UymwotZMAzC3Q==" info="Have someone wait at Magg while everyone else get to the hard to reach bombs."/>
+		<POI MapID="69" xpos="207.304" ypos="87.5543" zpos="-250.247" type="fvd_guide.dungeons.cof.p2.path" GUID="n6VWPNJyWUaqbMoegouPbA==" info="P2 - Part 3"/>
+		<Trail trailData="Data\Trails\COF\COF_P2_Part3.trl" type="fvd_guide.dungeons.cof.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="207.845" ypos="87.5787" zpos="-258.205" type="fvd_guide.dungeons.cof.p2.info" GUID="LpliN8pEykCzLVa9IhqjLw==" info="Grab a fire extinguisher from Magg.&#xA;Use it to put out fires when you run across.&#xA;Stealth helps."/>
+		<POI MapID="69" xpos="349.861" ypos="89.8207" zpos="-268.944" type="fvd_guide.dungeons.cof.p2.info" GUID="tApNwf0P30ida4Adrt6p5A==" info="Get everyone over here to so Magg will teleport over and look at the orange rock.&#xA;The waypoint to Shrine of Sacrifice."/>
+		<POI MapID="69" xpos="160.934" ypos="101.022" zpos="-217.985" type="fvd_guide.dungeons.cof.p2.path" GUID="P5GBqR6wu0SZ+iNyFSHASg==" info="P2 - Part 4"/>
+		<Trail trailData="Data\Trails\COF\COF_P2_Part4.trl" type="fvd_guide.dungeons.cof.p2.path" texture="trail.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="69" xpos="254.15" ypos="99.9891" zpos="-99.7838" type="fvd_guide.dungeons.cof.p2.info" GUID="xpBBC83Fhkqj+HqIIyxRHQ==" info="Protect Magg from the spawning mobs and kill assassins."/>
+		<POI MapID="69" xpos="281.728" ypos="102.277" zpos="-51.7689" type="fvd_guide.dungeons.cof.p2.info" GUID="TWatH0RLq0GphWfAImrjKw==" info="You can ignore Gaheron Baelfire.&#xA;Attack the Eternal Flame in the center of the room when the acolytes protecting it are dead.&#xA;They respawn so time their deaths and then attack the Eternal Flame. Repeat until its dead."/>
+
+
 
 		<!-- COF Path 3 -->
 		<POI MapID="69" xpos="-71.1485" ypos="49.215" zpos="-41.4584" type="fvd_guide.dungeons.cof.p3.path" GUID="pxkUNGGyDEmLAl1JQkZI/g==" info="P3: Rhiannon - Start"/>
