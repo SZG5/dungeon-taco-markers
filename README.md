@@ -23,7 +23,7 @@ linebreak = `&#xA;`
 - Blue P2 = 00FFFF
 - Green P3 = 00FF00
 - Purple P4 = 9F2B68
-- Yellow if needed = 
+- Yellow if needed = FFFFFF00
 
 
 
@@ -68,8 +68,8 @@ Dungeons:
 - HOTW 3 - Check
 
 - COE 1
-- COE 2
-- COE 3
+- COE 2 
+- COE 3 - Check
 
 - Arah 1
 - Arah 2

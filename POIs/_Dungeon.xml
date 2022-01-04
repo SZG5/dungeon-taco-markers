@@ -100,12 +100,21 @@ POIs: IGN: S Z G.4359
 			</MarkerCategory>
 			<MarkerCategory name="coe" DisplayName="Crucible of Eternity">
 				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
-					<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoE Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CoE Path 1 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoE Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="HotW Path 2 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CoE Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CoE Path 3 - Specific Info" iconFile="Data\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="arah" DisplayName="The Ruined City of Arah">
 				<MarkerCategory name="p1" DisplayName="Arah Path 1" iconFile="Data\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
@@ -448,7 +457,27 @@ POIs: IGN: S Z G.4359
 		<!-- =================================================== -->
 
 		<!-- COE General -->
-		<POI MapID="82" xpos="1.81645" ypos="115.732" zpos="17.9639" GUID="D/F7gXWNbkSKmCR8jeLvYA=="/>
+		<POI MapID="82" xpos="1.81645" ypos="115.732" zpos="17.9639" type="fvd_guide.dungeons.coe.general.info" GUID="D/F7gXWNbkSKmCR8jeLvYA==" info="Bring stun breakers and condi cleanse, mobs have knockdowns and chills."/>
+		<Trail trailData="Data\Trails\COE\COE_General_Part1.trl" type="fvd_guide.dungeons.coe.general.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="32.5668" ypos="143.568" zpos="-90.4584" type="fvd_guide.dungeons.coe.general.info" GUID="9YYZboaALEWvQoMrEImhfQ==" info="At least two players must make it across. Altogether 4 people must time the console deactivations with in a time window."/>."/>
+		<POI MapID="82" xpos="21.5005" ypos="146.657" zpos="-21.308" type="fvd_guide.dungeons.coe.general.info" GUID="gk4d+xUOUEeHDsv5Jiwsuw==" info="One person can do this console by standing in between and channeling them."/>
+		<POI MapID="82" xpos="32.7214" ypos="146.871" zpos="-12.5609" type="fvd_guide.dungeons.coe.general.path" GUID="hRGJrfp9o0qhXma+b+2HsQ==" info="General Path - Part 2"/>
+		<Trail trailData="Data\Trails\COE\COE_General_Part2.trl" type="fvd_guide.dungeons.coe.general.path" texture="trail.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="107.904" ypos="171.22" zpos="-28.8808" type="fvd_guide.dungeons.coe.general.info" GUID="dcwuwu/VsUGDG6hioRb7rg==" info="Consider killing the boon granting turrets and bringing stun breakers and reflects."/>
 
+
+		<!-- COE PATH 3 -->
+		<POI MapID="82" xpos="144.328" ypos="172.874" zpos="-35.7479" type="fvd_guide.dungeons.coe.p3.path" GUID="MXwS3teakUOd/D9uGCkRuw==" info="P3: Front door - Start"/>
+		<Trail trailData="Data\Trails\COE\COE_P3_Part1.trl" type="fvd_guide.dungeons.coe.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="161.838" ypos="176.64" zpos="16.6584" type="fvd_guide.dungeons.coe.p3.info" GUID="l/AsyKVH7E6LFdefmAza3A==" info="Cannon Defense after the door opens, run left and wait for the abomination to walk past.&#xA;Consider using stealth to avoid the mobs."/>
+		<POI MapID="82" xpos="115.488" ypos="176.555" zpos="17.2414" type="fvd_guide.dungeons.coe.p3.info" GUID="7A6o6kknoEWf2E7/Pv0J2Q==" info="Wait out the abom, then run past up the stairs."/>
+		<POI MapID="82" xpos="41.0799" ypos="211.93" zpos="148.233" type="fvd_guide.dungeons.coe.p3.info" GUID="YAY0IlccZEaJFC0vWpLO1g==" info="Crystal can freeze you for a long time. Otherwise, its like the prior encounter."/>
+		<POI MapID="82" xpos="43.7701" ypos="216.831" zpos="211.008" type="fvd_guide.dungeons.coe.p3.path" GUID="/Geo6LIP2k+KondEe8IpKg==" info="P3 - Part 2"/>
+		<Trail trailData="Data\Trails\COE\COE_P3_Part2.trl" type="fvd_guide.dungeons.coe.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="43.7895" ypos="216.794" zpos="215.483" type="fvd_guide.dungeons.coe.p3.info" GUID="afdLAfuA+EGFhjLMWouBog==" info="Bring condi cleanse and run past the mobs."/>
+		<POI MapID="82" xpos="-138.692" ypos="228.056" zpos="206.686" type="fvd_guide.dungeons.coe.p3.info" GUID="qC/DpmdpCEqtOU9041gCPQ==" info="3 people need to channel the cannons around the same time to break the shield on the boss.&#xA;Sometimes an attack will interrupt you channeling the cannon.&#xA;Once the shield is down, jump down and fight the boss.&#xA;If you aren't fast enough, the shield will come back up knocking you into the lava."/>
+		<POI MapID="82" xpos="-93.1259" ypos="228.302" zpos="135.026" type="fvd_guide.dungeons.coe.p3.path" GUID="7/YL3VdaEkm3BwtJMQuaMQ==" info="P3 - Part 3"/>
+		<Trail trailData="Data\Trails\COE\COE_P3_Part3.trl" type="fvd_guide.dungeons.coe.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="91.431" ypos="237.591" zpos="-13.4587" type="fvd_guide.dungeons.coe.p3.info" GUID="r8kZFVFkCE29EwrmmVDgHQ==" info="Same fight as before, but the essences will try and heal the boss."/>
 	</POIs>
 </OverlayData>
