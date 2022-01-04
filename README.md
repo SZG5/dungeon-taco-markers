@@ -40,6 +40,43 @@ Dungeons:
 - COE
 - Arah
 
+
+
+
+- AC 1 - Check
+- AC 2 - Check
+- AC 3 - Check
+
+- TA UP - Check
+- TA FWD - Check
+- Aether
+
+- CM 1
+- CM 2
+- CM 3
+
+- SE 1
+- SE 2 - Check
+- SE 3
+
+- COF 1 - Check
+- COF 2 - Check
+- COF 3 - Check
+
+- HOTW 1 - Check
+- HOTW 2 - Check
+- HOTW 3 - Check
+
+- COE 1
+- COE 2
+- COE 3
+
+- Arah 1
+- Arah 2
+- Arah 3
+- Arah 4
+
+
 ### CM
 * Skips
 * Stealth Points
