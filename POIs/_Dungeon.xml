@@ -310,6 +310,21 @@ POIs: IGN: S Z G.4359
 		<POI MapID="64" xpos="177.094" ypos="166.001" zpos="72.7473" type="fvd_guide.dungeons.se.p2.info" GUID="5NyUfxK2akOmLYWGu/qF5Q==" info="Careful dropping down."/>
 		<POI MapID="64" xpos="177.107" ypos="143.338" zpos="70.3464" type="fvd_guide.dungeons.se.p2.info" GUID="7PEwFQmT7EeoReK5gz2D7Q==" info="When the boss spawns, you must kill the robots around the same time.&#xA;There will be a buff that swaps around making one of the golems immune to cc and direct damage."/>
 
+		<!-- SE PATH 3 -->
+		<POI MapID="64" xpos="-314.339" ypos="214.099" zpos="205.006" type="fvd_guide.dungeons.se.p3.path" GUID="v0YbxXUJmUGsE/mdNqqk0A==" info="P3: Koptev - Start"/>
+		<Trail trailData="Data\Trails\SE\SE_P3_Part1.trl" type="fvd_guide.dungeons.se.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="64" xpos="-214.652" ypos="206.703" zpos="63.8657" type="fvd_guide.dungeons.se.p3.info" GUID="7wOtcjdWxk+uNYVhmpgjaA==" info="You can drag the boss near the wall and cleave or you can fast DPS him down where he is."/>
+		<POI MapID="64" xpos="-218.756" ypos="208.286" zpos="39.1454" type="fvd_guide.dungeons.se.p3.info" GUID="GIHV5qXH6kKJSJFpr0gtlw==" info="Get out of combat and prepare to fall."/>
+		<POI MapID="64" xpos="-251.513" ypos="159.561" zpos="-81.3817" type="fvd_guide.dungeons.se.p3.info" GUID="yvoFKeIFtUOLxinLQMMlMQ==" info="You can run straight ahead or divert left and circle around to reach the boss."/>
+		<POI MapID="64" xpos="-242.277" ypos="159.424" zpos="-79.8975" type="fvd_guide.dungeons.se.p3.path" GUID="0QgrBCFJnkOoxvRKaIvrrQ==" info="Optional: Long away around to get out of combat."/>
+		<Trail trailData="Data\Trails\SE\SE_P3_Optional.trl" type="fvd_guide.dungeons.se.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="64" xpos="-256.676" ypos="160.42" zpos="-104.091" type="fvd_guide.dungeons.se.p3.info" GUID="gaJvdtt01kCaKgwZlp6QqA==" info="He will sometime cause a fire field around the player, you can remove it by walking to a water geyser."/>
+		<POI MapID="64" xpos="-226.268" ypos="167.915" zpos="-139.059" type="fvd_guide.dungeons.se.p3.info" GUID="VwVat33OvU+3+xWyRLy9Cw==" info="He will sometime cause a fire field around the player, you can remove it by walking to a water geyser."/>
+		<POI MapID="64" xpos="-275.119" ypos="168.439" zpos="-135.087" type="fvd_guide.dungeons.se.p3.path" GUID="ISjKRyIoCUGEMwU3kpRa+w==" info="P3 - Part 2"/>
+		<Trail trailData="Data\Trails\SE\SE_P3_Part2.trl" type="fvd_guide.dungeons.se.p3.path" texture="trail.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="64" xpos="-327.699" ypos="168.934" zpos="-174.132" type="fvd_guide.dungeons.se.p3.info" GUID="8skxPMvbE0urWoPzIT1S2Q==" info="Bring reflects and focus the car.&#xA;When the door opens, run."/>
+		<POI MapID="64" xpos="-222.94" ypos="195.081" zpos="-224.468" type="fvd_guide.dungeons.se.p3.info" GUID="6+c295vkl0aqZx9ZvaYQTw==" info="You can pull the mobs here and cleave them. (Interact to remove)" behavior="6"/>
+		<POI MapID="64" xpos="-249.547" ypos="203.256" zpos="-282.491" type="fvd_guide.dungeons.se.p3.info" GUID="AGTmVGMBAk61ss0AFBCUvg==" info="You can pull the mobs here and cleave them. (Interact to remove)" behavior="6"/>
 
 
 
