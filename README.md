@@ -55,9 +55,9 @@ Dungeons:
 - CM 2
 - CM 3
 
-- SE 1
+- SE 1 - Check
 - SE 2 - Check
-- SE 3
+- SE 3 - Check
 
 - COF 1 - Check
 - COF 2 - Check
