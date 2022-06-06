@@ -1,7 +1,7 @@
 <!-- info attr is for taco ; tip is a Blish HUD attr -->
 <OverlayData>
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon/Fractal Guide">
-		<MarkerCategory name="separatormenu01" DisplayName="Build: Private 0.01 - 5.18.20"/>
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="raids" DisplayName="Raid Wings">
 			<MarkerCategory name="spiritvale" DisplayName="W1: Spirit Vale">
 				<MarkerCategory name="chests" DisplayName="Spirit Vale Chests" behavior="1" iconFile="Data\Chest.png"/>

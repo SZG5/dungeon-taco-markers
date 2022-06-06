@@ -1,14 +1,8 @@
-<!-- 
-Beta Version: 0.01
-POIs: IGN: S Z G.4359
-
-
-TODO" Thaumanova Reactor
-
- -->
+<!-- Beta Version: 0.01 -->
+<!-- POIs: IGN: S Z G.4359 -->
 <OverlayData>
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon/Fractal Guide">
-		<MarkerCategory name="separatormenu01" DisplayName="Build: Private 0.01 - 5.18.20"/>
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="frac" DisplayName="Fractal Markers">
 			<MarkerCategory name="collect" DisplayName="Collectible" iconFile="Data\Collections.png">
 				<MarkerCategory name="chaos" DisplayName="Chaos Pages"/>
@@ -105,9 +99,7 @@ TODO" Thaumanova Reactor
 		<POI MapID="957" xpos="-9.49728" ypos="36.4649" zpos="-215.035" GUID="rXHGl4eMVkCjb2g4nDhA0A==" type="fvd_guide.frac.poi.lasersafe"/>
 		<POI MapID="957" xpos="-36.6226" ypos="36.4647" zpos="-199.71" GUID="S7FFNIA1zkW0j82U8dUyZg==" type="fvd_guide.frac.poi.lasersafe"/>
 		
-		<!-- ----------------------- -->
-		<!-- ------ Swampland ------ -->
-		<!-- ----------------------- -->
+		<!-- SWAMPLAND -->
 
 		<!-- Swampland Wisps -->
 		<POI MapID="949" xpos="-164.174" ypos="0.999871" zpos="-166.713" type="fvd_guide.frac.swampland.wisps" GUID="lFOD0HDtwkCPQBeOFhpSTA=="/>
@@ -289,9 +281,7 @@ TODO" Thaumanova Reactor
 		<POI MapID="949" xpos="-13.7739" ypos="2.6933" zpos="95.3648" type="fvd_guide.frac.swampland.jumps" GUID="dWRQqsOk4ECvpiWMRWI3OQ=="/>
 		<POI MapID="949" xpos="-11.2556" ypos="4.41406" zpos="96.874" type="fvd_guide.frac.swampland.jumps" GUID="QQAjkIdFXkGvaq4nKR3qDA=="/>
 		
-		<!-- ----------------------- -->
-		<!-- Collection/Achievements -->
-		<!-- ----------------------- -->
+		<!-- COLLECTION/ACHIEVEMENTS -->
 		
 		<!-- Twilight Oasis -->
 		<POI MapID="1267" xpos="-24.7858" ypos="24.8644" zpos="119.593" type="fvd_guide.frac.collect.twilight" GUID="JeYR09qQhky9V85shC2eIA=="/>
