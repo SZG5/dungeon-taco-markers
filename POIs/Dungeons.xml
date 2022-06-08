@@ -517,6 +517,15 @@
 		<Trail trailData="Data\Trails\COE\COE_P1_Part4.trl" type="fvd_guide.dungeons.coe.p1.path" texture="Data\Icons\trail_path1.png" color="FFED1A1E" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
 
 
+		<!-- COE PATH 2 -->
+		<POI MapID="82" xpos="45.1131" ypos="216.835" zpos="212.032" type="fvd_guide.dungeons.coe.p2.path" GUID="vwnZSPZiSUGXmlfW/2VHdA==" info="P2 - Part 2"/>
+		<Trail trailData="Data\Trails\COE\COE_P2_Part2.trl" type="fvd_guide.dungeons.coe.p2.path" texture="Data\Icons\trail_path2.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+		<POI MapID="82" xpos="39.6526" ypos="226.803" zpos="353.429" type="fvd_guide.dungeons.coe.p2.info" GUID="5kLzAOOHf0OuU1P+/8SkCg==" info="Kill any adds that followed you before fighting the Husk. If you have enough dps and heals, you can dps the Husk down. Otherwise, use the guns and lure the golems to explode on the Husk."/>
+		<POI MapID="82" xpos="-36.4243" ypos="224.881" zpos="355.063" type="fvd_guide.dungeons.coe.p2.path" GUID="IisHCv6mVkGVN6UfiJAAaA==" info="P2 - Part 3"/>
+		<Trail trailData="Data\Trails\COE\COE_P2_Part3.trl" type="fvd_guide.dungeons.coe.p2.path" texture="Data\Icons\trail_path2.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>		
+
+
+
 		<!-- COE PATH 3 -->
 		<POI MapID="82" xpos="144.328" ypos="172.874" zpos="-35.7479" type="fvd_guide.dungeons.coe.p3.path" GUID="MXwS3teakUOd/D9uGCkRuw==" info="P3: Front door - Start"/>
 		<Trail trailData="Data\Trails\COE\COE_P3_Part1.trl" type="fvd_guide.dungeons.coe.p3.path" texture="Data\Icons\trail_path3.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
