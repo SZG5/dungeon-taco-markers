@@ -73,7 +73,7 @@ Dungeons:
 
 - Arah 1
 - Arah 2
-- Arah 3
+- Arah 3 - Completed
 - Arah 4
 
 
