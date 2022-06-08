@@ -34,15 +34,15 @@ Dungeons:
 - AC - Finished but check for errors
 - CM 
 - TA - Finsihed Up/Fwd
-- SE
-- COF
+- SE - Finished but check for errors
+- COF - Finished but check forerrors
 - HOTW - Finished but check for errors
 - COE
 - Arah
 
 
 
-
+### ===Paths===
 - AC 1 - Check
 - AC 2 - Check
 - AC 3 - Check
@@ -67,7 +67,7 @@ Dungeons:
 - HOTW 2 - Check
 - HOTW 3 - Check
 
-- COE 1
+- COE 1 - Check
 - COE 2 
 - COE 3 - Check
 
