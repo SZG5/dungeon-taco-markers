@@ -542,6 +542,18 @@
 		<POI MapID="112" xpos="-353.866" ypos="25.6142" zpos="336.751" type="fvd_guide.dungeons.arah.p3.info" GUID="e9o6ScSZM0Sd8XN8rqpvWA==" info="Ritual can be made easier with a kiter grabbing the mob aggro while someone with stealth caps the circles."/>
 
 
+		<!-- ARAH GENERAL -->
+
+		<!-- ORB TOSS SPOTS Built with zero swiftness in mind -->
+		<POI MapID="112" xpos="-154.367" ypos="36.0135" zpos="-113.624" type="fvd_guide.dungeons.arah.general.info" iconFile="Data\Icons\Arrow.png" GUID="Q7PPZhYPn0+iGmdaSF+M8Q=="/>
+		<POI MapID="112" xpos="-134.338" ypos="37.2016" zpos="-108.943" type="fvd_guide.dungeons.arah.general.info" iconFile="Data\Icons\Arrow.png" GUID="JKyGpma3R0m5PCEhJHCOiA=="/>
+		<POI MapID="112" xpos="-119.741" ypos="38.5038" zpos="-99.6015" type="fvd_guide.dungeons.arah.general.info" iconFile="Data\Icons\Arrow.png" GUID="UiE1yjWhYkiOQUjmc2hTxQ=="/>
+
+		<!-- 2nd orb toss -->
+		<POI MapID="112" xpos="-150.599" ypos="34.741" zpos="-61.1479" type="fvd_guide.dungeons.arah.general.info" iconFile="Data\Icons\portal.png" GUID="mh4ckTG2Bk6s87A3KnijXg==" info="If there's a mesmer have them run to the end and drop the portal before running back and placing one here to take the orb. Once grabbing the orb blink to the portal spot and quickly open the portal."/>
+		<POI MapID="112" xpos="-259.758" ypos="34.2227" zpos="-11.6198" type="fvd_guide.dungeons.arah.general.info" iconFile="Data\Icons\portal.png" GUID="m39td9J+DkGFPfzEp7revA=="/>
+
+
 		<!-- Lupicus  Guidance Path -->
 		<POI MapID="112" xpos="-211.097" ypos="33.9186" zpos="33.1055" type="fvd_guide.dungeons.arah.general.path" GUID="BbEW/lr14kKS9/aaJfYZyQ==" info="General: Path to Lupi"/>
 		<Trail trailData="Data\Trails\ARAH\ARAH_General_Part1.trl" type="fvd_guide.dungeons.arah.general.path" texture="Data\Icons\trail_general.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
