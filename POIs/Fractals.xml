@@ -4,28 +4,28 @@
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon/Fractal Guide">
 		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="frac" DisplayName="Fractal Markers">
-			<MarkerCategory name="collect" DisplayName="Collectible" iconFile="Data\Icons\Collections.png">
+			<MarkerCategory name="collect" DisplayName="Collectible" iconFile="Data/Icons/Collections.png">
 				<MarkerCategory name="chaos" DisplayName="Chaos Pages"/>
 				<MarkerCategory name="nightmare" DisplayName="Nightmare Corpses"/>
 				<MarkerCategory name="shattered" DisplayName="Shattered Data Keys"/>
 				<MarkerCategory name="twilight" DisplayName="Twilight Bodies"/>
 			</MarkerCategory>
 			<MarkerCategory name="swampland" DisplayName="Swampland">
-				<MarkerCategory name="dangers" DisplayName="Trap/Hazards" iconFile="Data\Icons\Danger.png" fadeNear="1600" fadeFar="1700" miniMapVisibility="0" mapVisibility="0"/>
-				<MarkerCategory name="jumps" DisplayName="Jumps" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000" miniMapVisibility="0" mapVisibility="0"/>
-				<MarkerCategory name="wisps" DisplayName="Wisps Help" iconFile="Data\Icons\Arrow.png"/>
+				<MarkerCategory name="dangers" DisplayName="Trap/Hazards" iconFile="Data/Icons/Danger.png" fadeNear="1600" fadeFar="1700" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="jumps" DisplayName="Jumps" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="wisps" DisplayName="Wisps Help" iconFile="Data/Icons/Arrow.png"/>
 			</MarkerCategory>
-			<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data\Icons\Arrow.png">
+			<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data/Icons/Arrow.png">
 				<MarkerCategory name="orbspawns" DisplayName="Nightmare Ensolyss Orbs"/>
 				<MarkerCategory name="treasure" DisplayName="Siren's Beach Spawns"/>
 				<MarkerCategory name="lasersafe" DisplayName="Thaumanova Laser Safe Zone" fadeNear="1600" fadeFar="1700" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
 				<!-- Behavior 4 removes the marker; resetLength = time in sec before reappear; triggerRange="1" means when right on top dont blind people; autoTrigger="1" makes the marker go away -->
 			</MarkerCategory>
 			<MarkerCategory name="skips" DisplayName="Skips">
-				<MarkerCategory name="start" DisplayName="Start" iconFile="Data\Icons\Arrow.png"/>
-				<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Data\Icons\Blink.png.png"/>
-				<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Data\Icons\Leap.png"/>
-				<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Data\Icons\Jumping_Puzzles.png"/>
+				<MarkerCategory name="start" DisplayName="Start" iconFile="Data/Icons/Arrow.png"/>
+				<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Data/Icons/Blink.png.png"/>
+				<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Data/Icons/Leap.png"/>
+				<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Data/Icons/Jumping_Puzzles.png"/>
 			</MarkerCategory>
 		</MarkerCategory>
 	</MarkerCategory>
@@ -42,39 +42,39 @@
 		<!-- Underground Skip -->
 		<POI MapID="953" xpos="663.336" ypos="37.7709" zpos="365.073" type="fvd_guide.frac.skips.blink" GUID="1Vqs/yUnJkKUwaPOvCA9LQ=="/>
 		<!-- Cliffside Skips -->
-			<!-- Skips after first seal -->
-			<POI MapID="952" xpos="68.0175" ypos="609.099" zpos="95.9641" type="fvd_guide.frac.skips.blink" GUID="38WDWsJxRkmDyG/DR5lg6Q=="/>
-			<POI MapID="952" xpos="68.9952" ypos="630.818" zpos="106.782" type="fvd_guide.frac.skips.blink" GUID="Nn9W5uEAnECMIhYxTSFk9A=="/>
-			<!-- Skip after chest seal -->
-			<POI MapID="952" xpos="59.671" ypos="666.782" zpos="-47.916" type="fvd_guide.frac.skips.blink" GUID="cvbRDmNYUUmK9h7I044MbA=="/>
-			<!-- Skip after hand seal -->
-			<POI MapID="952" xpos="132.091" ypos="698.089" zpos="-76.3309" type="fvd_guide.frac.skips.blink" GUID="O80AjWTYAUmQIRw7yjnFIg=="/>
-			<POI MapID="952" xpos="146.612" ypos="705.354" zpos="-69.4793" type="fvd_guide.frac.skips.blink" GUID="FLjEGfUp7kiRNgCaGt0lBQ=="/>
-			<POI MapID="952" xpos="159.691" ypos="716.009" zpos="-65.6418" type="fvd_guide.frac.skips.blink" GUID="Uudkmp3yzUK9OxANdrxOLg=="/>
-			<!-- Aetherblade Console -->
-			<POI MapID="956" xpos="-7.51339" ypos="26.5377" zpos="91.2056" type="fvd_guide.frac.poi" GUID="B8QYPddSKEm5p2Be4nn67Q=="/>
-			<POI MapID="956" xpos="-38.4787" ypos="26.6904" zpos="59.0931" type="fvd_guide.frac.poi" GUID="Af3yGJAt2E2qFSXrsNaDnQ=="/>
-			<POI MapID="956" xpos="-35.4923" ypos="26.7624" zpos="80.5253" type="fvd_guide.frac.poi" GUID="9v+uiBPmN0a2E86AQKE+EA=="/>
-			<POI MapID="956" xpos="-23.0268" ypos="26.9513" zpos="96.488" type="fvd_guide.frac.poi" GUID="r+7anZnCrESsDjjhtC94iA=="/>
+		<!-- Skips after first seal -->
+		<POI MapID="952" xpos="68.0175" ypos="609.099" zpos="95.9641" type="fvd_guide.frac.skips.blink" GUID="38WDWsJxRkmDyG/DR5lg6Q=="/>
+		<POI MapID="952" xpos="68.9952" ypos="630.818" zpos="106.782" type="fvd_guide.frac.skips.blink" GUID="Nn9W5uEAnECMIhYxTSFk9A=="/>
+		<!-- Skip after chest seal -->
+		<POI MapID="952" xpos="59.671" ypos="666.782" zpos="-47.916" type="fvd_guide.frac.skips.blink" GUID="cvbRDmNYUUmK9h7I044MbA=="/>
+		<!-- Skip after hand seal -->
+		<POI MapID="952" xpos="132.091" ypos="698.089" zpos="-76.3309" type="fvd_guide.frac.skips.blink" GUID="O80AjWTYAUmQIRw7yjnFIg=="/>
+		<POI MapID="952" xpos="146.612" ypos="705.354" zpos="-69.4793" type="fvd_guide.frac.skips.blink" GUID="FLjEGfUp7kiRNgCaGt0lBQ=="/>
+		<POI MapID="952" xpos="159.691" ypos="716.009" zpos="-65.6418" type="fvd_guide.frac.skips.blink" GUID="Uudkmp3yzUK9OxANdrxOLg=="/>
+		<!-- Aetherblade Console -->
+		<POI MapID="956" xpos="-7.51339" ypos="26.5377" zpos="91.2056" type="fvd_guide.frac.poi" GUID="B8QYPddSKEm5p2Be4nn67Q=="/>
+		<POI MapID="956" xpos="-38.4787" ypos="26.6904" zpos="59.0931" type="fvd_guide.frac.poi" GUID="Af3yGJAt2E2qFSXrsNaDnQ=="/>
+		<POI MapID="956" xpos="-35.4923" ypos="26.7624" zpos="80.5253" type="fvd_guide.frac.poi" GUID="9v+uiBPmN0a2E86AQKE+EA=="/>
+		<POI MapID="956" xpos="-23.0268" ypos="26.9513" zpos="96.488" type="fvd_guide.frac.poi" GUID="r+7anZnCrESsDjjhtC94iA=="/>
 		<!-- Aether skip -->
 		<POI MapID="956" xpos="-23.8672" ypos="9.23235" zpos="99.3182" type="fvd_guide.frac.skips.blink" GUID="FHxmz0qbj0Os7sKfAQcn+A=="/>
 		<!-- Uncat Skips -->
-			<!-- Console Port -->
-			<POI MapID="947" xpos="-756.334" ypos="804.215" zpos="-779.036" type="fvd_guide.frac.skips.start" GUID="EZYB5am0UEGEbWaC3HQQpQ=="/>
-			<POI MapID="947" xpos="-759.207" ypos="828.927" zpos="-782.44" type="fvd_guide.frac.skips.blink" GUID="IPVTcZcN20etE/sCKArmTw=="/>
-			<!-- Blink into Old Tom Room (Optional) -->
-			<POI MapID="947" xpos="-760.366" ypos="827.398" zpos="-718.488" type="fvd_guide.frac.skips.blink" GUID="Mi8XNeEe5ECwOFzZmHOWiw=="/>
-			<!-- Last Boss Skip -->
-			<POI MapID="947" xpos="-824.713" ypos="843.652" zpos="-729.909" type="fvd_guide.frac.skips.start" GUID="vUZsz/cIPEuNVopSaZd6Mw=="/>
-			<POI MapID="947" xpos="-838.92" ypos="845.545" zpos="-720.159" type="fvd_guide.frac.skips.leap" GUID="bT82IGDkgkKyLu+8MfbNFg=="/>
-			<POI MapID="947" xpos="-843.775" ypos="855.904" zpos="-708.161" type="fvd_guide.frac.skips.start" GUID="i9vrSG/3I062T4AT3QhTFA=="/>
-			<POI MapID="947" xpos="-833.829" ypos="853.029" zpos="-713.314" type="fvd_guide.frac.skips.leap" GUID="D80cqEzx1k+rU6APiCjE/g=="/>
+		<!-- Console Port -->
+		<POI MapID="947" xpos="-756.334" ypos="804.215" zpos="-779.036" type="fvd_guide.frac.skips.start" GUID="EZYB5am0UEGEbWaC3HQQpQ=="/>
+		<POI MapID="947" xpos="-759.207" ypos="828.927" zpos="-782.44" type="fvd_guide.frac.skips.blink" GUID="IPVTcZcN20etE/sCKArmTw=="/>
+		<!-- Blink into Old Tom Room (Optional) -->
+		<POI MapID="947" xpos="-760.366" ypos="827.398" zpos="-718.488" type="fvd_guide.frac.skips.blink" GUID="Mi8XNeEe5ECwOFzZmHOWiw=="/>
+		<!-- Last Boss Skip -->
+		<POI MapID="947" xpos="-824.713" ypos="843.652" zpos="-729.909" type="fvd_guide.frac.skips.start" GUID="vUZsz/cIPEuNVopSaZd6Mw=="/>
+		<POI MapID="947" xpos="-838.92" ypos="845.545" zpos="-720.159" type="fvd_guide.frac.skips.leap" GUID="bT82IGDkgkKyLu+8MfbNFg=="/>
+		<POI MapID="947" xpos="-843.775" ypos="855.904" zpos="-708.161" type="fvd_guide.frac.skips.start" GUID="i9vrSG/3I062T4AT3QhTFA=="/>
+		<POI MapID="947" xpos="-833.829" ypos="853.029" zpos="-713.314" type="fvd_guide.frac.skips.leap" GUID="D80cqEzx1k+rU6APiCjE/g=="/>
 		
 		<!-- Twilight Skip to 2nd sandbinder -->
-		<POI MapID="1267" xpos="126.777" ypos="13.4932" zpos="77.0324" GUID="L/yHlFHdPEaml0gwQKFGgg==" type="fvd_guide.frac.skips" iconFile="Data\Icons\Arrow.png" infoRange="5" info="--&gt; Use the special action key and walk forward. You should land on the small edge. &lt;--"/>
-		<POI MapID="1267" xpos="128.102" ypos="24.3595" zpos="76.5743" GUID="j4gPEumNMUi30NWwo0RQIQ==" type="fvd_guide.frac.skips" iconFile="Data\Icons\Arrow.png"/>
-		<POI MapID="1267" xpos="126.135" ypos="32.7954" zpos="75.1858" GUID="2ulMb8W/402kw+4MvrxePQ==" type="fvd_guide.frac.skips" iconFile="Data\Icons\Arrow.png"/>
-		<POI MapID="1267" xpos="130.535" ypos="36.7816" zpos="66.6659" GUID="x2DwI83esEWpPNQGbdmPuQ==" type="fvd_guide.frac.skips" iconFile="Data\Icons\Arrow.png"/>
+		<POI MapID="1267" xpos="126.777" ypos="13.4932" zpos="77.0324" GUID="L/yHlFHdPEaml0gwQKFGgg==" type="fvd_guide.frac.skips" iconFile="Data/Icons/Arrow.png" infoRange="5" info="--&gt; Use the special action key and walk forward. You should land on the small edge. &lt;--"/>
+		<POI MapID="1267" xpos="128.102" ypos="24.3595" zpos="76.5743" GUID="j4gPEumNMUi30NWwo0RQIQ==" type="fvd_guide.frac.skips" iconFile="Data/Icons/Arrow.png"/>
+		<POI MapID="1267" xpos="126.135" ypos="32.7954" zpos="75.1858" GUID="2ulMb8W/402kw+4MvrxePQ==" type="fvd_guide.frac.skips" iconFile="Data/Icons/Arrow.png"/>
+		<POI MapID="1267" xpos="130.535" ypos="36.7816" zpos="66.6659" GUID="x2DwI83esEWpPNQGbdmPuQ==" type="fvd_guide.frac.skips" iconFile="Data/Icons/Arrow.png"/>
 		
 		<!-- Urban Battlegrounds Baricade Skip -->
 		<POI MapID="950" xpos="293.039" ypos="3.03753" zpos="684.22" GUID="JngXViOqVE2tpzJShUkW0g==" type="fvd_guide.frac.skips" infoRange="5" info="--&gt; Skip really saves time, if the left paths are blocked. &lt;--"/>
@@ -87,7 +87,7 @@
 		<POI MapID="950" xpos="287.759" ypos="22.1941" zpos="692.4" GUID="E+q4JRKhj0SmRk+9PhYHWw==" type="fvd_guide.frac.skips"/>
 		<POI MapID="950" xpos="286.804" ypos="22.6709" zpos="707.708" GUID="EXVKEs7ycEG6yUYMN9Ry/w==" type="fvd_guide.frac.skips"/>
 		<POI MapID="950" xpos="279.236" ypos="19.5982" zpos="719.864" GUID="eHndVh/T8EmKTkvqxIgbjg==" type="fvd_guide.frac.skips"/>
-		<POI MapID="950" xpos="277.243" ypos="7.70651" zpos="728.863" GUID="0wSCWvY5HUOjQqrui7jUCQ==" iconFile="Data\Icons\Arrow.png"/>
+		<POI MapID="950" xpos="277.243" ypos="7.70651" zpos="728.863" GUID="0wSCWvY5HUOjQqrui7jUCQ==" iconFile="Data/Icons/Arrow.png"/>
 		
 		<!-- Thaumanova Reactor Laser Safe Zone -->
 		<POI MapID="957" xpos="-18.6935" ypos="37.3121" zpos="-159.846" GUID="svJNCJve5kyuVzKVOYA7Gg==" type="fvd_guide.frac.poi.lasersafe" autoTrigger="0" infoRange="5" info="--&gt; Arrows will mark an area that is safe from the laser stun. You will still have to watch out for the golems. &lt;--"/>
@@ -318,26 +318,26 @@
 		
 		<!-- Chaos Page Trails for the Hard to Reach -->
 		<!-- Page right of start up the wood planks -->
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-205.22" ypos="563.58" zpos="-68.8118" GUID="P/JRu6RBnUmb9+F2Ree/HA==" iconFile="Data\Icons\Arrow.png"/>
-		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data\Trails\chaos_1.trl" texture="Data\Icons\trail.png" color="ffffff00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-205.22" ypos="563.58" zpos="-68.8118" GUID="P/JRu6RBnUmb9+F2Ree/HA==" iconFile="Data/Icons/Arrow.png"/>
+		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data/Trails/chaos_1.trl" texture="Data/Icons/trail.png" fadeNear="2000" fadeFar="2200" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<!-- Page at the tent, right of the mistlock before anom. -->
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-6.68541" ypos="584.958" zpos="-187.532" GUID="ZTASJnfRYUKiCK2HhzICjQ==" iconFile="Data\Icons\Arrow.png"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-38.9923" ypos="547.506" zpos="-202.269" GUID="HdzqqHZiKEiXOrqoGSXWzA==" iconFile="Data\Icons\Arrow.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-45.0684" ypos="541.846" zpos="-212.045" GUID="heA1sVRZX0qAFcZ/Ez15Fg==" iconFile="Data\Icons\Arrow.png" miniMapVisibility="0" mapVisibility="0"/>
-		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data\Trails\chaos_2.trl" texture="Data\Icons\trail.png" color="ffffff00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-6.68541" ypos="584.958" zpos="-187.532" GUID="ZTASJnfRYUKiCK2HhzICjQ==" iconFile="Data/Icons/Arrow.png"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-38.9923" ypos="547.506" zpos="-202.269" GUID="HdzqqHZiKEiXOrqoGSXWzA==" iconFile="Data/Icons/Arrow.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="-45.0684" ypos="541.846" zpos="-212.045" GUID="heA1sVRZX0qAFcZ/Ez15Fg==" iconFile="Data/Icons/Arrow.png" miniMapVisibility="0" mapVisibility="0"/>
+		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data/Trails/chaos_2.trl" texture="Data/Icons/trail.png" fadeNear="2000" fadeFar="2200" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<!-- Chaos after the anom, before the fires -->
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="68.9073" ypos="582.764" zpos="-148.152" GUID="KBGq9kFL+EC8s1Xw1FrfBA==" iconFile="Data\Icons\Arrow.png"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="72.5249" ypos="608.937" zpos="-185.112" GUID="ph9MmekD406Cbx5v6I8qVg==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="76.2398" ypos="611.755" zpos="-189.496" GUID="4tbZ6ZwKJE2kIvyPKDtCQA==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="78.6796" ypos="613.443" zpos="-196.165" GUID="1/Qv69f4Mk6p5yBpfGGcXw==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="82.412" ypos="616.039" zpos="-201.887" GUID="Fd10uh8GtUiQAoPtw4hZOg==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="85.9893" ypos="618.426" zpos="-206.393" GUID="MwlnGHTQL0W/wopbMIK/Hg==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="87.7493" ypos="620.105" zpos="-210.809" GUID="zlbOUYzlZEe+f+sATYPrSA==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="92.0704" ypos="622.215" zpos="-214.903" GUID="jqrrjM+3H02+gl7uYUny2w==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="97.9285" ypos="624.317" zpos="-217.152" GUID="wA6ScUnrhkeNPCwqEuZeGQ==" iconFile="Data\Icons\jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
-		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data\Trails\chaos_3.trl" texture="Data\Icons\trail.png" color="ffffff00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="68.9073" ypos="582.764" zpos="-148.152" GUID="KBGq9kFL+EC8s1Xw1FrfBA==" iconFile="Data/Icons/Arrow.png"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="72.5249" ypos="608.937" zpos="-185.112" GUID="ph9MmekD406Cbx5v6I8qVg==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="76.2398" ypos="611.755" zpos="-189.496" GUID="4tbZ6ZwKJE2kIvyPKDtCQA==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="78.6796" ypos="613.443" zpos="-196.165" GUID="1/Qv69f4Mk6p5yBpfGGcXw==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="82.412" ypos="616.039" zpos="-201.887" GUID="Fd10uh8GtUiQAoPtw4hZOg==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="85.9893" ypos="618.426" zpos="-206.393" GUID="MwlnGHTQL0W/wopbMIK/Hg==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="87.7493" ypos="620.105" zpos="-210.809" GUID="zlbOUYzlZEe+f+sATYPrSA==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="92.0704" ypos="622.215" zpos="-214.903" GUID="jqrrjM+3H02+gl7uYUny2w==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<POI MapID="1164" type="fvd_guide.frac.collect.chaos" xpos="97.9285" ypos="624.317" zpos="-217.152" GUID="wA6ScUnrhkeNPCwqEuZeGQ==" iconFile="Data/Icons/jpguide.png" miniMapVisibility="0" mapVisibility="0"/>
+		<Trail type="fvd_guide.frac.collect.chaos" trailData="Data/Trails/chaos_3.trl" texture="Data/Icons/trail.png" fadeNear="2000" fadeFar="2200" miniMapVisibility="0" mapVisibility="0"/>
 		
 		<!-- Data Keys, Shattered -->
 		<POI MapID="1205" xpos="435.735" ypos="63.0885" zpos="115.501" type="fvd_guide.frac.collect.shattered" GUID="lL0cve+FbU+KyHkR18mYyg=="/>
