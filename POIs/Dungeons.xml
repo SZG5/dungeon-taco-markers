@@ -99,15 +99,15 @@
 					<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data\Icons\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p1" DisplayName="CoE Path 1" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p1" DisplayName="CoE Path 1 - Submarine" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="CoE Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="CoE Path 1 - Specific Info" iconFile="Data\Icons\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p2" DisplayName="CoE Path 2" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p2" DisplayName="CoE Path 2 - Teleporter" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="CoE Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
-					<MarkerCategory name="info" DisplayName="HotW Path 2 - Specific Info" iconFile="Data\Icons\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+					<MarkerCategory name="info" DisplayName="CoE Path 2 - Specific Info" iconFile="Data\Icons\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
-				<MarkerCategory name="p3" DisplayName="CoE Path 3" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+				<MarkerCategory name="p3" DisplayName="CoE Path 3 - Front Door" iconFile="Data\Icons\Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 					<MarkerCategory name="path" DisplayName="CoE Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
 					<MarkerCategory name="info" DisplayName="CoE Path 3 - Specific Info" iconFile="Data\Icons\Informational.png" miniMapVisibility="0" mapVisibility="0"/>
 				</MarkerCategory>
@@ -501,6 +501,18 @@
 		<Trail trailData="Data\Trails\COE\COE_General_Part2.trl" type="fvd_guide.dungeons.coe.general.path" texture="Data\Icons\trail_general.png" color="FFFFFF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="82" xpos="107.904" ypos="171.22" zpos="-28.8808" type="fvd_guide.dungeons.coe.general.info" GUID="dcwuwu/VsUGDG6hioRb7rg==" info="Consider killing the boon granting turrets and bringing stun breakers and reflects."/>
 
+		<!-- COE P2 / P3 Shared -->
+		<POI MapID="82" xpos="144.328" ypos="172.874" zpos="-35.7479" type="fvd_guide.dungeons.coe.p3.path" GUID="MXwS3teakUOd/D9uGCkRuw==" info="P2: Teleporter / P3: Front door - Start"/>
+		<Trail trailData="Data\Trails\COE\COE_P3_Part1.trl" type="fvd_guide.dungeons.coe.p3.path" texture="Data\Icons\trail_path3.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="161.838" ypos="176.64" zpos="16.6584" type="fvd_guide.dungeons.coe.p3.info" GUID="l/AsyKVH7E6LFdefmAza3A==" info="Cannon Defense after the door opens, run left and wait for the abomination to walk past.&#xA;Consider using stealth to avoid the mobs."/>
+		<POI MapID="82" xpos="115.488" ypos="176.555" zpos="17.2414" type="fvd_guide.dungeons.coe.p3.info" GUID="7A6o6kknoEWf2E7/Pv0J2Q==" info="Wait out the abom, then run past up the stairs."/>
+		<POI MapID="82" xpos="41.0799" ypos="211.93" zpos="148.233" type="fvd_guide.dungeons.coe.p3.info" GUID="YAY0IlccZEaJFC0vWpLO1g==" info="Crystal can freeze you for a long time. Otherwise, its like the prior encounter."/>
+		<!-- Use the same path -->
+		<POI MapID="82" xpos="144.328" ypos="172.874" zpos="-35.7479" type="fvd_guide.dungeons.coe.p2.path" GUID="1q9zgobbVEyv2/v3OhVTWg==" info="P2: Teleporter / P3: Front door - Start"/>
+		<Trail trailData="Data\Trails\COE\COE_P3_Part1.trl" type="fvd_guide.dungeons.coe.p2.path" texture="Data\Icons\trail_path2.png" color="FF00FFFF" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="82" xpos="161.838" ypos="176.64" zpos="16.6584" type="fvd_guide.dungeons.coe.p2.info" GUID="yOAlIpH3b0Wy14/jX8CoMg==" info="Cannon Defense after the door opens, run left and wait for the abomination to walk past.&#xA;Consider using stealth to avoid the mobs."/>
+		<POI MapID="82" xpos="115.488" ypos="176.555" zpos="17.2414" type="fvd_guide.dungeons.coe.p2.info" GUID="/PTU4L7NX0SupE36xnA4ZQ==" info="Wait out the abom, then run past up the stairs."/>
+		<POI MapID="82" xpos="41.0799" ypos="211.93" zpos="148.233" type="fvd_guide.dungeons.coe.p2.info" GUID="oabCoXUNWUO4hoZwLXyhFA==" info="Crystal can freeze you for a long time. Otherwise, its like the prior encounter."/>
 
 
 		<!-- COE PATH 1 -->
@@ -527,11 +539,6 @@
 
 
 		<!-- COE PATH 3 -->
-		<POI MapID="82" xpos="144.328" ypos="172.874" zpos="-35.7479" type="fvd_guide.dungeons.coe.p3.path" GUID="MXwS3teakUOd/D9uGCkRuw==" info="P3: Front door - Start"/>
-		<Trail trailData="Data\Trails\COE\COE_P3_Part1.trl" type="fvd_guide.dungeons.coe.p3.path" texture="Data\Icons\trail_path3.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
-		<POI MapID="82" xpos="161.838" ypos="176.64" zpos="16.6584" type="fvd_guide.dungeons.coe.p3.info" GUID="l/AsyKVH7E6LFdefmAza3A==" info="Cannon Defense after the door opens, run left and wait for the abomination to walk past.&#xA;Consider using stealth to avoid the mobs."/>
-		<POI MapID="82" xpos="115.488" ypos="176.555" zpos="17.2414" type="fvd_guide.dungeons.coe.p3.info" GUID="7A6o6kknoEWf2E7/Pv0J2Q==" info="Wait out the abom, then run past up the stairs."/>
-		<POI MapID="82" xpos="41.0799" ypos="211.93" zpos="148.233" type="fvd_guide.dungeons.coe.p3.info" GUID="YAY0IlccZEaJFC0vWpLO1g==" info="Crystal can freeze you for a long time. Otherwise, its like the prior encounter."/>
 		<POI MapID="82" xpos="43.7701" ypos="216.831" zpos="211.008" type="fvd_guide.dungeons.coe.p3.path" GUID="/Geo6LIP2k+KondEe8IpKg==" info="P3 - Part 2"/>
 		<Trail trailData="Data\Trails\COE\COE_P3_Part2.trl" type="fvd_guide.dungeons.coe.p3.path" texture="Data\Icons\trail_path3.png" color="FF00FF00" alpha="0.75" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="82" xpos="43.7895" ypos="216.794" zpos="215.483" type="fvd_guide.dungeons.coe.p3.info" GUID="afdLAfuA+EGFhjLMWouBog==" info="Bring condi cleanse and run past the mobs."/>
