@@ -33,9 +33,22 @@
 				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="cm" DisplayName="Caudecus's Manor">
-				<MarkerCategory name="p1" DisplayName="CM Path 1 - Asura" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p2" DisplayName="CM Path 2 - Seraph" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="p3" DisplayName="CM Path 3 - Butler" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p1" DisplayName="CM Path 1 - Asura" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CM Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CM Path 1 - Specific Info" iconFile="Data/Icons/Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p2" DisplayName="CM Path 2 - Seraph" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CM Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CM Path 2 - Specific Info" iconFile="Data/Icons/Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
+				<MarkerCategory name="p3" DisplayName="CM Path 3 - Butler" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+					<MarkerCategory name="path" DisplayName="CM Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
+					<MarkerCategory name="info" DisplayName="CM Path 3 - Specific Info" iconFile="Data/Icons/Informational.png" miniMapVisibility="0" mapVisibility="0"/>
+				</MarkerCategory>
 			</MarkerCategory>
 			<MarkerCategory name="ta" DisplayName="Twilight Arbor">
 				<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
@@ -258,7 +271,54 @@
 
 		<!-- CAUDECUSS MANOR -->
 		
+		<!-- CM PATH 1 -->
+		<POI MapID="76" xpos="118.047" ypos="30.9221" zpos="65.7592" type="fvd_guide.dungeons.cm.p1.path" GUID="+8FAkcrBrkCbMBas4JyVYw==" info="P1: Asura - Start"/>
+		<Trail trailData="Data/Trails/CM/CM_P1_Part1.trl" type="fvd_guide.dungeons.cm.p1.path" texture="Data/Icons/trail_path1.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="150.74" ypos="30.9446" zpos="73.3151" type="fvd_guide.dungeons.cm.p1.info" GUID="je+liUHIVUuqMbJWAy7AXA==" info="It is possible to use stealth and solo the asuran devices. Otherwise, go as a group and clear the mobs and interact with the tech."/>
+		<POI MapID="76" xpos="127.035" ypos="22.5452" zpos="88.0302" type="fvd_guide.dungeons.cm.p1.info" GUID="ZYFSgV8T7kO1taKY0GnYmg==" info="Clear the wing nearest to the waypoint before following the trail."/>
+		<POI MapID="76" xpos="94.561" ypos="22.5361" zpos="98.914" type="fvd_guide.dungeons.cm.p1.info" GUID="03M2saX9iEKZJk5zeQ7RIw==" info="Go into the rooms to fight. Most adds can't be pulled/grouped up."/>
+		<POI MapID="76" xpos="38.4439" ypos="21.7008" zpos="70.4302" type="fvd_guide.dungeons.cm.p1.info" GUID="gf8ieSH55kqpNjrE4C07dQ==" info="It is possible cutscene hold (let the scence play out while the rest of the group skips watching it) and prevent the bandits from instantly spawning before the group enters the barn.&#xA;When entering run up the rafters to the top and murder the bandit snipers before dropping down for the boss."/>
+		<POI MapID="76" xpos="-7.94686" ypos="18.8246" zpos="84.7486" type="fvd_guide.dungeons.cm.p1.info" GUID="HwFvvKng8EO2/G2MGsraXQ==" info="P1: You can blink into the barn."/>
+		<POI MapID="76" xpos="-18.0745" ypos="30.9582" zpos="98.442" type="fvd_guide.dungeons.skips.blink" GUID="K3Iz9F1+IES9+bu4Bpv4MQ=="/>
+		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.dungeons.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1: Asura - Part 2"/>
+		<Trail trailData="Data/Trails/CM/CM_P1_Part2.trl" type="fvd_guide.dungeons.cm.p1.path" texture="Data/Icons/trail_path1.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.dungeons.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss follow the general trail."/>
+
+
+		<!-- CM PATH 2 -->
+		<POI MapID="76" xpos="113.663" ypos="30.9135" zpos="66.6956" type="fvd_guide.dungeons.cm.p2.path" GUID="ve/434PqrU+Icmdn+9llYQ==" info="P2: Seraph - Start"/>
+		<Trail trailData="Data/Trails/CM/CM_P2_Part1.trl" type="fvd_guide.dungeons.cm.p2.path" texture="Data/Icons/trail_path2.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="90.0036" ypos="40.0753" zpos="99.5873" type="fvd_guide.dungeons.cm.p2.path" GUID="BKMx2PHkpkGaMKWXu2K+9w==" info="Clear each room and interact with Seraph before returning to the start and collecting the satchel."/>
 		
+		<POI MapID="76" xpos="154.793" ypos="30.901" zpos="99.6255" type="fvd_guide.dungeons.cm.p2.info" GUID="32V+bOFVwUKlWLDIBGvGPw==" info="P2: Skip to Satchel"/>
+		<POI MapID="76" xpos="155.851" ypos="40.1169" zpos="98.7389" type="fvd_guide.dungeons.skips.blink" GUID="wH85gFWeAUuBSbCYfMa9qA=="/>
+
+		<POI MapID="76" xpos="129.864" ypos="30.9004" zpos="86.3566" type="fvd_guide.dungeons.cm.p2.path" GUID="g3Q9e/JG80WR++EjzaQJTA==" info="P2: Only if you can't blink to the Satchel by entering the dining room. Talk to Seraph and then WP to the start of the dungeon."/>
+		<Trail trailData="Data/Trails/CM/CM_P2_Satchel.trl" type="fvd_guide.dungeons.cm.p2.path" texture="Data/Icons/trail_path2.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="155.531" ypos="40.1177" zpos="78.9272" type="fvd_guide.dungeons.cm.p2.info" GUID="hZVpC1nx90qZVngTKl4eUg==" info="Use the pillows and play hopscotch on top of them to not get impaled."/>
+		
+		<POI MapID="76" xpos="170.089" ypos="26.06" zpos="8.09163" type="fvd_guide.dungeons.cm.p2.path" GUID="e/W7GSsLYES67gu0HDFM1A==" info="P2 - Part 2"/>
+		<Trail trailData="Data/Trails/CM/CM_P2_Part2.trl" type="fvd_guide.dungeons.cm.p2.path" texture="Data/Icons/trail_path2.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="253.879" ypos="38.3626" zpos="6.63872" type="fvd_guide.dungeons.cm.p2.info" GUID="K9LyVQC25USH1J13qXEKPw==" info="Spread out to not get wiped with the swords."/>
+		<POI MapID="76" xpos="248.55" ypos="36.063" zpos="16.7517" type="fvd_guide.dungeons.cm.p2.info" GUID="bxDxI5OY+0q+QYxjPi2dEQ==" info="P2 - Part 3"/>
+		<Trail trailData="Data/Trails/CM/CM_P2_Part3.trl" type="fvd_guide.dungeons.cm.p2.path" texture="Data/Icons/trail_path2.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="230.228" ypos="26.1322" zpos="77.7926" type="fvd_guide.dungeons.cm.p2.info" GUID="8vZ6fXLelUKwqruijqPbbQ==" info="If you drop a keg far away the bandits will go after it. Making the door part easier.&#xA;Weapon swap while holding a keg on top of the red circles."/>
+		<POI MapID="76" xpos="263.046" ypos="29.923" zpos="128.829" type="fvd_guide.dungeons.cm.p2.info" GUID="GhMW+MryGUeGxbuRvY3q/Q==" info="You can reflect on Martha."/>
+		<POI MapID="76" xpos="218.403" ypos="33.1565" zpos="247.252" type="fvd_guide.dungeons.cm.p2.info" GUID="SmD3NLe3LkqoGmUlH6qIKQ==" info="Boss hits hard and goes invuln. You can cheese him a bit using the hill to break line of sight."/>
+
+
+		<!-- General -->
+		
+		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.dungeons.cm.general.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="General Part 1"/>
+		<Trail trailData="Data/Trails/CM/CM_General_Part1.trl" type="fvd_guide.dungeons.cm.general.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.dungeons.cm.general.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have long stealth duration run across the top instead."/>
+		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.dungeons.cm.general.info" GUID="RV97BQQS9k297WA5KxGznw==" info="Pull and murder the remaining mobs here."/>
+
+		<POI MapID="76" xpos="-59.3999" ypos="26.9532" zpos="268.707" type="fvd_guide.dungeons.cm.general.path" GUID="kEGMSfWl7EyZOr5TA1k0KA==" info="General Part 2"/>
+		<Trail trailData="Data/Trails/CM/CM_General_Part2.trl" type="fvd_guide.dungeons.cm.general.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="-74.2776" ypos="26.4312" zpos="265.216" type="fvd_guide.dungeons.cm.general.info" GUID="/DGYWgOoH0KhvP52PWw39Q==" info="After clearing the adds, you can stealth past the enforcers."/>
+		<POI MapID="76" xpos="-189.92" ypos="16.247" zpos="249.003" type="fvd_guide.dungeons.cm.general.info" GUID="m/WVpHJl8EK6XfiU0R8IiA==" info="If the group still has aggro, continue running and kill things that follow you out."/>
+
 		
 		<!-- TWILIGHT ARBOR -->
 		
@@ -272,7 +332,7 @@
 
 
 		<!-- TA UP -->
-		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.dungeons.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="TA UP Path"/>
+		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.dungeons.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="TA - Up Path"/>
 		<Trail trailData="Data/Trails/TA/TA_Up_Part1.trl" type="fvd_guide.dungeons.ta.up.path" texture="Data/Icons/trail_TA_up.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="67" xpos="17.3442" ypos="29.7404" zpos="-178.605" type="fvd_guide.dungeons.ta.up.info" GUID="qvIquZPSw0yUkdPA3rIktg==" info="Pull spiders and kill them before facing the boss.&#xA;Boss has projectile attack which hits hard, spread out or stay at ranged to avoid a group wipe."/>
 		<POI MapID="67" xpos="80.3755" ypos="40.3224" zpos="-167.524" GUID="uWwQa7YxJ063kzTUiXhSkQ==" type="fvd_guide.dungeons.ta.up.info" info="Stealth is advisable for these parts otherwise bring stun breakers for the mobs and range for the flowers."/>
