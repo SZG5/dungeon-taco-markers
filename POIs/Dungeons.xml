@@ -280,9 +280,13 @@
 		<POI MapID="76" xpos="38.4439" ypos="21.7008" zpos="70.4302" type="fvd_guide.dungeons.cm.p1.info" GUID="gf8ieSH55kqpNjrE4C07dQ==" info="It is possible cutscene hold (let the scence play out while the rest of the group skips watching it) and prevent the bandits from instantly spawning before the group enters the barn.&#xA;When entering run up the rafters to the top and murder the bandit snipers before dropping down for the boss."/>
 		<POI MapID="76" xpos="-7.94686" ypos="18.8246" zpos="84.7486" type="fvd_guide.dungeons.cm.p1.info" GUID="HwFvvKng8EO2/G2MGsraXQ==" info="P1: You can blink into the barn."/>
 		<POI MapID="76" xpos="-18.0745" ypos="30.9582" zpos="98.442" type="fvd_guide.dungeons.skips.blink" GUID="K3Iz9F1+IES9+bu4Bpv4MQ=="/>
-		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.dungeons.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1: Asura - Part 2"/>
+		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.dungeons.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1 - Part 2"/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part2.trl" type="fvd_guide.dungeons.cm.p1.path" texture="Data/Icons/trail_path1.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
-		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.dungeons.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss follow the general trail."/>
+		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.dungeons.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss, back track and follow Part 3."/>
+		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.dungeons.cm.p1.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="P1 - Part 3"/>
+		<Trail trailData="Data/Trails/CM/CM_P1_Part3.trl" type="fvd_guide.dungeons.cm.p1.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.dungeons.cm.p1.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have long stealth duration run across the top instead."/>
+		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.dungeons.cm.p1.info" GUID="RV97BQQS9k297WA5KxGznw==" info="Pull and murder the remaining mobs here."/>
 
 
 		<!-- CM PATH 2 -->
@@ -307,15 +311,27 @@
 		<POI MapID="76" xpos="218.403" ypos="33.1565" zpos="247.252" type="fvd_guide.dungeons.cm.p2.info" GUID="SmD3NLe3LkqoGmUlH6qIKQ==" info="Boss hits hard and goes invuln. You can cheese him a bit using the hill to break line of sight."/>
 
 
-		<!-- General -->
-		
-		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.dungeons.cm.general.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="General Part 1"/>
-		<Trail trailData="Data/Trails/CM/CM_General_Part1.trl" type="fvd_guide.dungeons.cm.general.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
-		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.dungeons.cm.general.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have long stealth duration run across the top instead."/>
-		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.dungeons.cm.general.info" GUID="RV97BQQS9k297WA5KxGznw==" info="Pull and murder the remaining mobs here."/>
 
-		<POI MapID="76" xpos="-59.3999" ypos="26.9532" zpos="268.707" type="fvd_guide.dungeons.cm.general.path" GUID="kEGMSfWl7EyZOr5TA1k0KA==" info="General Part 2"/>
-		<Trail trailData="Data/Trails/CM/CM_General_Part2.trl" type="fvd_guide.dungeons.cm.general.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<!-- CM PATH 3 -->
+		<POI MapID="76" xpos="89.6998" ypos="29.0589" zpos="57.0243" type="fvd_guide.dungeons.cm.p3.path" GUID="E/i6/F1PX060WmxwGAA6oQ==" info="P3: Butler - Start"/>
+		<Trail trailData="Data/Trails/CM/CM_P3_Part1.trl" type="fvd_guide.dungeons.cm.p3.path" texture="Data/Icons/trail_path3.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="30.1994" ypos="25.016" zpos="87.6303" type="fvd_guide.dungeons.cm.p3.info" GUID="ea2rmHXXEE2OiU2wWSnv/w==" info="P3: Bring stability. Reflects don't work on Boss."/>
+		<POI MapID="76" xpos="34.7737" ypos="20.7132" zpos="62.8767" type="fvd_guide.dungeons.cm.p3.path" GUID="BNy9Lr6tgEGO5pDZbBBiDw==" info="P3 - Part 2"/>
+		<Trail trailData="Data/Trails/CM/CM_P3_Part2.trl" type="fvd_guide.dungeons.cm.p3.path" texture="Data/Icons/trail_path3.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="96.9933" ypos="22.5408" zpos="116.785" type="fvd_guide.dungeons.cm.p3.info" GUID="nGSZ30taK0Wh75iZDkpUCQ==" info="Use reflects. Use gun."/>
+		<POI MapID="76" xpos="146.226" ypos="29.2248" zpos="201.594" type="fvd_guide.dungeons.cm.p3.path" GUID="ZroO5v2XGUuQtc8C1nEiwA==" info="P3 - Part 3"/>
+		<Trail trailData="Data/Trails/CM/CM_P3_Part3.trl" type="fvd_guide.dungeons.cm.p3.path" texture="Data/Icons/trail_path3.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
+		<POI MapID="76" xpos="130.882" ypos="31.089" zpos="233.355" type="fvd_guide.dungeons.cm.p3.info" GUID="Nn+uze6utUWs9UMFd8i1CA==" info="Run off to the door before the boss dies or hug the wall."/>
+		<POI MapID="76" xpos="69.6179" ypos="30.5685" zpos="252.513" type="fvd_guide.dungeons.cm.p3.info" GUID="BCzN/xInx06rPusiELWMjg==" info="Stealth or pull the mobs."/>
+		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.dungeons.cm.p3.info" GUID="4augv/qQKEaU/+HUV1+21w==" info="Pull and murder the remaining mobs here."/>
+		<POI MapID="76" xpos="-213.243" ypos="13.197" zpos="252.934" type="fvd_guide.dungeons.cm.p3.info" GUID="wLM07+8wiUiodaa0tP5dmQ==" info="P3: Clear riflemen before fighting the boss."/>
+
+
+
+
+		<!-- General -->
+		<POI MapID="76" xpos="-59.3999" ypos="26.9532" zpos="268.707" type="fvd_guide.dungeons.cm.general.path" GUID="kEGMSfWl7EyZOr5TA1k0KA==" info="P1/P3: General Path"/>
+		<Trail trailData="Data/Trails/CM/CM_General_Part1.trl" type="fvd_guide.dungeons.cm.general.path" texture="Data/Icons/trail_general.png" fadeNear="2000" fadeFar="2200" animSpeed="1" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="-74.2776" ypos="26.4312" zpos="265.216" type="fvd_guide.dungeons.cm.general.info" GUID="/DGYWgOoH0KhvP52PWw39Q==" info="After clearing the adds, you can stealth past the enforcers."/>
 		<POI MapID="76" xpos="-189.92" ypos="16.247" zpos="249.003" type="fvd_guide.dungeons.cm.general.info" GUID="m/WVpHJl8EK6XfiU0R8IiA==" info="If the group still has aggro, continue running and kill things that follow you out."/>
 
