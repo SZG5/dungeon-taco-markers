@@ -11,9 +11,9 @@
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon Guide">
 		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
 		<MarkerCategory name="stack" DisplayName="Stack Spot" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
-		<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data/Icons/Arrow.png"/>
+		<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data/Icons/arrow.png"/>
 		<MarkerCategory name="skips" DisplayName="Skips">
-			<MarkerCategory name="start" DisplayName="Start" iconFile="Data/Icons/Arrow.png"/>
+			<MarkerCategory name="start" DisplayName="Start" iconFile="Data/Icons/arrow.png"/>
 			<MarkerCategory name="blink" DisplayName="Blinks/Teleport" iconFile="Data/Icons/Blink.png"/>
 			<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Data/Icons/Leap.png"/>
 			<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Data/Icons/Jumping_Puzzles.png"/>
@@ -27,8 +27,8 @@
 			<MarkerCategory name="p1" DisplayName="AC Path 1 - Hodgins" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="AC Path 1 - Hodgins Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Hodgins Path Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
-				<MarkerCategory name="burrow" DisplayName="Archive Room Burrows" iconFile="Data/Icons/Arrow.png"/>
-				<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Data/Icons/Arrow.png"/>
+				<MarkerCategory name="burrow" DisplayName="Archive Room Burrows" iconFile="Data/Icons/arrow.png"/>
+				<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Data/Icons/arrow.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="p2" DisplayName="AC Path 2 - Detha" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="AC Path 2 - Detha Trail"/>
@@ -150,11 +150,11 @@
 				<MarkerCategory name="path" DisplayName="Arah Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 2 - Specific Info" iconFile="Data/Icons/info_path2.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="p3" DisplayName="Arah Path 3" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p3" DisplayName="Arah Path 3 - Forgotten" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="Arah Path 3 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 3 - Specific Info" iconFile="Data/Icons/info_path3.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="p4" DisplayName="Arah Path 4" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p4" DisplayName="Arah Path 4 - Seer" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="Arah Path 4 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 4 - Specific Info" iconFile="Data/Icons/info_path4.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
@@ -199,7 +199,7 @@
 		<POI MapID="36" xpos="96.2715" ypos="40.0835" zpos="-86.4533" type="fvd_guide.ac.p1.path" GUID="Ag2IB83K/E+uoOY6qM0AoQ==" info="P1: Hodgins - Start"/>
 		<Trail trailData="Data/Trails/AC/AC_P1_Part1.trl" type="fvd_guide.ac.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<!-- Fire Stairs Warning -->
-		<POI MapID="36" xpos="97.6486" ypos="27.1103" zpos="-147.638" type="fvd_guide.ac.p1.info" GUID="h2lcN67QdU256AljpXo6ww==" info="Info wait for the fire then run."/>
+		<POI MapID="36" xpos="97.6486" ypos="27.1103" zpos="-147.638" type="fvd_guide.ac.p1.info" GUID="h2lcN67QdU256AljpXo6ww==" info="Wait for the fire blasts to pass then run down the stairs."/>
 		<!-- Burrows -->
 		<POI MapID="36" xpos="98.0864" ypos="14.2799" zpos="-194.411" type="fvd_guide.ac.p1.info" GUID="0AlawM2C3Ua58whL1gl6Tw==" info="Arrows mark the burrow spawns."/>
 		<!-- AC P1 Archive Room Burrows -->
@@ -212,7 +212,7 @@
 		<!-- Blink Skip -->
 		<POI MapID="36" xpos="102.349" ypos="14.2837" zpos="-244.238" type="fvd_guide.ac.p1.info" GUID="5iSPL3rTIUOxkkHvYm6Uiw==" info="With blinks and teleports you can get to the scepter faster after the graveling event finishes. Return to the center WP."/>
 		<!-- Scepter Piece -->
-		<POI MapID="36" xpos="97.6657" ypos="30.1564" zpos="-261.471" type="fvd_guide.ac.p1.info" GUID="JDxb08ZIK0++9iGC6bNuOg==" iconFile="Data/Icons/Arrow.png" iconSize="1.0" info="Grab and then WP to the center/Foefire's Heart"/>
+		<POI MapID="36" xpos="97.6657" ypos="30.1564" zpos="-261.471" type="fvd_guide.ac.p1.info" GUID="JDxb08ZIK0++9iGC6bNuOg==" iconFile="Data/Icons/arrow.png" iconSize="1.0" info="Grab scepter piece and then WP to the center/Foefire's Heart."/>
 		<!-- Path 1 Part 2 -->
 		<POI MapID="36" xpos="98.5981" ypos="43.8665" zpos="-59.8497" type="fvd_guide.ac.p1.path" GUID="4la8CYnTeUeuV/BkYvHZxg==" info="P1: Hodgins - Part 2"/>
 		<Trail trailData="Data/Trails/AC/AC_P1_Part2.trl" type="fvd_guide.ac.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
@@ -221,7 +221,7 @@
 		<POI MapID="36" xpos="-42.7611" ypos="54.58" zpos="31.4016" GUID="xlRYHgHgTkOzITuoifk7Dw==" type="fvd_guide.ac.p1.info" info="Avoid that side to prevent the ooze from spawning."/>
 		<!-- Hodgins Scepter Hunt -->
 		<POI MapID="36" xpos="-118.249" ypos="54.8858" zpos="76.7453" GUID="lxu3K9YCuECS02a1BZfSOQ==" type="fvd_guide.ac.p1.info" info="Collect the scepter pieces and turn them in here."/>
-		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.ac.p1.info" iconFile="Data/Icons/Arrow.png" iconSize="1.0" info="Arrows mark the general area for the pieces. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
+		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.ac.p1.info" iconFile="Data/Icons/arrow.png" iconSize="1.0" info="Arrows mark the general area for the pieces. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
 		<!-- AC P1 Scepter Pieces -->
 		<POI MapID="36" xpos="-71.0625" ypos="69.2192" zpos="167.774" type="fvd_guide.ac.p1.scepter" GUID="tsHlyuWaO0S8SlYBmsv82g=="/>
 		<POI MapID="36" xpos="13.789" ypos="66.6659" zpos="117.866" type="fvd_guide.ac.p1.scepter" GUID="FrSH8OdCbU6uVf9SGmO1zA=="/>
@@ -380,13 +380,13 @@
 		<POI MapID="67" xpos="-116.312" ypos="1.19439" zpos="-126.241" type="fvd_guide.ta.fwd.path" GUID="7pzoz0q8X0iKoKcYwmOKXQ==" iconFile="Data/Icons/Jumping_Puzzles.png" info="Forward Path - Part 2"/>
 		<Trail trailData="Data/Trails/TA/TA_Forward_Part2.trl" type="fvd_guide.ta.fwd.path" texture="Data/Icons/trail_TA_forward.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="-179.353" ypos="0.382908" zpos="-33.1254" type="fvd_guide.ta.fwd.info" GUID="S037glYIO0G1EsQOW/NjNw==" info="Optional: Blink skip at arrow."/>
-		<POI MapID="67" xpos="-157.274" ypos="-0.162724" zpos="-0.949965" type="fvd_guide.ta.fwd.info" GUID="BHm89N8JxEmoXv4Mx5+FPw==" iconFile="Data/Icons/Arrow.png" info="Get super close to the crack and target the blink skill on the other side."/>
-		<POI MapID="67" xpos="-152.589" ypos="5.70392" zpos="14.7041" type="fvd_guide.ta.fwd.info" GUID="CP+IAv1lmUKj8VRnLZFn5Q==" iconFile="Data/Icons/Blink.png.png"/>
+		<POI MapID="67" xpos="-157.274" ypos="-0.162724" zpos="-0.949965" type="fvd_guide.ta.fwd.info" GUID="BHm89N8JxEmoXv4Mx5+FPw==" iconFile="Data/Icons/arrow.png" info="Get super close to the crack and target the blink skill on the other side."/>
+		<POI MapID="67" xpos="-152.589" ypos="5.70392" zpos="14.7041" type="fvd_guide.ta.fwd.info" GUID="CP+IAv1lmUKj8VRnLZFn5Q==" iconFile="Data/Icons/Blink.png"/>
 		<POI MapID="67" xpos="-168.009" ypos="4.11561" zpos="37.3054" type="fvd_guide.ta.fwd.info" GUID="v5RZIO1WZ0CSFnTcvvdEyQ==" info="Watch the cog and wait for it to be in a bubble and then walk into the blue portals to get inside the bubbles.&#xA;Do not collide with the bubble or you will down."/>
 		<POI MapID="67" xpos="-99.5457" ypos="4.77237" zpos="36.6082" type="fvd_guide.ta.fwd.path" GUID="7ykiQGNBWUuHRS794tqErA==" iconFile="Data/Icons/Jumping_Puzzles.png" info="Forward Path - Part 3"/>
 		<Trail trailData="Data/Trails/TA/TA_Forward_Part3.trl" type="fvd_guide.ta.fwd.path" texture="Data/Icons/trail_TA_forward.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="-92.2976" ypos="5.07472" zpos="38.4414" type="fvd_guide.ta.fwd.info" GUID="eYOo4OO3fEuh8iZohFxlqg==" info="Optional: Stealth past the mobs."/>
-		<POI MapID="67" xpos="-70.2194" ypos="21.9996" zpos="129.578" type="fvd_guide.ta.fwd.info" GUID="ZPyGmAxIHk2R9ylt8kn7zQ==" iconFile="Data/Icons/Blink.png.png"/>
+		<POI MapID="67" xpos="-70.2194" ypos="21.9996" zpos="129.578" type="fvd_guide.ta.fwd.info" GUID="ZPyGmAxIHk2R9ylt8kn7zQ==" iconFile="Data/Icons/Blink.png"/>
 		<POI MapID="67" xpos="-76.2473" ypos="21.8462" zpos="126.322" type="fvd_guide.ta.fwd.info" GUID="BIRUedOigUm9MRL9OgjR/w==" info="Optional: (Wait for CDs) and stealth past the mobs.&#xA;If you down in the tunnel, you can rally off the flowers."/>
 		<POI MapID="67" xpos="154.887" ypos="39.3791" zpos="34.6345" type="fvd_guide.ta.fwd.path" GUID="FUBeug8+zEacJULNVXbJTQ==" iconFile="Data/Icons/Jumping_Puzzles.png" info="Forward Path - Part 4"/>
 		<Trail trailData="Data/Trails/TA/TA_Forward_Part4.trl" type="fvd_guide.ta.fwd.path" texture="Data/Icons/trail_TA_forward.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
@@ -550,7 +550,7 @@
 		<Trail trailData="Data/Trails/COF/COF_P2_Part2.trl" type="fvd_guide.cof.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="69" xpos="-24.0717" ypos="84.3592" zpos="-286.058" type="fvd_guide.cof.p2.info" GUID="rwcTFqG8pE2VhkFBhb4ySw==" info="Focus the nests and go up."/>
 		<POI MapID="69" xpos="105.149" ypos="101.391" zpos="-312.201" type="fvd_guide.cof.p2.info" GUID="Z9ssDQ99P06Ja/zxmhge9w==" info="Use the chains."/>
-		<POI MapID="69" xpos="98.1913" ypos="102.18" zpos="-323.123" type="fvd_guide.cof.p2.info" GUID="Os5YwWnedkqT1CXLZcVFCQ==" iconFile="Data/Icons/Arrow.png" behavior="6"/>
+		<POI MapID="69" xpos="98.1913" ypos="102.18" zpos="-323.123" type="fvd_guide.cof.p2.info" GUID="Os5YwWnedkqT1CXLZcVFCQ==" iconFile="Data/Icons/arrow.png" behavior="6"/>
 		<POI MapID="69" xpos="97.467" ypos="82.6614" zpos="-216.414" type="fvd_guide.cof.p2.info" GUID="nBpzBhN94UymwotZMAzC3Q==" info="Have someone wait at Magg while everyone else get to the hard to reach bombs."/>
 		<POI MapID="69" xpos="207.304" ypos="87.5543" zpos="-250.247" type="fvd_guide.cof.p2.path" GUID="n6VWPNJyWUaqbMoegouPbA==" info="P2 - Part 3"/>
 		<Trail trailData="Data/Trails/COF/COF_P2_Part3.trl" type="fvd_guide.cof.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
@@ -568,9 +568,9 @@
 		<Trail trailData="Data/Trails/COF/COF_P3_Part1.trl" type="fvd_guide.cof.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="69" xpos="-16.2769" ypos="6.28789" zpos="-75.4852" type="fvd_guide.cof.p3.info" GUID="VUcE8fVbOEKSw2vXr/Wbwg==" info="You must light 3 torches in a small time frame.&#xA;If someone has stealth, it makes it easier for them to light the torch without getting interrupted.&#xA;Otherwise, kill all but on enemy from the group and it shouldn't respawn."/>
 		<!-- Torches -->
-		<POI MapID="69" xpos="40.8796" ypos="1.3858" zpos="-39.1312" type="fvd_guide.cof.p3.info" GUID="AtbIFumTZEOSJ0aw1zKAuQ==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
-		<POI MapID="69" xpos="-41.2859" ypos="0.487118" zpos="42.5003" type="fvd_guide.cof.p3.info" GUID="Vv7jq0NnaE2lF25k8n+M7Q==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
-		<POI MapID="69" xpos="33.62" ypos="6.82823" zpos="70.5082" type="fvd_guide.cof.p3.info" GUID="+QE5zUQb8Ui0N/j/L5bxZw==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="40.8796" ypos="1.3858" zpos="-39.1312" type="fvd_guide.cof.p3.info" GUID="AtbIFumTZEOSJ0aw1zKAuQ==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="-41.2859" ypos="0.487118" zpos="42.5003" type="fvd_guide.cof.p3.info" GUID="Vv7jq0NnaE2lF25k8n+M7Q==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="33.62" ypos="6.82823" zpos="70.5082" type="fvd_guide.cof.p3.info" GUID="+QE5zUQb8Ui0N/j/L5bxZw==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
 
 		<POI MapID="69" xpos="26.7043" ypos="2.25477" zpos="70.4778" type="fvd_guide.cof.p3.path" GUID="KbENCUfWRku6HhqKvIpYeQ==" info="P3 - Part 2"/>
 		<Trail trailData="Data/Trails/COF/COF_P3_Part2.trl" type="fvd_guide.cof.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
@@ -589,11 +589,11 @@
 		<POI MapID="69" xpos="238.206" ypos="86.115" zpos="10.947" type="fvd_guide.cof.p3.info" GUID="j6x1ncygik6NbZcV21C1Pw==" info="Wait for the cycle and be careful bc team members can trigger the bomb blast.&#xA;Even if you are in a safe spot, if the bomb is armed the aoe will kill you there.&#xA;If you see the aoe, dodge to avoid the damage."/>
 
 		<!-- Bomb Safe Spots Cause them to trigger when near so you dont blind people -->
-		<POI MapID="69" xpos="216.992" ypos="95.7723" zpos="29.4783" type="fvd_guide.cof.p3.info" GUID="aqIcc6HmI0mthDDux2cTew==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
-		<POI MapID="69" xpos="220.594" ypos="99.9459" zpos="44.1865" type="fvd_guide.cof.p3.info" GUID="llnvB9Aq4Uy7tHjk/V7CjQ==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
-		<POI MapID="69" xpos="207.14" ypos="103.613" zpos="51.627" type="fvd_guide.cof.p3.info" GUID="t1u6fM0maUKIn3qc3vo70g==" iconFile="Data/Icons/Arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="216.992" ypos="95.7723" zpos="29.4783" type="fvd_guide.cof.p3.info" GUID="aqIcc6HmI0mthDDux2cTew==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="220.594" ypos="99.9459" zpos="44.1865" type="fvd_guide.cof.p3.info" GUID="llnvB9Aq4Uy7tHjk/V7CjQ==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
+		<POI MapID="69" xpos="207.14" ypos="103.613" zpos="51.627" type="fvd_guide.cof.p3.info" GUID="t1u6fM0maUKIn3qc3vo70g==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
 
-		<POI MapID="69" xpos="272.674" ypos="109.764" zpos="83.8965" type="fvd_guide.cof.p3.info" GUID="s+rwaC0f0UuJgrjB7Krhug==" info="Save spot from turrets." iconFile="Data/Icons/Arrow.png"/>
+		<POI MapID="69" xpos="272.674" ypos="109.764" zpos="83.8965" type="fvd_guide.cof.p3.info" GUID="s+rwaC0f0UuJgrjB7Krhug==" info="Save spot from turrets." iconFile="Data/Icons/arrow.png"/>
 		<POI MapID="69" xpos="273.942" ypos="111.736" zpos="77.8461" type="fvd_guide.cof.p3.path" GUID="WjdD/PFiiEGTtfSv5TzS7A==" info="P3 - Part 4&#xA;If you are still missing teammates you can kill the pet to get the waypoint up."/>
 		<Trail trailData="Data/Trails/COF/COF_P3_Part4.trl" type="fvd_guide.cof.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="69" xpos="212.689" ypos="134.328" zpos="222.965" type="fvd_guide.cof.p3.info" GUID="UaAzFLq6JE6X+937CazKJw==" info="Boss can bat you straight into the lava stay away from the edges&#xA;When he runs to the center, he's about to do the ring attack, dodge towards him as the earth rings popup.&#xA;Consider bringing stability."/>
@@ -683,16 +683,67 @@
 		<POI MapID="112" xpos="-353.866" ypos="25.6142" zpos="336.751" type="fvd_guide.arah.p3.info" GUID="e9o6ScSZM0Sd8XN8rqpvWA==" info="Ritual can be made easier with a kiter grabbing the mob aggro while someone with stealth caps the circles."/>
 
 
+		<!-- ARAH PATH 4 -->
+		<POI MapID="112" xpos="-412.59" ypos="5.03465" zpos="32.4327" type="fvd_guide.arah.p4.path" GUID="Ck5Zw2HqO0mg57DSssewRw==" info="P4: Seer - Start"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part1.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<POI MapID="112" xpos="-179.656" ypos="6.44939" zpos="-103.158" GUID="zsNrz52ZdUmop493tuRuGg==" type="fvd_guide.arah.p4.info" info="Kill the hounds and drops the orbs into the torches to summon the boss. Avoid spiny attack and firestorms."/>
+		<POI MapID="112" xpos="-158.956" ypos="-0.503512" zpos="-192.007" GUID="YVU40RiT2UmrgGs5If8E7A==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 2"/>
+		<POI MapID="112" xpos="-146.074" ypos="0.735364" zpos="-242.411" GUID="f/nQ7AkMJkqo9qmjnsSLFg==" type="fvd_guide.arah.p4.info" info="Avoid the green and falling rocks."/>
+		<POI MapID="112" xpos="-148.448" ypos="-0.467865" zpos="-308.789" GUID="0PaKuGrPhEKUOqkl8x3KdQ==" type="fvd_guide.arah.p4.info" info="Stealth and outrun the oozes."/>
+		<POI MapID="112" xpos="-232.212" ypos="1.82337" zpos="-393.201" GUID="7yXZo4YLH0OXpl3Db4GF0A==" type="fvd_guide.arah.p4.info" info="Stealth and mobs."/>
+		<POI MapID="112" xpos="-269.868" ypos="6.30253" zpos="-564.069" GUID="su9JU9bPIUCm9P8JlPf4pQ==" type="fvd_guide.arah.p4.info" info="Stealth and mobs."/>
+		<POI MapID="112" xpos="-365.247" ypos="0.292046" zpos="-554.665" GUID="nhpL5cNA5EuLnOw6E6FNaQ==" type="fvd_guide.arah.p4.info" info="Take buckets and dump it on the stumps to make trees and summon boss. Gorillas will respawn. Trees will root players. Use stab or dodge the knockback."/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part2.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+		<!-- Melandru Trees -->
+		<POI MapID="112" xpos="-362.663" ypos="2.00162" zpos="-501.431" GUID="MEun/grGUE27AwA0htfOdQ==" type="fvd_guide.arah.p4.info" iconFile="Data/Icons/arrow.png" fadeNear="5000" fadeFar="5200" iconSize="1"/>
+		<POI MapID="112" xpos="-409.647" ypos="2.54431" zpos="-493.892" GUID="MycAJ1DlVkCclzDgGGsXPQ==" type="fvd_guide.arah.p4.info" iconFile="Data/Icons/arrow.png" fadeNear="5000" fadeFar="5200" iconSize="1"/>
+		<POI MapID="112" xpos="-456.048" ypos="4.36564" zpos="-510.54" GUID="RGz9sNRAy0m5XvWt+Kxn8g==" type="fvd_guide.arah.p4.info" iconFile="Data/Icons/arrow.png" fadeNear="5000" fadeFar="5200" iconSize="1"/>
+		<POI MapID="112" xpos="-376.066" ypos="2.15174" zpos="-598.676" GUID="e92fpKSiy0ScXJcfFK3jOA==" type="fvd_guide.arah.p4.info" iconFile="Data/Icons/arrow.png" fadeNear="5000" fadeFar="5200" iconSize="1"/>
+		
+		<POI MapID="112" xpos="-482.203" ypos="0.324509" zpos="-567.314" GUID="aHW5sYpoO0ilqYzB503qAg==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 3"/>
+		<POI MapID="112" xpos="-510.229" ypos="8.18067" zpos="-430.049" GUID="xhjcNF9n3km7PIqNXiUCBA==" type="fvd_guide.arah.p4.info" info="Stealth past spiders and hands to avoid aggro and knockdowns."/>
+
+		<POI MapID="112" xpos="-331.658" ypos="5.1187" zpos="-113.036" GUID="PVvF/fOCEEOxEz0l1FQWVg==" type="fvd_guide.arah.p4.info" info="You can reflect the attacks. Might want condi cleanse."/>
+		<Trail GUID="dMKc5NnhwkixtNtfqVP26A==" trailData="Data/Trails/ARAH/ARAH_P4_Part3.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+		<!-- Follow Corruped to Lupi -->
+
+		<POI MapID="112" xpos="32.8556" ypos="1.43545" zpos="-1.6773" GUID="SJW2kAT9hUucONkUmFeu/A==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 4"/>
+		<POI MapID="112" xpos="131.611" ypos="4.7075" zpos="45.224" GUID="HD18vFma+0+bLm5/eQJv6Q==" type="fvd_guide.arah.p4.info" info="Bring ranged and kill 3 Antiair Cannons."/>
+		<POI MapID="112" xpos="361.583" ypos="15.9387" zpos="-42.3625" GUID="L4jBxGPFPEOqDvqMZkakhw==" type="fvd_guide.arah.p4.info" info="No projectiles for Phase 1. Stand in the wells and slap the Wraith when he ports. Don't shove out or take to long to slap him. Continue until dead. Phase 2 you can leave the wells and slap more wraths until they die. If the mark expires, you downstate."/>
+		<Trail GUID="qC7syfVXfkyIkh3vPGvqxQ==" trailData="Data/Trails/ARAH/ARAH_P4_Part4.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+		<POI MapID="112" xpos="434.894" ypos="21.6013" zpos="-128.43" GUID="/zzMij9ry0uUJkwOhXDJlQ==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 5"/>
+		<POI MapID="112" xpos="442.848" ypos="29.7089" zpos="-157.552" GUID="U62nOri45UeUu9nPhTLkSg==" type="fvd_guide.arah.p4.info" info="Invis to avoid hand knockdowns and dodge the death red circles."/>
+		<POI MapID="112" xpos="328.669" ypos="1.94812" zpos="-494.479" GUID="4j8yN9vbIky46mLL6VYGDQ==" type="fvd_guide.arah.p4.info" info="Lead sparks to the circles to trap them and start the fight. Use tears to break petrifaction on allies. Repeat until dead."/>
+		<Trail GUID="44vxIvao/E6K1UCiVVfFug==" trailData="Data/Trails/ARAH/ARAH_P4_Part5.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+
+		<POI MapID="112" xpos="290.7" ypos="1.6243" zpos="-483.607" GUID="h1VBXi6HJ0y4r7iEpIwNTA==" type="fvd_guide.arah.p4.info" info="Tree Skip: Aim for the center of the trunk. Then move backwards while jumping. Then jump to the leaves. Then jump right of the root."/>
+		<POI MapID="112" xpos="272.012" ypos="15.8479" zpos="-473.941" GUID="rHnWAGUxiUWnR0xF10kjTA==" type="fvd_guide.arah.p4.info" info="Don't fall off or through the holes."/>
+
+		<POI MapID="112" xpos="69.2305" ypos="4.1138" zpos="-520.363" GUID="fWKfIC77rEue7iwxv0DY+g==" type="fvd_guide.arah.p4.info" info="Kill quickly to avoid the previous God's mechanics."/>
+		<Trail GUID="mRaZGfPe4UmnX3lWz6kIGQ==" trailData="Data/Trails/ARAH/ARAH_P4_TreeSkip.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+		<POI MapID="112" xpos="304.777" ypos="1.14417" zpos="-493.199" GUID="kOOYw7rz206eDXNNyNz/Tw==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 6 (Only if you can't tree skip, take the long way)"/>
+		<Trail GUID="c5kA43d51UqW2Gvbd0Wskw==" trailData="Data/Trails/ARAH/ARAH_P4_Part6.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+
+
 		<!-- ARAH GENERAL -->
 
 		<!-- ORB TOSS SPOTS Built with zero swiftness in mind -->
-		<POI MapID="112" xpos="-154.367" ypos="36.0135" zpos="-113.624" type="fvd_guide.arah.general.info" iconFile="Data/Icons/Arrow.png" GUID="Q7PPZhYPn0+iGmdaSF+M8Q=="/>
-		<POI MapID="112" xpos="-134.338" ypos="37.2016" zpos="-108.943" type="fvd_guide.arah.general.info" iconFile="Data/Icons/Arrow.png" GUID="JKyGpma3R0m5PCEhJHCOiA=="/>
-		<POI MapID="112" xpos="-119.741" ypos="38.5038" zpos="-99.6015" type="fvd_guide.arah.general.info" iconFile="Data/Icons/Arrow.png" GUID="UiE1yjWhYkiOQUjmc2hTxQ=="/>
+		<POI MapID="112" xpos="-154.367" ypos="36.0135" zpos="-113.624" type="fvd_guide.arah.general.info" iconFile="Data/Icons/arrow.png" GUID="Q7PPZhYPn0+iGmdaSF+M8Q=="/>
+		<POI MapID="112" xpos="-134.338" ypos="37.2016" zpos="-108.943" type="fvd_guide.arah.general.info" iconFile="Data/Icons/arrow.png" GUID="JKyGpma3R0m5PCEhJHCOiA=="/>
+		<POI MapID="112" xpos="-119.741" ypos="38.5038" zpos="-99.6015" type="fvd_guide.arah.general.info" iconFile="Data/Icons/arrow.png" GUID="UiE1yjWhYkiOQUjmc2hTxQ=="/>
 
 		<!-- 2nd orb toss -->
 		<POI MapID="112" xpos="-150.599" ypos="34.741" zpos="-61.1479" type="fvd_guide.arah.general.info" iconFile="Data/Icons/portal.png" GUID="mh4ckTG2Bk6s87A3KnijXg==" info="If there's a mesmer have them run to the end and drop the portal before running back and placing one here to take the orb. Once grabbing the orb blink to the portal spot and quickly open the portal."/>
 		<POI MapID="112" xpos="-259.758" ypos="34.2227" zpos="-11.6198" type="fvd_guide.arah.general.info" iconFile="Data/Icons/portal.png" GUID="m39td9J+DkGFPfzEp7revA=="/>
+
+		<!-- Corrupted Light -->
+		<POI MapID="112" xpos="-300.619" ypos="6.13595" zpos="-114.825" GUID="XJTS4Nxiok6Gy7m4Va3xTg==" type="fvd_guide.arah.general.path" info="Path to the Corrupted Light and Lupi"/>
+		<Trail GUID="e8ASylxJY02fC2rlkCPuqw==" trailData="Data/Trails/ARAH/ARAH_Corrupted_Light.trl" type="fvd_guide.arah.general.path" texture="Data/Icons/trail_general.png" color="E69F00"/>
 
 
 		<!-- Lupicus Guidance Path -->
