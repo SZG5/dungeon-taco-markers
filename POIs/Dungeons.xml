@@ -146,7 +146,7 @@
 				<MarkerCategory name="path" DisplayName="Arah Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="p2" DisplayName="Arah Path 2" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p2" DisplayName="Arah Path 2 - Mursaat" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="Arah Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 2 - Specific Info" iconFile="Data/Icons/info_path2.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
@@ -238,7 +238,7 @@
 		<!-- AC Path 2 -->
 		<POI MapID="36" xpos="113.645" ypos="41.9676" zpos="-48.8143" type="fvd_guide.ac.p2.path" GUID="SrBNto4DFUyrIh6UTpoVpw==" info="P2: Detha - Start"/>
 		<Trail trailData="Data/Trails/AC/AC_P2_Part1.trl" type="fvd_guide.ac.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="36" xpos="299.738" ypos="-0.680672" zpos="-185.943" type="fvd_guide.ac.p2.info" GUID="HvK0BJGMx0GhASaabvJjug==" iconFile="Data/Icons/Stack.png" info="Have people stack on the spot and cleave the mob once Detha triggers the event. &#xA; Once it finishes WP back to the center/Foefire's Heart"/>
+		<POI MapID="36" xpos="299.738" ypos="-0.680672" zpos="-185.943" type="fvd_guide.ac.p2.info" GUID="HvK0BJGMx0GhASaabvJjug==" info="Have people stack on the spot and cleave the mob once Detha triggers the event. &#xA; Once it finishes WP back to the center/Foefire's Heart"/>
 		<!-- Stack Spot -->
 		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="fvd_guide.ac.p2.info" GUID="DAr+G4p2bkCWRwykNm8p+w==" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
 		<!-- AC Path 2 Part 2 -->
@@ -660,6 +660,32 @@
 		
 		<!-- ARAH -->
 		
+		
+		<!-- ARAH PATH 2 -->
+		<POI MapID="112" xpos="-412.946" ypos="4.95953" zpos="30.0213" type="fvd_guide.arah.p2.path" GUID="98Q979dKaUmUJyZV+wocVA==" info="Path 2: Mursaat - Start"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part1.trl" GUID="F6tQRSXgI0ehBouTdgGOjw==" type="fvd_guide.arah.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-133.152" ypos="2.25626" zpos="360.899" type="fvd_guide.arah.p2.info" GUID="Hm5p3qdty02yDADD6bwHuQ==" info="Everyone stay close to the boss to avoid the oneshot orb attack. Use melee attacks, no projectiles. Use projectile reflect/destruction."/>
+		<POI MapID="112" xpos="-144.491" ypos="2.17705" zpos="427.802" type="fvd_guide.arah.p2.path" GUID="x2nodg+Jl0WSRWzgr6KoWA==" info="Path 2: Mursaat - Part 2"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part2.trl" GUID="3+QH9DvWn06vX2zksFOCGQ==" type="fvd_guide.arah.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-115.948" ypos="-0.22164" zpos="467.02" type="fvd_guide.arah.p2.info" GUID="P8o5krc/Tk2bEa9q5i+XXA==" info="Use stealth and run past the spiders and abominations. Otherwise, you can use the powersuit to shove the spiders back. The guns will recharge the suit. Stealth and running will be faster."/>
+		<POI MapID="112" xpos="-151.718" ypos="1.61417" zpos="567.201" type="fvd_guide.arah.p2.path" GUID="ob0tVpOhP0mufXiFN4ddqQ==" info="Path 2: Mursaat - Part 3"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part3.trl" GUID="sChfczUtb0WZ2tpG/VrzEA==" type="fvd_guide.arah.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-286.427" ypos="2.46464" zpos="562.713" type="fvd_guide.arah.p2.info" GUID="jp4ym9NPhUmAJu7g7Y/Fjw==" info="More stealth."/>
+		<POI MapID="112" xpos="-389.67" ypos="0.856599" zpos="187.666" type="fvd_guide.arah.p2.info" GUID="5aw/paztTEqTOJ12i/OMWg==" info="Use tranq gun from inquest for enraged. Avoid the stomp, and rampage charge. Don't be ranged or get downed by rock attack."/>
+		<POI MapID="112" xpos="-325.193" ypos="7.8045" zpos="187.382" type="fvd_guide.arah.p2.path" GUID="Zt7zbZmos0WXVoN1j3e9Ig==" info="Path 2: Mursaat - Part 4"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part4.trl" type="fvd_guide.arah.p2.path" GUID="U51/lCvMMkK8cbBtDjrcvQ==" color="D5008A" texture="Data/Icons/trail_path2.png" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="34.9235" ypos="0.490948" zpos="59.0292" type="fvd_guide.arah.p2.path" GUID="G29/YXUP70aUAacNfK+n9A==" info="Path 2: Mursaat - Part 5"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part5.trl" type="fvd_guide.arah.p2.path" GUID="sDe+CwxWyEyL4cPbl38ygA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="373.221" ypos="1.51412" zpos="322.38" type="fvd_guide.arah.p2.info" GUID="2Pu0kixypk2yZ+vRixSeFQ==" info="All the white lumps are mines. There's also turrets that will immobilize you. Alternatively, you can run the right path past them."/>
+		<POI MapID="112" xpos="380.269" ypos="4.20461" zpos="288.559" type="fvd_guide.arah.p2.path" GUID="gnl1GCju/0qpE8euSqaJ5g==" info="Path 2: Mursaat - Mine Skip"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_MineSkip.trl" GUID="/nvefCms5kWE7aSlgxB5KA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="525.381" ypos="11.8219" zpos="541.08" type="fvd_guide.arah.p2.path" GUID="Yu3pHDshf0Sn1m+WLGQvkw==" info="Path 2: Mursaat - Part 6"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part6.trl" type="fvd_guide.arah.p2.path" GUID="eVKx59/mwk2pGaZclZdZwA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="407.858" ypos="-0.461914" zpos="429.889" type="fvd_guide.arah.p2.info" GUID="KAutDgIy90a+YoSVRMXcRA==" info="Hide behind crate. Use projectile reflect or destruction."/>
+		<POI MapID="112" xpos="375.637" ypos="9.22489" zpos="511.992" type="fvd_guide.arah.p2.path" GUID="lu64ivskZ0iunV5WNef+CA==" info="Path 2: Mursaat - Part 7"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part7.trl" type="fvd_guide.arah.p2.path" GUID="QktPpeOtg0qUO/0O/gbgOQ==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="12.6587" ypos="8.45003" zpos="389.149" type="fvd_guide.arah.p2.info" GUID="wGyPZeXdhUShoJnfa2v2AQ==" info="One person use the terminal to be shifted, bring the boss down to 50%. Melee her and sidestep the laser attack. Other players can face their back to the shield and walk backwards into it to get through."/>
+
 		<!-- ARAH PATH 3 -->
 		<POI MapID="112" xpos="-417.178" ypos="6.20488" zpos="11.3244" type="fvd_guide.arah.p3.path" GUID="c5KFMTlVM0K/Y5I5KBdr4A==" info="P3: Forgotten - Start"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P3_Part1.trl" type="fvd_guide.arah.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
@@ -685,7 +711,7 @@
 
 		<!-- ARAH PATH 4 -->
 		<POI MapID="112" xpos="-412.59" ypos="5.03465" zpos="32.4327" type="fvd_guide.arah.p4.path" GUID="Ck5Zw2HqO0mg57DSssewRw==" info="P4: Seer - Start"/>
-		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part1.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part1.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="-179.656" ypos="6.44939" zpos="-103.158" GUID="zsNrz52ZdUmop493tuRuGg==" type="fvd_guide.arah.p4.info" info="Kill the hounds and drops the orbs into the torches to summon the boss. Avoid spiny attack and firestorms."/>
 		<POI MapID="112" xpos="-158.956" ypos="-0.503512" zpos="-192.007" GUID="YVU40RiT2UmrgGs5If8E7A==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 2"/>
 		<POI MapID="112" xpos="-146.074" ypos="0.735364" zpos="-242.411" GUID="f/nQ7AkMJkqo9qmjnsSLFg==" type="fvd_guide.arah.p4.info" info="Avoid the green and falling rocks."/>
@@ -693,7 +719,7 @@
 		<POI MapID="112" xpos="-232.212" ypos="1.82337" zpos="-393.201" GUID="7yXZo4YLH0OXpl3Db4GF0A==" type="fvd_guide.arah.p4.info" info="Stealth and mobs."/>
 		<POI MapID="112" xpos="-269.868" ypos="6.30253" zpos="-564.069" GUID="su9JU9bPIUCm9P8JlPf4pQ==" type="fvd_guide.arah.p4.info" info="Stealth and mobs."/>
 		<POI MapID="112" xpos="-365.247" ypos="0.292046" zpos="-554.665" GUID="nhpL5cNA5EuLnOw6E6FNaQ==" type="fvd_guide.arah.p4.info" info="Take buckets and dump it on the stumps to make trees and summon boss. Gorillas will respawn. Trees will root players. Use stab or dodge the knockback."/>
-		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part2.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P4_Part2.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 		<!-- Melandru Trees -->
 		<POI MapID="112" xpos="-362.663" ypos="2.00162" zpos="-501.431" GUID="MEun/grGUE27AwA0htfOdQ==" type="fvd_guide.arah.p4.info" iconFile="Data/Icons/arrow.png" fadeNear="5000" fadeFar="5200" iconSize="1"/>
@@ -705,29 +731,29 @@
 		<POI MapID="112" xpos="-510.229" ypos="8.18067" zpos="-430.049" GUID="xhjcNF9n3km7PIqNXiUCBA==" type="fvd_guide.arah.p4.info" info="Stealth past spiders and hands to avoid aggro and knockdowns."/>
 
 		<POI MapID="112" xpos="-331.658" ypos="5.1187" zpos="-113.036" GUID="PVvF/fOCEEOxEz0l1FQWVg==" type="fvd_guide.arah.p4.info" info="You can reflect the attacks. Might want condi cleanse."/>
-		<Trail GUID="dMKc5NnhwkixtNtfqVP26A==" trailData="Data/Trails/ARAH/ARAH_P4_Part3.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail GUID="dMKc5NnhwkixtNtfqVP26A==" trailData="Data/Trails/ARAH/ARAH_P4_Part3.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 		<!-- Follow Corruped to Lupi -->
 
 		<POI MapID="112" xpos="32.8556" ypos="1.43545" zpos="-1.6773" GUID="SJW2kAT9hUucONkUmFeu/A==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 4"/>
 		<POI MapID="112" xpos="131.611" ypos="4.7075" zpos="45.224" GUID="HD18vFma+0+bLm5/eQJv6Q==" type="fvd_guide.arah.p4.info" info="Bring ranged and kill 3 Antiair Cannons."/>
 		<POI MapID="112" xpos="361.583" ypos="15.9387" zpos="-42.3625" GUID="L4jBxGPFPEOqDvqMZkakhw==" type="fvd_guide.arah.p4.info" info="No projectiles for Phase 1. Stand in the wells and slap the Wraith when he ports. Don't shove out or take to long to slap him. Continue until dead. Phase 2 you can leave the wells and slap more wraths until they die. If the mark expires, you downstate."/>
-		<Trail GUID="qC7syfVXfkyIkh3vPGvqxQ==" trailData="Data/Trails/ARAH/ARAH_P4_Part4.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail GUID="qC7syfVXfkyIkh3vPGvqxQ==" trailData="Data/Trails/ARAH/ARAH_P4_Part4.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 		<POI MapID="112" xpos="434.894" ypos="21.6013" zpos="-128.43" GUID="/zzMij9ry0uUJkwOhXDJlQ==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 5"/>
 		<POI MapID="112" xpos="442.848" ypos="29.7089" zpos="-157.552" GUID="U62nOri45UeUu9nPhTLkSg==" type="fvd_guide.arah.p4.info" info="Invis to avoid hand knockdowns and dodge the death red circles."/>
 		<POI MapID="112" xpos="328.669" ypos="1.94812" zpos="-494.479" GUID="4j8yN9vbIky46mLL6VYGDQ==" type="fvd_guide.arah.p4.info" info="Lead sparks to the circles to trap them and start the fight. Use tears to break petrifaction on allies. Repeat until dead."/>
-		<Trail GUID="44vxIvao/E6K1UCiVVfFug==" trailData="Data/Trails/ARAH/ARAH_P4_Part5.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail GUID="44vxIvao/E6K1UCiVVfFug==" trailData="Data/Trails/ARAH/ARAH_P4_Part5.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 
 		<POI MapID="112" xpos="290.7" ypos="1.6243" zpos="-483.607" GUID="h1VBXi6HJ0y4r7iEpIwNTA==" type="fvd_guide.arah.p4.info" info="Tree Skip: Aim for the center of the trunk. Then move backwards while jumping. Then jump to the leaves. Then jump right of the root."/>
 		<POI MapID="112" xpos="272.012" ypos="15.8479" zpos="-473.941" GUID="rHnWAGUxiUWnR0xF10kjTA==" type="fvd_guide.arah.p4.info" info="Don't fall off or through the holes."/>
 
 		<POI MapID="112" xpos="69.2305" ypos="4.1138" zpos="-520.363" GUID="fWKfIC77rEue7iwxv0DY+g==" type="fvd_guide.arah.p4.info" info="Kill quickly to avoid the previous God's mechanics."/>
-		<Trail GUID="mRaZGfPe4UmnX3lWz6kIGQ==" trailData="Data/Trails/ARAH/ARAH_P4_TreeSkip.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail GUID="mRaZGfPe4UmnX3lWz6kIGQ==" trailData="Data/Trails/ARAH/ARAH_P4_TreeSkip.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 		<POI MapID="112" xpos="304.777" ypos="1.14417" zpos="-493.199" GUID="kOOYw7rz206eDXNNyNz/Tw==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 6 (Only if you can't tree skip, take the long way)"/>
-		<Trail GUID="c5kA43d51UqW2Gvbd0Wskw==" trailData="Data/Trails/ARAH/ARAH_P4_Part6.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB"/>
+		<Trail GUID="c5kA43d51UqW2Gvbd0Wskw==" trailData="Data/Trails/ARAH/ARAH_P4_Part6.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 
 		<!-- ARAH GENERAL -->
@@ -743,7 +769,7 @@
 
 		<!-- Corrupted Light -->
 		<POI MapID="112" xpos="-300.619" ypos="6.13595" zpos="-114.825" GUID="XJTS4Nxiok6Gy7m4Va3xTg==" type="fvd_guide.arah.general.path" info="Path to the Corrupted Light and Lupi"/>
-		<Trail GUID="e8ASylxJY02fC2rlkCPuqw==" trailData="Data/Trails/ARAH/ARAH_Corrupted_Light.trl" type="fvd_guide.arah.general.path" texture="Data/Icons/trail_general.png" color="E69F00"/>
+		<Trail GUID="e8ASylxJY02fC2rlkCPuqw==" trailData="Data/Trails/ARAH/ARAH_Corrupted_Light.trl" type="fvd_guide.arah.general.path" texture="Data/Icons/trail_general.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 
 		<!-- Lupicus Guidance Path -->
