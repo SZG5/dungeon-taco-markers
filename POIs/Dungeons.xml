@@ -142,7 +142,7 @@
 				<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="p1" DisplayName="Arah Path 1" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p1" DisplayName="Arah Path 1 - Jotun" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="Arah Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
@@ -660,6 +660,28 @@
 		
 		<!-- ARAH -->
 		
+		<!-- ARAH PATH 1 -->
+		<POI MapID="112" xpos="-396.115" ypos="5.12244" zpos="57.1917" type="fvd_guide.arah.p1.path" GUID="MR1vD2B9TkqPERWNFoYE4Q==" info="Path 1: Jotun - Start"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part1.trl" GUID="p0JGyda6B0+XQKo4MVYgxA==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-449.651" ypos="-0.362328" zpos="133.544" type="fvd_guide.arah.p1.info" GUID="OBBGT1f3g0qXYF2ZVa/r/A==" info="Use reflects or the crystals to destroy the turrets."/>
+		<POI MapID="112" xpos="-596.433" ypos="7.80099" zpos="265.115" type="fvd_guide.arah.p1.info" GUID="RmUcddzebUiniJQ+AotJTA==" info="Best to clear the turrets then pull the Ooze boss away from enemies. Melee the ooze. If everyone is super close melee the boss will only do the 6 bounces in place. When you see it glow yellow, dodge out. Once the boss dies grab the blood and run to the Jotun."/>
+		<POI MapID="112" xpos="-536.366" ypos="0.0618865" zpos="315.924" type="fvd_guide.arah.p1.path" GUID="m5md4/YsFEmH3pwhWvZv8g==" info="Path 1: Jotun - Part 2"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part2.trl" GUID="wY5n+8BjQUmDKe+DCwqF1g==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-588.058" ypos="16.9643" zpos="494.124" type="fvd_guide.arah.p1.info" GUID="VYpKdgGMlEih3ndTjC96/A==" info="Pull the Crystalline Entities into the light, CC them, and kill."/>
+		<POI MapID="112" xpos="-527.357" ypos="17.3565" zpos="529.293" type="fvd_guide.arah.p1.path" GUID="qMDFGRT/sUy8gXMJzIs7TA==" info="Path 1: Jotun - Part 3"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part3.trl" GUID="uWKjoYiFoUOxNK4z82oKEA==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-287.142" ypos="10.536" zpos="178.862" type="fvd_guide.arah.p1.info" GUID="ubhJGKT1p0WdZCU0FVbQOw==" info="4 People stand on the geysers. If you have 3 people its possible to have someone shadowstep/blind onto the other geyser to clog it. If the boss is burning on fire, the tar pools won't super long stun. You can use the 300 Year Old Whiskey to burn the boss and allies."/>
+		<POI MapID="112" xpos="-200.822" ypos="16.1397" zpos="200.747" type="fvd_guide.arah.p1.path" GUID="7aLeo9yhb0uhr4uc4fSn5w==" info="Path 1: Jotun - Part 4"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part4.trl" GUID="OcO9gA/8WkSu7+F/qCohvg==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-15.8123" ypos="0.311463" zpos="-9.62774" type="fvd_guide.arah.p1.path" GUID="ogunXVQf+kWGGsi+9RYeZw==" info="Path 1: Jotun - Part 5"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part5.trl" GUID="3bmWilWpskW9jSvwU/o4fQ==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="112" xpos="-74.9655" ypos="17.4296" zpos="-125.45" type="fvd_guide.arah.p1.info" GUID="q5cIbvAczkW3UxR5FzFTGA==" info="Use stealth or just run fast past the gorillas. Run past Korga unless you think the group will wipe on the last boss and would want the closer WP."/>
+		<POI MapID="112" xpos="-132.893" ypos="64.9518" zpos="-380.981" type="fvd_guide.arah.p1.info" GUID="OYq6mUYcIkSPAKtLJUirYg==" info="Stealth and run."/>
+		<POI MapID="112" xpos="-133.611" ypos="55.4456" zpos="-516.539" type="fvd_guide.arah.p1.info" GUID="g2NIpFlUrkaLiFFOt4nA2A==" info="Swiftness then run past the aoes from the glowing stones."/>
+		<POI MapID="112" xpos="-266.49" ypos="63.1076" zpos="-554.499" type="fvd_guide.arah.p1.info" GUID="zriHYPsP5kmfqWhNdDutuQ==" info="Reflects are your friend. If no one has any, you can take the reflect crystals from the other parts and stand inside the hit box with it, and dodge once it breaks. Don't stand in lava founts, and the fire ring will down you if you cross it."/>
+		<POI MapID="112" xpos="-283.881" ypos="74.1915" zpos="-487.295" type="fvd_guide.arah.p1.path" GUID="Axdm+qN7z0SEctSKH5hQNA==" info="Path 1: Jotun - Part 6"/>
+		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part6.trl" GUID="2TtRXC8MFky6y2UOQq5Qvg==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+
 		
 		<!-- ARAH PATH 2 -->
 		<POI MapID="112" xpos="-412.946" ypos="4.95953" zpos="30.0213" type="fvd_guide.arah.p2.path" GUID="98Q979dKaUmUJyZV+wocVA==" info="Path 2: Mursaat - Start"/>
