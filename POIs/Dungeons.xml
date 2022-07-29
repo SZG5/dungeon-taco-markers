@@ -172,24 +172,23 @@
 		<!-- AC General -->
 		<POI MapID="36" xpos="-168.199" ypos="59.3948" zpos="-233.188" type="fvd_guide.ac.general.info" GUID="vzXpAg8CLUuIrQk5gaXmYQ==" info="Have someone select the path while the others move down to the Spider Queen area."/>
 		<Trail trailData="Data/Trails/AC/AC_General.trl" type="fvd_guide.ac.general.path" texture="Data/Icons/trail_general.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<Trail trailData="Data/Trails/AC/General_Part1.trl" type="fvd_guide.ac.p3.path" texture="Data/Icons/trail_general.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="36" xpos="-85.3458" ypos="20.5563" zpos="-180.2" type="fvd_guide.ac.general.info" GUID="YOY7+dWI1USxS3F+yDTi5Q==" info="Take out the other spiders and the before killing the low level spiders, which summon the Spider Queen."/>
+		<POI MapID="36" xpos="-85.3458" ypos="20.5563" zpos="-180.2" type="fvd_guide.ac.general.info" GUID="YOY7+dWI1USxS3F+yDTi5Q==" info="Take out the other spiders before killing the low level spiders, which summon the Spider Queen. When fighting her, bring condi cleanse."/>
 		<POI MapID="36" xpos="-40.5139" ypos="11.8824" zpos="-169.287" type="fvd_guide.ac.general.info" GUID="Xda8dUGdUEGMAETW0qRr+A==" info="Lure the mob back here and kill them before running past the traps. "/>
-		<POI MapID="36" xpos="-18.5672" ypos="12.4633" zpos="-163.899" type="fvd_guide.ac.general.info" GUID="3CGfp3MLpkW2AU/dNQrEUA==" info="Green are generally safe areas. Disable the traps with the chain."/>
-		<!-- Areas safe from traps Color just turns the marker green -->
-		<POI MapID="36" xpos="-6.69503" ypos="16.0212" zpos="-156.758" type="fvd_guide.ac.general.info" GUID="4pisfzCjd0iiHhXKNpZVYA=="/>
-		<POI MapID="36" xpos="0.329624" ypos="16.6837" zpos="-153.312" type="fvd_guide.ac.general.info" GUID="lfMMrTXE1E2JKkNGZqAPAw=="/>
-		<POI MapID="36" xpos="6.52744" ypos="17.777" zpos="-155.941" type="fvd_guide.ac.general.info" GUID="e/9zTp1xpUuY5s/v5hyvFQ=="/>
-		<POI MapID="36" xpos="8.25255" ypos="18.9645" zpos="-149.13" type="fvd_guide.ac.general.info" GUID="kbzTY9p6JEygUgrznqWMow=="/>
-		<POI MapID="36" xpos="14.2953" ypos="19.5405" zpos="-153.308" type="fvd_guide.ac.general.info" GUID="5tHOvjJxek6iYXgyoa2HEA=="/>
-		<POI MapID="36" xpos="13.8989" ypos="21.2752" zpos="-145.145" type="fvd_guide.ac.general.info" GUID="vsJTgr24i0qcylEs4mCDRw=="/>
-		<POI MapID="36" xpos="21.2408" ypos="21.6104" zpos="-151.058" type="fvd_guide.ac.general.info" GUID="XSm5OrYorEauY+SqPEKxog=="/>
-		<POI MapID="36" xpos="20.1638" ypos="23.2072" zpos="-141.435" type="fvd_guide.ac.general.info" GUID="lHP0Doxy406UZB46hh6BWA=="/>
-		<POI MapID="36" xpos="27.7003" ypos="23.6539" zpos="-146.587" type="fvd_guide.ac.general.info" GUID="xRf6PCsnA0OuveUkHF9g+Q=="/>
-		<POI MapID="36" xpos="27.6965" ypos="24.5239" zpos="-139.446" type="fvd_guide.ac.general.info" GUID="pZcfASJfN0OEpyHiVqbMWw=="/>
-		<POI MapID="36" xpos="34.0809" ypos="25.1312" zpos="-142.142" type="fvd_guide.ac.general.info" GUID="ZLSpi82pi0O2GR60e9Nbtw=="/>
+		<POI MapID="36" xpos="-18.5672" ypos="12.4633" zpos="-163.899" type="fvd_guide.ac.general.info" GUID="3CGfp3MLpkW2AU/dNQrEUA==" info="Arrows mark the generally safe areas. Disable the traps with the chain. If the Troll spawns on the way to the next boss, run past it."/>
+		<!-- Areas safe from traps -->
+		<POI MapID="36" xpos="-6.69503" ypos="16.0212" zpos="-156.758" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="4pisfzCjd0iiHhXKNpZVYA=="/>
+		<POI MapID="36" xpos="0.329624" ypos="16.6837" zpos="-153.312" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="lfMMrTXE1E2JKkNGZqAPAw=="/>
+		<POI MapID="36" xpos="6.52744" ypos="17.777" zpos="-155.941" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="e/9zTp1xpUuY5s/v5hyvFQ=="/>
+		<POI MapID="36" xpos="8.25255" ypos="18.9645" zpos="-149.13" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="kbzTY9p6JEygUgrznqWMow=="/>
+		<POI MapID="36" xpos="14.2953" ypos="19.5405" zpos="-153.308" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="5tHOvjJxek6iYXgyoa2HEA=="/>
+		<POI MapID="36" xpos="13.8989" ypos="21.2752" zpos="-145.145" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="vsJTgr24i0qcylEs4mCDRw=="/>
+		<POI MapID="36" xpos="21.2408" ypos="21.6104" zpos="-151.058" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="XSm5OrYorEauY+SqPEKxog=="/>
+		<POI MapID="36" xpos="20.1638" ypos="23.2072" zpos="-141.435" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="lHP0Doxy406UZB46hh6BWA=="/>
+		<POI MapID="36" xpos="27.7003" ypos="23.6539" zpos="-146.587" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="xRf6PCsnA0OuveUkHF9g+Q=="/>
+		<POI MapID="36" xpos="27.6965" ypos="24.5239" zpos="-139.446" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="pZcfASJfN0OEpyHiVqbMWw=="/>
+		<POI MapID="36" xpos="34.0809" ypos="25.1312" zpos="-142.142" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="ZLSpi82pi0O2GR60e9Nbtw=="/>
 		<!-- Trap Disable Pull Chain -->
-		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.ac.general.path" iconFile="Data/Icons/F_Key.png" iconSize="1.0" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable to traps." behavior="6"/>
+		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.ac.general.path" iconFile="Data/Icons/F_Key.png" iconSize="1.0" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable traps." behavior="6"/>
 		<!-- Kholer -->
 		<POI MapID="36" xpos="69.8096" ypos="41.2402" zpos="-58.358" type="fvd_guide.ac.general.info" GUID="nShA9gvku0+9TNCN3nCogQ==" info="Stack in the corner and pull the boss."/>
 
@@ -199,7 +198,7 @@
 		<POI MapID="36" xpos="96.2715" ypos="40.0835" zpos="-86.4533" type="fvd_guide.ac.p1.path" GUID="Ag2IB83K/E+uoOY6qM0AoQ==" info="P1: Hodgins - Start"/>
 		<Trail trailData="Data/Trails/AC/AC_P1_Part1.trl" type="fvd_guide.ac.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<!-- Fire Stairs Warning -->
-		<POI MapID="36" xpos="97.6486" ypos="27.1103" zpos="-147.638" type="fvd_guide.ac.p1.info" GUID="h2lcN67QdU256AljpXo6ww==" info="Wait for the fire blasts to pass then run down the stairs."/>
+		<POI MapID="36" xpos="97.6486" ypos="27.1103" zpos="-147.638" type="fvd_guide.ac.p1.info" GUID="h2lcN67QdU256AljpXo6ww==" info="Wait for the fire blasts to pass, then run down the stairs, or you can jump on the heads and run down on them."/>
 		<!-- Burrows -->
 		<POI MapID="36" xpos="98.0864" ypos="14.2799" zpos="-194.411" type="fvd_guide.ac.p1.info" GUID="0AlawM2C3Ua58whL1gl6Tw==" info="Arrows mark the burrow spawns."/>
 		<!-- AC P1 Archive Room Burrows -->
@@ -214,14 +213,14 @@
 		<!-- Scepter Piece -->
 		<POI MapID="36" xpos="97.6657" ypos="30.1564" zpos="-261.471" type="fvd_guide.ac.p1.info" GUID="JDxb08ZIK0++9iGC6bNuOg==" iconFile="Data/Icons/arrow.png" iconSize="1.0" info="Grab scepter piece and then WP to the center/Foefire's Heart."/>
 		<!-- Path 1 Part 2 -->
-		<POI MapID="36" xpos="98.5981" ypos="43.8665" zpos="-59.8497" type="fvd_guide.ac.p1.path" GUID="4la8CYnTeUeuV/BkYvHZxg==" info="P1: Hodgins - Part 2"/>
+		<POI MapID="36" xpos="85.7732" ypos="42.8777" zpos="-54.0719" type="fvd_guide.ac.p1.path" GUID="4la8CYnTeUeuV/BkYvHZxg==" info="P1: Hodgins - Part 2"/>
 		<Trail trailData="Data/Trails/AC/AC_P1_Part2.trl" type="fvd_guide.ac.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<!-- Ooze Warning -->
 		<POI MapID="36" xpos="-55.6273" ypos="54.5136" zpos="43.6874" GUID="cqtlS3IBJ0OEiih5KFFftQ==" type="fvd_guide.ac.p1" iconFile="Data/Icons/forbidden.png" iconSize="4.0"/>
 		<POI MapID="36" xpos="-42.7611" ypos="54.58" zpos="31.4016" GUID="xlRYHgHgTkOzITuoifk7Dw==" type="fvd_guide.ac.p1.info" info="Avoid that side to prevent the ooze from spawning."/>
 		<!-- Hodgins Scepter Hunt -->
-		<POI MapID="36" xpos="-118.249" ypos="54.8858" zpos="76.7453" GUID="lxu3K9YCuECS02a1BZfSOQ==" type="fvd_guide.ac.p1.info" info="Collect the scepter pieces and turn them in here."/>
-		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.ac.p1.info" iconFile="Data/Icons/arrow.png" iconSize="1.0" info="Arrows mark the general area for the pieces. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
+		<POI MapID="36" xpos="-118.249" ypos="54.8858" zpos="76.7453" GUID="lxu3K9YCuECS02a1BZfSOQ==" type="fvd_guide.ac.p1.info" info="Collect the scepter pieces at Arrows and turn them in here."/>
+		<POI MapID="36" xpos="-80.3634" ypos="54.5137" zpos="117.87" GUID="1NOjL1/Fi0O10tTQ4Lsxqg==" type="fvd_guide.ac.p1.info" iconFile="Data/Icons/arrow.png" iconSize="1.0" info="P1: Arrows mark the general area for the pieces. Stealth is nice. Bring speed and stun breakers to deal with the knockdowns. Also kill the mob near the first piece to prevent Hodgins from running off."/>
 		<!-- AC P1 Scepter Pieces -->
 		<POI MapID="36" xpos="-71.0625" ypos="69.2192" zpos="167.774" type="fvd_guide.ac.p1.scepter" GUID="tsHlyuWaO0S8SlYBmsv82g=="/>
 		<POI MapID="36" xpos="13.789" ypos="66.6659" zpos="117.866" type="fvd_guide.ac.p1.scepter" GUID="FrSH8OdCbU6uVf9SGmO1zA=="/>
@@ -231,23 +230,23 @@
 		<!-- Path 1 Part 3 -->
 		<POI MapID="36" xpos="-115.829" ypos="54.8849" zpos="77.9846" type="fvd_guide.ac.p1.path" GUID="5pT1bINrSkm0NEBkNY1EOw==" info="P1: Hodgins - Part 3 - After turning in the pieces."/>
 		<Trail trailData="Data/Trails/AC/AC_P1_Part3.trl" type="fvd_guide.ac.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="36" xpos="-26.99" ypos="50.3054" zpos="10.5079" type="fvd_guide.ac.p1.info" GUID="BNynlWcc506gSayCFrPA+Q==" info="Bring stun breakers and run past the mobs."/>
+		<POI MapID="36" xpos="-26.99" ypos="50.3054" zpos="10.5079" type="fvd_guide.ac.p1.info" GUID="BNynlWcc506gSayCFrPA+Q==" info="Stealth is nice. Bring stun breakers and run past the mobs."/>
 		
 		
 		
 		<!-- AC Path 2 -->
 		<POI MapID="36" xpos="113.645" ypos="41.9676" zpos="-48.8143" type="fvd_guide.ac.p2.path" GUID="SrBNto4DFUyrIh6UTpoVpw==" info="P2: Detha - Start"/>
 		<Trail trailData="Data/Trails/AC/AC_P2_Part1.trl" type="fvd_guide.ac.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="36" xpos="299.738" ypos="-0.680672" zpos="-185.943" type="fvd_guide.ac.p2.info" GUID="HvK0BJGMx0GhASaabvJjug==" info="Have people stack on the spot and cleave the mob once Detha triggers the event. &#xA; Once it finishes WP back to the center/Foefire's Heart"/>
+		<POI MapID="36" xpos="299.738" ypos="-0.680672" zpos="-185.943" type="fvd_guide.ac.p2.info" GUID="HvK0BJGMx0GhASaabvJjug==" info="Have people stack on Arrow and cleave the mob once Detha triggers the event. Once it finishes WP back to the center/Foefire's Heart. If you don't see Detha and everyone is together, run back to the POI and hopefully she'll appear. You can use the chains to trigger the spike traps if the group's dps isn't good."/>
 		<!-- Stack Spot -->
-		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="fvd_guide.ac.p2.info" GUID="DAr+G4p2bkCWRwykNm8p+w==" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
+		<POI MapID="36" xpos="298.416" ypos="3.08602" zpos="-195.87" type="fvd_guide.ac.p2.info" GUID="DAr+G4p2bkCWRwykNm8p+w==" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the marker disappear." behavior="6"/>
 		<!-- AC Path 2 Part 2 -->
 		<POI MapID="36" xpos="105.295" ypos="43.5387" zpos="-49.5394" type="fvd_guide.ac.p2.path" GUID="Tb6E5Zh+WkGdYj7snE/bkg==" info="P2: Detha - Part 2"/>
 		<Trail trailData="Data/Trails/AC/AC_P2_Part2.trl" type="fvd_guide.ac.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<!-- Chain to open the gate reminder -->
 		<POI MapID="36" xpos="137.688" ypos="67.2695" zpos="68.1835" GUID="rXtzk5CpP0OobY6WWMdxEA==" type="fvd_guide.ac.p2.path" iconFile="Data/Icons/F_Key.png" info="Interact with the chain to open the gate." behavior="6"/>
-		<POI MapID="36" xpos="97.9322" ypos="71.1423" zpos="191.038" GUID="h8MDvPERkESeFSlU/0HAwg==" type="fvd_guide.ac.p2.info" info="If Detha hasn't followed pull back here or a bit further and she should spawn,&#xA; then you can move back and it should trigger the defense trap event. "/>
-		<POI MapID="36" xpos="93.4327" ypos="66.6669" zpos="148.404" GUID="Ve0+e7AZqUWVYNM9KjI/1Q==" type="fvd_guide.ac.p2.info" info="Defend Detha as she sets up the trap. Then talk to her to start the next event where&#xA; you use the gun to lift the ectoplasmic oozes into the traps to charge it. Once the &#xA; trap is charged, lure the boss on to it and kill it when its not longer a blue ghost. "/>
+		<POI MapID="36" xpos="97.9322" ypos="71.1423" zpos="191.038" GUID="h8MDvPERkESeFSlU/0HAwg==" type="fvd_guide.ac.p2.info" info="If Detha hasn't followed, pull back here or a bit further and she should spawn, then you can move back and it should trigger the defense trap event."/>
+		<POI MapID="36" xpos="93.4327" ypos="66.6669" zpos="148.404" GUID="Ve0+e7AZqUWVYNM9KjI/1Q==" type="fvd_guide.ac.p2.info" info="Defend Detha as she sets up the trap. Then talk to her to start the next event where you use the gun to lift the ectoplasmic oozes into the traps to charge it. You can use personal pulls to group the oozes faster for lifting. Once the  trap is charged, lure the boss on to it and kill it when it's no longer a blue ghost."/>
 
 
 
@@ -275,7 +274,7 @@
 		<!-- AC Path 3 Part 2 -->
 		<POI MapID="36" xpos="344.228" ypos="27.4193" zpos="-7.74978" type="fvd_guide.ac.p3.path" GUID="Hy0NJWjAWUKfh9XLeApWsg==" info="P3: Tzark - Part 2"/>
 		<Trail trailData="Data/Trails/AC/AC_P3_Part2.trl" type="fvd_guide.ac.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="36" xpos="282.315" ypos="66.6871" zpos="167.774" GUID="3agQk495SE6okC3YaNQj2w==" info="Have someone run ahead to trigger the event and kill the burrow to the right.&#xA;After killing all the burrows and getting out of combat you can WP to the newly&#xA;unlocked WP in the Rockfall Chamber."/>
+		<POI MapID="36" xpos="282.315" ypos="66.6871" zpos="167.774" type="fvd_guide.ac.p3.info" GUID="3agQk495SE6okC3YaNQj2w==" info="Have someone run ahead to trigger the event and kill the burrow to the right. After killing all the burrows and getting out of combat, you can WP to the newly unlocked WP in the Rockfall Chamber."/>
 		<POI MapID="36" xpos="-76.0972" ypos="51.8909" zpos="73.3788" type="fvd_guide.ac.p3.path" GUID="XsbxmS8djESNzb6k417z3Q==" info="P3: Tzark - Part 3"/>
 		<Trail trailData="Data/Trails/AC/AC_P3_Part3.trl" type="fvd_guide.ac.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
@@ -289,15 +288,15 @@
 		<POI MapID="76" xpos="150.74" ypos="30.9446" zpos="73.3151" type="fvd_guide.cm.p1.info" GUID="je+liUHIVUuqMbJWAy7AXA==" info="It is possible to use stealth and solo the asuran devices. Otherwise, go as a group and clear the mobs and interact with the tech."/>
 		<POI MapID="76" xpos="127.035" ypos="22.5452" zpos="88.0302" type="fvd_guide.cm.p1.info" GUID="ZYFSgV8T7kO1taKY0GnYmg==" info="Clear the wing nearest to the waypoint before following the trail."/>
 		<POI MapID="76" xpos="94.561" ypos="22.5361" zpos="98.914" type="fvd_guide.cm.p1.info" GUID="03M2saX9iEKZJk5zeQ7RIw==" info="Go into the rooms to fight. Most adds can't be pulled/grouped up."/>
-		<POI MapID="76" xpos="38.4439" ypos="21.7008" zpos="70.4302" type="fvd_guide.cm.p1.info" GUID="gf8ieSH55kqpNjrE4C07dQ==" info="It is possible cutscene hold (let the scence play out while the rest of the group skips watching it) and prevent the bandits from instantly spawning before the group enters the barn.&#xA;When entering run up the rafters to the top and murder the bandit snipers before dropping down for the boss."/>
+		<POI MapID="76" xpos="38.4439" ypos="21.7008" zpos="70.4302" type="fvd_guide.cm.p1.info" GUID="gf8ieSH55kqpNjrE4C07dQ==" info="It is possible cutscene hold (let the scene play out while the rest of the group skips watching it) and prevent the bandits from instantly spawning before the group enters the barn. Run up the rafters to the top and murder the bandit snipers before dropping down for the boss."/>
 		<POI MapID="76" xpos="-7.94686" ypos="18.8246" zpos="84.7486" type="fvd_guide.cm.p1.info" GUID="HwFvvKng8EO2/G2MGsraXQ==" info="P1: You can blink into the barn."/>
 		<POI MapID="76" xpos="-18.0745" ypos="30.9582" zpos="98.442" type="fvd_guide.skips.blink" GUID="K3Iz9F1+IES9+bu4Bpv4MQ=="/>
-		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1 - Part 2"/>
+		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1: Asura - Part 2"/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part2.trl" type="fvd_guide.cm.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss, back track and follow Part 3."/>
-		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.cm.p1.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="P1 - Part 3"/>
+		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.cm.p1.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="P1: Asura - Part 3"/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part3.trl" type="fvd_guide.cm.p1.path" texture="Data/Icons/trail_general.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.cm.p1.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have long stealth duration run across the top instead."/>
+		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.cm.p1.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have a long stealth duration, run across the top instead."/>
 		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.cm.p1.info" GUID="RV97BQQS9k297WA5KxGznw==" info="Pull and murder the remaining mobs here."/>
 
 
@@ -313,12 +312,12 @@
 		<Trail trailData="Data/Trails/CM/CM_P2_Satchel.trl" type="fvd_guide.cm.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="155.531" ypos="40.1177" zpos="78.9272" type="fvd_guide.cm.p2.info" GUID="hZVpC1nx90qZVngTKl4eUg==" info="Use the pillows and play hopscotch on top of them to not get impaled."/>
 		
-		<POI MapID="76" xpos="170.089" ypos="26.06" zpos="8.09163" type="fvd_guide.cm.p2.path" GUID="e/W7GSsLYES67gu0HDFM1A==" info="P2 - Part 2"/>
+		<POI MapID="76" xpos="170.089" ypos="26.06" zpos="8.09163" type="fvd_guide.cm.p2.path" GUID="e/W7GSsLYES67gu0HDFM1A==" info="P2: Seraph- Part 2"/>
 		<Trail trailData="Data/Trails/CM/CM_P2_Part2.trl" type="fvd_guide.cm.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="253.879" ypos="38.3626" zpos="6.63872" type="fvd_guide.cm.p2.info" GUID="K9LyVQC25USH1J13qXEKPw==" info="Spread out to not get wiped with the swords."/>
-		<POI MapID="76" xpos="248.55" ypos="36.063" zpos="16.7517" type="fvd_guide.cm.p2.info" GUID="bxDxI5OY+0q+QYxjPi2dEQ==" info="P2 - Part 3"/>
+		<POI MapID="76" xpos="248.55" ypos="36.063" zpos="16.7517" type="fvd_guide.cm.p2.info" GUID="bxDxI5OY+0q+QYxjPi2dEQ==" info="P2: Seraph - Part 3"/>
 		<Trail trailData="Data/Trails/CM/CM_P2_Part3.trl" type="fvd_guide.cm.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="76" xpos="230.228" ypos="26.1322" zpos="77.7926" type="fvd_guide.cm.p2.info" GUID="8vZ6fXLelUKwqruijqPbbQ==" info="If you drop a keg far away the bandits will go after it. Making the door part easier.&#xA;Weapon swap while holding a keg on top of the red circles."/>
+		<POI MapID="76" xpos="230.228" ypos="26.1322" zpos="77.7926" type="fvd_guide.cm.p2.info" GUID="8vZ6fXLelUKwqruijqPbbQ==" info="If you drop a keg far away, the bandits will go after it, making the door part easier. Weapon swap while holding a keg on top of the red circles."/>
 		<POI MapID="76" xpos="263.046" ypos="29.923" zpos="128.829" type="fvd_guide.cm.p2.info" GUID="GhMW+MryGUeGxbuRvY3q/Q==" info="You can reflect on Martha."/>
 		<POI MapID="76" xpos="218.403" ypos="33.1565" zpos="247.252" type="fvd_guide.cm.p2.info" GUID="SmD3NLe3LkqoGmUlH6qIKQ==" info="Boss hits hard and goes invuln. You can cheese him a bit using the hill to break line of sight."/>
 
@@ -328,10 +327,10 @@
 		<POI MapID="76" xpos="89.6998" ypos="29.0589" zpos="57.0243" type="fvd_guide.cm.p3.path" GUID="E/i6/F1PX060WmxwGAA6oQ==" info="P3: Butler - Start"/>
 		<Trail trailData="Data/Trails/CM/CM_P3_Part1.trl" type="fvd_guide.cm.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="30.1994" ypos="25.016" zpos="87.6303" type="fvd_guide.cm.p3.info" GUID="ea2rmHXXEE2OiU2wWSnv/w==" info="P3: Bring stability. Reflects don't work on Boss."/>
-		<POI MapID="76" xpos="34.7737" ypos="20.7132" zpos="62.8767" type="fvd_guide.cm.p3.path" GUID="BNy9Lr6tgEGO5pDZbBBiDw==" info="P3 - Part 2"/>
+		<POI MapID="76" xpos="34.7737" ypos="20.7132" zpos="62.8767" type="fvd_guide.cm.p3.path" GUID="BNy9Lr6tgEGO5pDZbBBiDw==" info="P3: Butler - Part 2"/>
 		<Trail trailData="Data/Trails/CM/CM_P3_Part2.trl" type="fvd_guide.cm.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="96.9933" ypos="22.5408" zpos="116.785" type="fvd_guide.cm.p3.info" GUID="nGSZ30taK0Wh75iZDkpUCQ==" info="Use reflects. Use gun."/>
-		<POI MapID="76" xpos="146.226" ypos="29.2248" zpos="201.594" type="fvd_guide.cm.p3.path" GUID="ZroO5v2XGUuQtc8C1nEiwA==" info="P3 - Part 3"/>
+		<POI MapID="76" xpos="146.226" ypos="29.2248" zpos="201.594" type="fvd_guide.cm.p3.path" GUID="ZroO5v2XGUuQtc8C1nEiwA==" info="P3: Butler - Part 3"/>
 		<Trail trailData="Data/Trails/CM/CM_P3_Part3.trl" type="fvd_guide.cm.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="130.882" ypos="31.089" zpos="233.355" type="fvd_guide.cm.p3.info" GUID="Nn+uze6utUWs9UMFd8i1CA==" info="Run off to the door before the boss dies or hug the wall."/>
 		<POI MapID="76" xpos="69.6179" ypos="30.5685" zpos="252.513" type="fvd_guide.cm.p3.info" GUID="BCzN/xInx06rPusiELWMjg==" info="Stealth or pull the mobs."/>
@@ -360,10 +359,10 @@
 
 
 		<!-- TA UP is Path 1 for organization -->
-		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="TA - Up Path"/>
+		<POI MapID="67" xpos="13.0998" ypos="20.2264" zpos="-147.865" type="fvd_guide.ta.up.path" GUID="piF+S+UJREeldHukoYaIww==" info="Up Path - Start"/>
 		<Trail trailData="Data/Trails/TA/TA_Up_Part1.trl" type="fvd_guide.ta.up.path" texture="Data/Icons/trail_TA_up.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="67" xpos="17.3442" ypos="29.7404" zpos="-178.605" type="fvd_guide.ta.up.info" GUID="qvIquZPSw0yUkdPA3rIktg==" info="Pull spiders and kill them before facing the boss.&#xA;Boss has projectile attack which hits hard, spread out or stay at ranged to avoid a group wipe."/>
-		<POI MapID="67" xpos="80.3755" ypos="40.3224" zpos="-167.524" GUID="uWwQa7YxJ063kzTUiXhSkQ==" type="fvd_guide.ta.up.info" info="Stealth is advisable for these parts otherwise bring stun breakers for the mobs and range for the flowers."/>
+		<POI MapID="67" xpos="17.3442" ypos="29.7404" zpos="-178.605" type="fvd_guide.ta.up.info" GUID="qvIquZPSw0yUkdPA3rIktg==" info="Pull spiders and kill them before facing the boss. Boss has projectile attack which hits hard, spread out or stay at ranged to avoid a group wipe."/>
+		<POI MapID="67" xpos="80.3755" ypos="40.3224" zpos="-167.524" GUID="uWwQa7YxJ063kzTUiXhSkQ==" type="fvd_guide.ta.up.info" info="Stealth is advisable for these parts, otherwise bring stun breakers for the mobs and range for the flowers. If you down, you can rally off the flowers."/>
 		<Trail trailData="Data/Trails/TA/TA_Up_Part2.trl" type="fvd_guide.ta.up.path" texture="Data/Icons/trail_TA_up.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="67" xpos="182.607" ypos="52.5834" zpos="-82.0904" GUID="lAK6Z5PeiESf6MGSG3R2yQ==" type="fvd_guide.ta.up.info" info="If you aren't aggro'd you can wait here and apply more stealth."/>
 		<POI MapID="67" xpos="278.525" ypos="36.2407" zpos="23.7486" GUID="8zLDK3P3yUiSoj3YkxOpoQ==" type="fvd_guide.ta.up.info" info="Run into the spider egg sacs before the boss spawns to avoid more adds."/>
@@ -528,7 +527,7 @@
 
 
 		<!-- COF PATH 1 Should be red but thats hard to see So FFFFFF00 Yellow -->
-		<POI MapID="69" xpos="-68.5736" ypos="50.4836" zpos="-26.7586" type="fvd_guide.cof.p1.path" GUID="rPzQ1V+pb0e7X7zaqArrZg==" info="P1: Ferrah - Start"/>
+		<POI MapID="69" xpos="-69.0859" ypos="50.5207" zpos="-26.6313" type="fvd_guide.cof.p1.path" GUID="rPzQ1V+pb0e7X7zaqArrZg==" info="P1: Ferrah - Start"/>
 		<Trail trailData="Data/Trails/COF/COF_P1_Part1.trl" type="fvd_guide.cof.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="69" xpos="-251.063" ypos="64.1369" zpos="21.9247" type="fvd_guide.cof.p1.info" GUID="qQl/EJ5dxEyXFgYX0qYYpQ==" info="Focus the slave driver. The Effigy will respawn."/>
 		<POI MapID="69" xpos="-292.282" ypos="57.0455" zpos="46.9105" type="fvd_guide.cof.p1.path" GUID="ff7vnP9GTkirZo0Y+LJ+2w==" info="P1 - Part 2"/>
@@ -670,7 +669,7 @@
 		<POI MapID="112" xpos="-588.058" ypos="16.9643" zpos="494.124" type="fvd_guide.arah.p1.info" GUID="VYpKdgGMlEih3ndTjC96/A==" info="Pull the Crystalline Entities into the light, CC them, and kill."/>
 		<POI MapID="112" xpos="-527.357" ypos="17.3565" zpos="529.293" type="fvd_guide.arah.p1.path" GUID="qMDFGRT/sUy8gXMJzIs7TA==" info="Path 1: Jotun - Part 3"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part3.trl" GUID="uWKjoYiFoUOxNK4z82oKEA==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="112" xpos="-287.142" ypos="10.536" zpos="178.862" type="fvd_guide.arah.p1.info" GUID="ubhJGKT1p0WdZCU0FVbQOw==" info="4 People stand on the geysers. If you have 3 people its possible to have someone shadowstep/blind onto the other geyser to clog it. If the boss is burning on fire, the tar pools won't super long stun. You can use the 300 Year Old Whiskey to burn the boss and allies."/>
+		<POI MapID="112" xpos="-287.142" ypos="10.536" zpos="178.862" type="fvd_guide.arah.p1.info" GUID="ubhJGKT1p0WdZCU0FVbQOw==" info="4 People stand on the geysers. If you have 3 people its possible to have someone shadowstep/blink onto the other geyser to clog it. If the boss is burning on fire, the tar pools won't super long stun. You can use the 300 Year Old Whiskey to burn the boss and allies."/>
 		<POI MapID="112" xpos="-200.822" ypos="16.1397" zpos="200.747" type="fvd_guide.arah.p1.path" GUID="7aLeo9yhb0uhr4uc4fSn5w==" info="Path 1: Jotun - Part 4"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part4.trl" GUID="OcO9gA/8WkSu7+F/qCohvg==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="-15.8123" ypos="0.311463" zpos="-9.62774" type="fvd_guide.arah.p1.path" GUID="ogunXVQf+kWGGsi+9RYeZw==" info="Path 1: Jotun - Part 5"/>
