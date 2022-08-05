@@ -18,7 +18,7 @@
 			<MarkerCategory name="leap" DisplayName="Leaps" iconFile="Data/Icons/Leap.png"/>
 			<MarkerCategory name="jump" DisplayName="Jumps" iconFile="Data/Icons/Jumping_Puzzles.png"/>
 		</MarkerCategory>
-		<MarkerCategory name="separatormenu02" isseparator="1" DisplayName="Dungeon Specific"/>
+		<MarkerCategory name="separatormenu02" isseparator="1" DisplayName="---- Dungeon Specific ----"/>
 		<MarkerCategory name="ac" DisplayName="Ascalonian Catacombs">
 			<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
@@ -92,11 +92,11 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="cof" DisplayName="Citadel of Flame">
-			<MarkerCategory name="p1" DisplayName="CoF Path 1" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p1" DisplayName="CoF Path 1 - Ferrah" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="CoF Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="CoF Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
-			<MarkerCategory name="p2" DisplayName="CoF Path 2" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
+			<MarkerCategory name="p2" DisplayName="CoF Path 2 - Magg" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="CoF Path 2 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="CoF Path 2 - Specific Info" iconFile="Data/Icons/info_path2.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
@@ -283,7 +283,7 @@
 		<!-- CAUDECUSS MANOR -->
 		
 		<!-- CM PATH 1 -->
-		<POI MapID="76" xpos="118.047" ypos="30.9221" zpos="65.7592" type="fvd_guide.cm.p1.path" GUID="+8FAkcrBrkCbMBas4JyVYw==" info="P1: Asura - Start"/>
+		<POI MapID="76" xpos="118.047" ypos="30.9221" zpos="65.7592" type="fvd_guide.cm.p1.path" GUID="+8FAkcrBrkCbMBas4JyVYw==" info="P1: Asura - Start - Talk to Traffa then interact with the golem in the courtyard which opens the door."/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part1.trl" type="fvd_guide.cm.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="150.74" ypos="30.9446" zpos="73.3151" type="fvd_guide.cm.p1.info" GUID="je+liUHIVUuqMbJWAy7AXA==" info="It is possible to use stealth and solo the asuran devices. Otherwise, go as a group and clear the mobs and interact with the tech."/>
 		<POI MapID="76" xpos="127.035" ypos="22.5452" zpos="88.0302" type="fvd_guide.cm.p1.info" GUID="ZYFSgV8T7kO1taKY0GnYmg==" info="Clear the wing nearest to the waypoint before following the trail."/>
@@ -293,11 +293,12 @@
 		<POI MapID="76" xpos="-18.0745" ypos="30.9582" zpos="98.442" type="fvd_guide.skips.blink" GUID="K3Iz9F1+IES9+bu4Bpv4MQ=="/>
 		<POI MapID="76" xpos="-39.5363" ypos="20.8533" zpos="127.247" type="fvd_guide.cm.p1.path" GUID="ljlrJvnOnUGJVxj5LTm3XA==" info="P1: Asura - Part 2"/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part2.trl" type="fvd_guide.cm.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss, back track and follow Part 3."/>
+		<POI MapID="76" xpos="52.8474" ypos="26.5683" zpos="184.346" type="fvd_guide.cm.p1.info" GUID="UA82ZdRxU0+15xB/Z+hJaQ==" info="After killing the boss, back track and follow Part 3/General Path."/>
 		<POI MapID="76" xpos="27.0281" ypos="31.1077" zpos="199.013" type="fvd_guide.cm.p1.path" GUID="4N/tCBIr/0anUDrDlbm1Ag==" info="P1: Asura - Part 3"/>
 		<Trail trailData="Data/Trails/CM/CM_P1_Part3.trl" type="fvd_guide.cm.p1.path" texture="Data/Icons/trail_general.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="76" xpos="26.8218" ypos="30.6748" zpos="221.614" type="fvd_guide.cm.p1.info" GUID="MTaCdJvi5EKJSo89BRZluw==" info="You can stealth past or pull and murder the mobs. If you don't have a long stealth duration, run across the top instead."/>
 		<POI MapID="76" xpos="-39.8011" ypos="25.0609" zpos="286.68" type="fvd_guide.cm.p1.info" GUID="RV97BQQS9k297WA5KxGznw==" info="Pull and murder the remaining mobs here."/>
+		<POI MapID="76" xpos="-197.067" ypos="2.69406" zpos="201.585" type="fvd_guide.cm.p1.info" GUID="4tdISzrHLESQTwTOMu4Nhw==" info="Ranged and condi are good for fighting Frost. Golems activate at 75/50/25. Dodge turret fire and avoid getting frozen in place."/>
 
 
 		<!-- CM PATH 2 -->
@@ -704,7 +705,7 @@
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_MineSkip.trl" GUID="/nvefCms5kWE7aSlgxB5KA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="525.381" ypos="11.8219" zpos="541.08" type="fvd_guide.arah.p2.path" GUID="Yu3pHDshf0Sn1m+WLGQvkw==" info="Path 2: Mursaat - Part 6"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part6.trl" type="fvd_guide.arah.p2.path" GUID="eVKx59/mwk2pGaZclZdZwA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="112" xpos="407.858" ypos="-0.461914" zpos="429.889" type="fvd_guide.arah.p2.info" GUID="KAutDgIy90a+YoSVRMXcRA==" info="Hide behind crate. Use projectile reflect or destruction."/>
+		<POI MapID="112" xpos="407.858" ypos="-0.461914" zpos="429.889" type="fvd_guide.arah.p2.info" GUID="KAutDgIy90a+YoSVRMXcRA==" info="Hide behind crate. Use projectile reflect or destruction. If you see red AOE circle, dodge."/>
 		<POI MapID="112" xpos="375.637" ypos="9.22489" zpos="511.992" type="fvd_guide.arah.p2.path" GUID="lu64ivskZ0iunV5WNef+CA==" info="Path 2: Mursaat - Part 7"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part7.trl" type="fvd_guide.arah.p2.path" GUID="QktPpeOtg0qUO/0O/gbgOQ==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="12.6587" ypos="8.45003" zpos="389.149" type="fvd_guide.arah.p2.info" GUID="wGyPZeXdhUShoJnfa2v2AQ==" info="One person use the terminal to be shifted, bring the boss down to 50%. Melee her and sidestep the laser attack. Other players can face their back to the shield and walk backwards into it to get through."/>
