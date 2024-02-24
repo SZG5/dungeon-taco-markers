@@ -10,8 +10,8 @@
 
 - Fixed X
 
-## [1.0.0]- 2024-01-25
+## [0.1.0]- 2020-05-18
 
 ### Added
 
-- Marker Pack for X
+- Added the beta version of this marker set.
