@@ -1,9 +1,5 @@
 # Changelog
 
-## [Prereleased]
-
-- Cutting Edge
-
 ## [Unreleased]
 
 ### Added
@@ -13,6 +9,10 @@
 ### Fixed
 
 - Fixed X
+
+## [0.2.0-beta]
+
+- Cutting Edge
 
 ## [0.1.0]- 2020-05-18
 
