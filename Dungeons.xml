@@ -9,7 +9,7 @@
 <!-- TACO is dumb so dont try and color the categories -->
 <OverlayData>
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon Guide">
-		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Private 0.01 - 5.18.20"/>
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.1.0 - 5.18.20"/>
 		<MarkerCategory name="stack" DisplayName="Stack Spot" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
 		<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data/Icons/arrow.png"/>
 		<MarkerCategory name="skips" DisplayName="Skips">
