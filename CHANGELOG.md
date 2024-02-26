@@ -10,6 +10,8 @@
 
 - Fixed X
 
+## [0.4.1] - 2024-02-26
+- Fixed the AC categories to match the style of every other category.
 
 ## [0.4.0]- 2024-02-26
 - Moved the story mode category to be under their respective dungeons.

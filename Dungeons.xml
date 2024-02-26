@@ -28,18 +28,18 @@
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 			<MarkerCategory name="p1" DisplayName="AC Path 1 - Hodgins" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
-				<MarkerCategory name="path" DisplayName="AC Path 1 - Hodgins Trail" fadeNear="1600" fadeFar="3000"/>
-				<MarkerCategory name="info" DisplayName="Hodgins Path Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="path" DisplayName="AC Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
+				<MarkerCategory name="info" DisplayName="AC Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 				<MarkerCategory name="burrow" DisplayName="Archive Room Burrows" iconFile="Data/Icons/arrow.png"/>
 				<MarkerCategory name="scepter" DisplayName="Scepter Pieces" iconFile="Data/Icons/arrow.png"/>
 			</MarkerCategory>
 			<MarkerCategory name="p2" DisplayName="AC Path 2 - Detha" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
-				<MarkerCategory name="path" DisplayName="AC Path 2 - Detha Trail"/>
-				<MarkerCategory name="info" DisplayName="Detha Path Specific Info" iconFile="Data/Icons/info_path2.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="path" DisplayName="AC Path 2 - Trail"/>
+				<MarkerCategory name="info" DisplayName="AC Path 2 - Specific Info" iconFile="Data/Icons/info_path2.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 			<MarkerCategory name="p3" DisplayName="AC Path 3 - Tzark" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
-				<MarkerCategory name="path" DisplayName="AC Path 3 - Tzark Trail"/>
-				<MarkerCategory name="info" DisplayName="Tzark Path Specific Info" iconFile="Data/Icons/info_path3.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="path" DisplayName="AC Path 3 - Trail"/>
+				<MarkerCategory name="info" DisplayName="AC Path 3 - Specific Info" iconFile="Data/Icons/info_path3.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 				<MarkerCategory name="burrow" DisplayName="Lovers' Crypt Burrows"/>
 			</MarkerCategory>
 		</MarkerCategory>
@@ -186,7 +186,7 @@
 				<MarkerCategory name="info" DisplayName="Arah Path 4 - Specific Info" iconFile="Data/Icons/info_path4.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 		</MarkerCategory>
-		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.4.0 - 2024.02.26">
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.4.1 - 2024.02.26">
 			<MarkerCategory name="ign_contact" isseparator="1" DisplayName="Creator: S Z G.4359" copy="S Z G.4359" tip-description="Click to copy"/>
 			<MarkerCategory name="fvd_discord" isseparator="1" DisplayName="https://discord.com/invite/SVZANqV" copy="https://discord.com/invite/SVZANqV" tip-description="Click to copy"/>
 		</MarkerCategory>
