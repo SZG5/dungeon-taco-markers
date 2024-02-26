@@ -11,6 +11,10 @@
 - Fixed X
 
 
+## [0.4.0]- 2024-02-26
+- Moved the story mode category to be under their respective dungeons.
+- Moved version number to be ordered last in the list.
+
 ## [0.3.0]- 2024-02-25
 - Cleaned up the text
 - Added creator contact info

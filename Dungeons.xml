@@ -9,10 +9,6 @@
 <!-- TACO is dumb so dont try and color the categories -->
 <OverlayData>
 	<MarkerCategory name="fvd_guide" DisplayName="[FvD] Dungeon Guide">
-		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.3.0 - 2024.02.25">
-			<MarkerCategory name="ign_contact" isseparator="1" DisplayName="Creator: S Z G.4359" copy="S Z G.4359" tip-description="Click to copy"/>
-			<MarkerCategory name="fvd_discord" isseparator="1" DisplayName="https://discord.com/invite/SVZANqV" copy="https://discord.com/invite/SVZANqV" tip-description="Click to copy"/>
-		</MarkerCategory>
 		<MarkerCategory name="stack" DisplayName="Stack Spot" iconFile="Data/Icons/Stack.png" fadeNear="1600" fadeFar="3000" info="Hit F to make the mark disappear." behavior="6"/>
 		<MarkerCategory name="poi" DisplayName="Arrows" iconFile="Data/Icons/arrow.png"/>
 		<MarkerCategory name="skips" DisplayName="Skips">
@@ -23,6 +19,10 @@
 		</MarkerCategory>
 		<MarkerCategory name="separatormenu02" isseparator="1" DisplayName="---- Dungeon Specific ----"/>
 		<MarkerCategory name="ac" DisplayName="Ascalonian Catacombs">
+			<MarkerCategory name="story" DisplayName="AC Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -44,6 +44,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="cm" DisplayName="Caudecus's Manor">
+			<MarkerCategory name="story" DisplayName="CM Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -62,6 +66,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="ta" DisplayName="Twilight Arbor">
+			<MarkerCategory name="story" DisplayName="TA Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="General Path Guidance" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -81,6 +89,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="se" DisplayName="Sorrow's Embrace">
+			<MarkerCategory name="story" DisplayName="SE Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="p1" DisplayName="SE Path 1 - Fergg" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="SE Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="SE Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -95,6 +107,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="cof" DisplayName="Citadel of Flame">
+			<MarkerCategory name="story" DisplayName="CoF Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="p1" DisplayName="CoF Path 1 - Ferrah" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="CoF Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="CoF Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -109,6 +125,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="hotw" DisplayName="Honor of the Waves">
+			<MarkerCategory name="story" DisplayName="HotW Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="p1" DisplayName="HotW Path 1 - The Butcher" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="HotW Path 1 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="HotW Path 1 - Specific Info" iconFile="Data/Icons/info_path1.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -123,6 +143,10 @@
 			</MarkerCategory>
 		</MarkerCategory>
 		<MarkerCategory name="coe" DisplayName="Crucible of Eternity">
+			<MarkerCategory name="story" DisplayName="CoE Story">
+				<MarkerCategory name="path" DisplayName="Path Guidance"/>
+				<MarkerCategory name="info" DisplayName="Info/Helper" fadeNear="1600" fadeFar="3000" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
+			</MarkerCategory>
 			<MarkerCategory name="general" DisplayName="General Help" fadeNear="1600" fadeFar="3000">
 				<MarkerCategory name="path" DisplayName="General Path Guidance" iconFile="Data/Icons/Jumping_Puzzles.png" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Info/Helper" iconFile="Data/Icons/info_general.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
@@ -161,6 +185,10 @@
 				<MarkerCategory name="path" DisplayName="Arah Path 4 - Trail" fadeNear="1600" fadeFar="3000"/>
 				<MarkerCategory name="info" DisplayName="Arah Path 4 - Specific Info" iconFile="Data/Icons/info_path4.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
+		</MarkerCategory>
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.4.0 - 2024.02.26">
+			<MarkerCategory name="ign_contact" isseparator="1" DisplayName="Creator: S Z G.4359" copy="S Z G.4359" tip-description="Click to copy"/>
+			<MarkerCategory name="fvd_discord" isseparator="1" DisplayName="https://discord.com/invite/SVZANqV" copy="https://discord.com/invite/SVZANqV" tip-description="Click to copy"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
@@ -805,5 +833,82 @@
 		<POI MapID="112" xpos="-113.982" ypos="28.0103" zpos="56.5772" type="fvd_guide.arah.general.info" GUID="zNvrMFkTeUqVVL5LriTNOw==" info="Stealth and run past"/>
 		<POI MapID="112" xpos="-65.6873" ypos="10.0752" zpos="76.6131" type="fvd_guide.arah.general.info" GUID="xpPNpQbUfEuEAUgY3+Txnw==" info="Fight the abominations in the corner."/>
 		<POI MapID="112" xpos="-23.3273" ypos="0.716012" zpos="37.7117" type="fvd_guide.arah.general.info" GUID="NK8EaJlw906GIEGcabBsqw==" info="You can push him back by standing in his red circle. Shove him into the wall and use a reflect on the wall while you fight him to cheese the mechanics."/>
+	
+	
+		
+		<!-- DUNGEON STORY -->
+		<!-- AC -->
+		<Trail trailData="Data/Trails/Dungeon_Story/AC_Story_1.trl" type="fvd_guide.ac.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="33" xpos="-278.16" ypos="49.5441" zpos="-184.661" type="fvd_guide.ac.story.info" GUID="ao66AkiGYUyVNe6+rGCHVA==" info="Slowly open the coffins and kill enemies until the gate guard appears."/>
+		<POI MapID="33" xpos="-231.507" ypos="49.4452" zpos="-175.458" type="fvd_guide.ac.story.info" GUID="l1yov2rr4Uav23558lJGGQ==" info="Interacting with chains will disable traps."/>
+		<POI MapID="33" xpos="-177.067" ypos="37.8664" zpos="-158.423" type="fvd_guide.ac.story.info" GUID="imNcwge2jkyslrQwNroStg==" info="Goal in the next room is to grab a rock and then place it on a pressure plate marked with the arrow."/>
+		<POI MapID="33" xpos="-161.724" ypos="33.6857" zpos="-165.329" type="fvd_guide.ac.story.info" GUID="NgUxZj8MT0yCEF6ntUdLRw==" info="Drop the rock here." iconFile="Data/Icons/arrow.png"/>
+		<POI MapID="33" xpos="94.1331" ypos="39.4241" zpos="-89.3497" type="fvd_guide.ac.story.info" GUID="97+R1Yh+U0iQ72EvoSXEVA==" info="Kill the ghosts and Lieutenant. Afterward, go West, then East to clear the bosses, then return here to fight the last boss."/>
+		<Trail trailData="Data/Trails/Dungeon_Story/AC_Story_2.trl" type="fvd_guide.ac.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="33" xpos="-34.677" ypos="42.2351" zpos="-86.7822" type="fvd_guide.ac.story.info" GUID="sws+8yBGf0KHntEsQaxXfA==" info="Walk on the beam to get to the pillar. If dps is low, the boss will teleport and summon pet. After killing the boss, go back to the main room and head East."/>
+		<Trail trailData="Data/Trails/Dungeon_Story/AC_Story_3.trl" type="fvd_guide.ac.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="33" xpos="309.221" ypos="40.9057" zpos="73.1916" type="fvd_guide.ac.story.info" GUID="SfccCox43U+mIhImnhkYWg==" info="Boss inflicts condi and can heal off of her minions."/>
+		<POI MapID="33" xpos="315.903" ypos="19.4427" zpos="-63.7583" type="fvd_guide.ac.story.info" GUID="mT+obqYPEkWjI+8A+nAx7w==" info="Keep the bosses separated by using the rocks to knock them down. If they are together, Vassar gets reflects and Ralena knocks people back. Bring some condi cleanse for Ralena. After killing the last boss, you should be able to return to the center for the last fight. Use Murals Waypoint to get there faster."/>
+		<POI MapID="33" xpos="78.1122" ypos="41.6499" zpos="-53.2987" type="fvd_guide.ac.story.info" GUID="1OiWq3sxX0awf66DROTC+g==" info="After killing all the champions, face the final boss. Attack King Adelbern in melee range to avoid his more annoying attacks."/>
+		<!-- CM -->
+		<Trail trailData="Data/Trails/Dungeon_Story/CM_Story.trl" type="fvd_guide.cm.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="75" xpos="101.627" ypos="29.1329" zpos="38.2287" type="fvd_guide.cm.story.info" GUID="Iga3GLFG2kSnRYMbwr1U1g==" info="Interact with NPCs with the red marker over their head until the bar fills."/>
+		<POI MapID="75" xpos="94.3998" ypos="22.5361" zpos="125.257" type="fvd_guide.cm.story.info" GUID="oMj70u/zq0GKXWEk3YWqfA==" info="Use the button."/>
+		<POI MapID="75" xpos="144.074" ypos="30.2324" zpos="223.379" type="fvd_guide.cm.story.info" GUID="zWjIZm+qEUCC1YFBNdnoQg==" info="Dump water bucket on Sigfast to wake him up."/>
+		<POI MapID="75" xpos="206.389" ypos="35.3367" zpos="259.386" type="fvd_guide.cm.story.info" GUID="C7/Ob1SMPEOyXa50hIoj7g==" info="Kill enemies then open the cage."/>
+		<!-- TA -->
+		<Trail trailData="Data/Trails/Dungeon_Story/TA_Story.trl" type="fvd_guide.ta.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="68" xpos="243.485" ypos="52.6267" zpos="-280.238" type="fvd_guide.ta.story.info" GUID="6aMenBkGTUy8nLX59cuyeg==" info="Most of the Nightmare pods can be ignored. Open them one at a time to avoid multiple enemies from overwhelming the group."/>
+		<POI MapID="68" xpos="-48.5244" ypos="4.95535" zpos="-142.729" type="fvd_guide.ta.story.info" GUID="DZzudue54ES2NnufJMjpeA==" info="The boss has a knockdown combo that can pin you down."/>
+		<POI MapID="68" xpos="-182.852" ypos="0.326844" zpos="-32.0332" type="fvd_guide.ta.story.info" GUID="22jlbe8g10iQCDx/HfR9Hg==" info="Regrow the bridge by collecting items marked in red on the map. One of the items is found after killing a boss underwater."/>
+		<POI MapID="68" xpos="-204.972" ypos="4.62767" zpos="33.1511" type="fvd_guide.ta.story.info" GUID="Ycmym6xLUke/H4u9JZuDdg==" info="Once all the item objectives are found talk to the NPC to regrow the bridge."/>
+		<POI MapID="68" xpos="-167.591" ypos="4.23101" zpos="38.9757" type="fvd_guide.ta.story.info" GUID="zczpk4uTak6ecCPeUZWtZg==" info="Boss summons exploding spiders which leave poison aoe. Boss occasionally fears people."/>
+		<POI MapID="68" xpos="-29.1637" ypos="3.76972" zpos="195.138" type="fvd_guide.ta.story.info" GUID="uuG94V1l4k+mg4FPqxU5kQ==" info="If you get transformed into a kitten, kill a nightmare pup to turn back."/>
+		<POI MapID="68" xpos="120.303" ypos="26.4283" zpos="158.415" type="fvd_guide.ta.story.info" GUID="nXa6tk+a3EeaD3FHQIb/cQ==" info="Open pods with icons over them. Kill the enemy and toss the essence at the Husk."/>
+		<POI MapID="68" xpos="126.868" ypos="46.0148" zpos="5.13381" type="fvd_guide.ta.story.info" GUID="G3EcDIMnPkmBrclayosafw==" info="If your team can't cleave them all down, you can focus and pick a person off. Slap Faolain hard when she attempts to revive them. Eir is ranged and can be projectile reflected. Rytlock and Logan can be picked off with ranged attacks. Zojja's orb attack can be easily sidestepped."/>
+		<!-- SE -->
+		<Trail trailData="Data/Trails/Dungeon_Story/SE_Story.trl" type="fvd_guide.se.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="63" xpos="-197.394" ypos="206.668" zpos="68.3103" type="fvd_guide.se.story.info" GUID="j58JdJ5U0UCnW92/mhpU2g==" info="If the group struggles, slowly pick off the enemies, then fight the golem and the boss, so you don't get overwhelmed."/>
+		<POI MapID="63" xpos="-96.2986" ypos="182.554" zpos="63.5413" type="fvd_guide.se.story.info" GUID="hdg11LP3NkSs9a9s6dkEqQ==" info="Punishes melee with AoE attack. Golem spin reflects projectile attacks."/>
+		<POI MapID="63" xpos="-38.5119" ypos="181.336" zpos="23.8024" type="fvd_guide.se.story.info" GUID="GFGZvsmDr0eUm5MaVl3Lhg==" info="Go left and avoid the adds and crushers to grab gears from the panel. Bring them down and place the gears into the panel by the door to open it."/>
+		<POI MapID="63" xpos="30.2535" ypos="181.334" zpos="4.40156" type="fvd_guide.se.story.info" GUID="9onhRrSOP0K80ZUrq/aXWQ==" info="Run past the turrets and enemies and drop down and enter the tunnel."/>
+		<POI MapID="63" xpos="279.323" ypos="146.345" zpos="-29.4912" type="fvd_guide.se.story.info" GUID="ddrhpyNAeEKicYHuCI/mww==" info="Bring condi cleanse. Boss runs off every 25% and summons a different golem. Fire golem will heal with conditions."/>
+		<POI MapID="63" xpos="126.204" ypos="92.4024" zpos="-266.59" type="fvd_guide.se.story.info" GUID="n5VvL0zDgkSZuAsIKzSfpA==" info="Ranged attacks and condi clear is recommended. Hide behind the shield to avoid the eye laser and burning damage. Kill elemental and toss boulders at the boss. When he yanks the chains, he'll pour lava into the area with the shields."/>
+		<!-- COF -->
+		<Trail trailData="Data/Trails/Dungeon_Story/COF_Story.trl" type="fvd_guide.cof.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="66" xpos="-197.989" ypos="90.2234" zpos="-235.101" type="fvd_guide.cof.story.info" GUID="yRp4Y17knUCjOBdKD0B0/w==" info="As long as the group moves fast, unimportant enemies will spawn behind you and can be ignored or won't spawn at all."/>
+		<POI MapID="66" xpos="-137.434" ypos="67.8264" zpos="-42.297" type="fvd_guide.cof.story.info" GUID="7Nmsg7YJzEqg8Cab/2m1vQ==" info="Rozgar has two adds that are undamageable and mimics his skills. 100-75% high dmg whirl attack. 75-50% hammer knockdowns. 50-25% Axe. 25% life steal daggers. Afterwards, destroy the Brazier."/>
+		<POI MapID="66" xpos="-60.2774" ypos="76.1003" zpos="-143.354" type="fvd_guide.cof.story.info" GUID="SiZSnEqFe0utXSQ1SYJqNw==" info="Clear out enemies before fighting the boss. Bolok summons a flamewall that can be easily stepped out of but does a lot of damage. Every 25% he summons two enemies."/>
+		<POI MapID="66" xpos="172.262" ypos="67.8309" zpos="-46.6417" type="fvd_guide.cof.story.info" GUID="OrUQBcg35kWRuxTYqNK7gA==" info="Boss summons imps which get close and explode."/>
+		<POI MapID="66" xpos="11.1676" ypos="108.44" zpos="142.087" type="fvd_guide.cof.story.info" GUID="QfurJsDG2U2iQNwdYgieuA==" info="Effigy will burn nearby players. Kill the acolytes when the shields drop to stop them from healing the effigy."/>
+		<POI MapID="66" xpos="117.242" ypos="145.766" zpos="147.858" type="fvd_guide.cof.story.info" GUID="+m5DagaJWUSpLOOi7bkN3A==" info="Wait for the boulders to hit the shield, pick up the Molten Heart and toss it at the boss. Avoid the fireball AoEs or get knocked back. Attack him when he's a normal Charr. Break the walls when they form to get past them."/>
+		<!-- HOTW -->
+		<Trail trailData="Data/Trails/Dungeon_Story/HOTW_Story.trl" type="fvd_guide.hotw.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="70" xpos="-112.38" ypos="59.7241" zpos="-16.85" type="fvd_guide.hotw.story.info" GUID="kSlf+BIKSEKPlb8UPhtUyQ==" info="Enemies respawn infinitely until the ice shard destroyed."/>
+		<POI MapID="70" xpos="-87.9825" ypos="54.5515" zpos="84.178" type="fvd_guide.hotw.story.info" GUID="ChgXxWU2xUaNl94diuiagQ==" info="Boss has high damage aoe chill. Occasional knockbacks in melee range."/>
+		<POI MapID="70" xpos="-187.958" ypos="50.575" zpos="190.168" type="fvd_guide.hotw.story.info" GUID="InZMQtmkDU2F+agxEkbvdA==" info="Reflects projectiles. Transforms at 40% and hits harder."/>
+		<POI MapID="70" xpos="-189.902" ypos="2.79058" zpos="168.123" type="fvd_guide.hotw.story.info" GUID="pgcWnKqW8EuzEy6TzGMCgQ==" info="Light the braziers near the door by interacting with them. The elementals infinitely respawn with the wall up. Avoid the ice trails before they explode."/>
+		<POI MapID="70" xpos="-149.48" ypos="10.5254" zpos="46.5773" type="fvd_guide.hotw.story.info" GUID="xlN6E9ydBUixaJ06w5bKLw==" info="Pull boss away from turrets, adds will spawn infinitely while the boss is alive, avoid the ice spray."/>
+		<POI MapID="70" xpos="79.9004" ypos="5.4531" zpos="22.1072" type="fvd_guide.hotw.story.info" GUID="rWbd7vIWZEK4gquD5bbbkw==" info="Kill the pet first: will eat you and spit you out and aoe poison. Hunter hits hard but has long windup/jump animation. Break line of sight to stop bird attack. Boon rip/corruption helps the fight."/>
+		<!-- HOTW Skip from https://www.youtube.com/watch?v=McUixwxIlzw -->
+		<Trail trailData="Data/Trails/Dungeon_Story/HOTW_Story_Skip.trl" type="fvd_guide.hotw.story.path" texture="Data/Icons/trail.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="70" xpos="-40.9278" ypos="42.1231" zpos="-51.0354" type="fvd_guide.hotw.story.info" iconFile="Data/Icons/info_path2.png" GUID="dDSIGgHYdU+7TzQVEf92Ug==" info="Skip Path: If your group is ok with it, you can blink past the portal and run to the end boss."/>
+		<POI MapID="70" xpos="-19.0658" ypos="30.4842" zpos="-67.3476" type="fvd_guide.skips.blink" GUID="yz9eUs/Q+0+QvItisr71pA=="/>
+		<POI MapID="70" xpos="122.311" ypos="-0.839339" zpos="-11.1029" type="fvd_guide.hotw.story.info" iconFile="Data/Icons/info_path2.png" GUID="7jTzU5EUW0S2leRfjVKyhQ==" info="Skip Path: Land on the ledge here to get back your land skills and blink up."/>
+		<POI MapID="70" xpos="117.391" ypos="10.1979" zpos="-10.7156" type="fvd_guide.skips.blink" GUID="oA4y3jni1UqNP44d2dUGDw==" info="Skip Path: Blink here from underwater to skip to the boss."/>
+		<POI MapID="70" xpos="114.394" ypos="10.1931" zpos="-10.7221" type="fvd_guide.hotw.story.info" iconFile="Data/Icons/info_path2.png" GUID="KSlPo8p/ok6lpi3c7cyjng==" info="Skip Path: To trigger the last boss, you must run into the other room and be on the other side of the door to fight Honor's Voice then you can fight Kodan's Bane like normal. If you are trapped in this room after triggering the cutsceen and can't fight Honor's Voice, you have to reset the dungeon."/>
+		<!-- COE -->
+		<Trail trailData="Data/Trails/Dungeon_Story/COE_Story.trl" type="fvd_guide.coe.story.path" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
+		<POI MapID="81" xpos="-28.2753" ypos="228.159" zpos="101.674" type="fvd_guide.coe.story.info" GUID="nqpV4A4RZ0eOc/IWk14xtg==" info="Focus the alarm. Enemies infinitely respawn unless the alarm is destroyed."/>
+		<POI MapID="81" xpos="-11.9121" ypos="228.235" zpos="194.893" type="fvd_guide.coe.story.info" GUID="eg6BsDFQ4k+PAFSGSlhF1g==" info="Golems have knockbacks and stuns. Enemies sometimes gain projectile reflect."/>
+		<POI MapID="81" xpos="-4.30503" ypos="222.845" zpos="289.973" type="fvd_guide.coe.story.info" GUID="cSs/fucfgEKNUH9AbpzOpg==" info="Rush in before the Charr is dead so they are distracted. Enemies can channel a long stun."/>
+		<POI MapID="81" xpos="42.5447" ypos="216.793" zpos="214.396" type="fvd_guide.coe.story.info" GUID="zqvs+hnkOUiWwiNQLo0gNg==" info="If you kill the consoles quickly, they won't transform."/>
+		<POI MapID="81" xpos="117.918" ypos="176.543" zpos="37.8002" type="fvd_guide.coe.story.info" GUID="Oc9AIRDLYUWOfeyDJQZ3KA==" info="Enemies activate in waves. Refrain from killing the last one if your group needs time to recover."/>
+		<POI MapID="81" xpos="144.963" ypos="175.447" zpos="-61.3611" type="fvd_guide.coe.story.info" GUID="F4UfSHJwqU6lkCyHUKvWZw==" info="Protect Zojja from powerful enemies. If the group struggles consider stealthing her or having a dedicated healer while the rest distracts and kills the enemies."/>
+		<POI MapID="81" xpos="29.0921" ypos="133.92" zpos="-149.642" type="fvd_guide.coe.story.info" GUID="kUkkSdam10SxGvTk+qIXGQ==" info="Take the guns and walk under the shield of the robot. Use the gun on the sparks to kill them."/>
+		<POI MapID="81" xpos="-1.19231" ypos="115.648" zpos="14.0177" type="fvd_guide.coe.story.info" GUID="S20KpQcrn0Ofk2NuOcFjDA==" info="Power Suit hits hard and can stun. Regular Kudu can teleport and has a oneshot attack. Monster has a powerful AOE ground punch, can crystallize stun you, summon grubs and tendrils."/>
+
+	
+	
 	</POIs>
 </OverlayData>
