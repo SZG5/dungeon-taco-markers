@@ -191,7 +191,7 @@
 		<POI MapID="36" xpos="27.6965" ypos="24.5239" zpos="-139.446" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="pZcfASJfN0OEpyHiVqbMWw=="/>
 		<POI MapID="36" xpos="34.0809" ypos="25.1312" zpos="-142.142" type="fvd_guide.ac.general.info" iconFile="Data/Icons/arrow.png" GUID="ZLSpi82pi0O2GR60e9Nbtw=="/>
 		<!-- Trap Disable Pull Chain -->
-		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.ac.general.path" iconFile="Data/Icons/F_Key.png" iconSize="1.0" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable traps." behavior="6"/>
+		<POI MapID="36" xpos="38.412" ypos="26.9552" zpos="-130.388" type="fvd_guide.ac.general.path" iconFile="Data/Icons/F_Key.png" iconSize="1.0" GUID="qXIfyqz1kU2BNOq/YaCrAQ==" info="Interact with the chains to disable traps." behavior="6" miniMapVisibility="0" mapVisibility="0"/>
 		<!-- Kholer -->
 		<POI MapID="36" xpos="69.8096" ypos="41.2402" zpos="-58.358" type="fvd_guide.ac.general.info" GUID="nShA9gvku0+9TNCN3nCogQ==" info="Stack in the corner and pull the boss."/>
 
@@ -247,7 +247,7 @@
 		<POI MapID="36" xpos="105.295" ypos="43.5387" zpos="-49.5394" type="fvd_guide.ac.p2.path" GUID="Tb6E5Zh+WkGdYj7snE/bkg==" info="P2: Detha - Part 2"/>
 		<Trail trailData="Data/Trails/AC/AC_P2_Part2.trl" type="fvd_guide.ac.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<!-- Chain to open the gate reminder -->
-		<POI MapID="36" xpos="137.688" ypos="67.2695" zpos="68.1835" GUID="rXtzk5CpP0OobY6WWMdxEA==" type="fvd_guide.ac.p2.path" iconFile="Data/Icons/F_Key.png" info="Interact with the chain to open the gate." behavior="6"/>
+		<POI MapID="36" xpos="137.688" ypos="67.2695" zpos="68.1835" GUID="rXtzk5CpP0OobY6WWMdxEA==" type="fvd_guide.ac.p2.path" iconFile="Data/Icons/F_Key.png" info="Interact with the chain to open the gate." behavior="6" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="36" xpos="97.9322" ypos="71.1423" zpos="191.038" GUID="h8MDvPERkESeFSlU/0HAwg==" type="fvd_guide.ac.p2.info" info="If Detha hasn't followed, pull back here or a bit further and she should spawn, then you can move back and it should trigger the defense trap event."/>
 		<POI MapID="36" xpos="93.4327" ypos="66.6669" zpos="148.404" GUID="Ve0+e7AZqUWVYNM9KjI/1Q==" type="fvd_guide.ac.p2.info" info="Defend Detha as she sets up the trap. Then talk to her to start the next event where you use the gun to lift the ectoplasmic oozes into the traps to charge it. You can use personal pulls to group the oozes faster for lifting. Once the  trap is charged, lure the boss on to it and kill it when it's no longer a blue ghost."/>
 
@@ -439,7 +439,7 @@
 		<!-- SE PATH 2 -->
 		<POI MapID="64" xpos="-308.92" ypos="214.09" zpos="204.58" type="fvd_guide.se.p2.path" GUID="VYGylyL2R06rHOWb2qk/9g==" info="P2: Rasolov - Start"/>
 		<Trail trailData="Data/Trails/SE/SE_P2_Part1.trl" type="fvd_guide.se.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="64" xpos="-150.222" ypos="215.322" zpos="141.197" type="fvd_guide.se.p2.info" GUID="hr9JeMTFPkOKI3foQwRo8g==" iconFile="Data/Icons/F_Key.png" behavior="6"/>
+		<POI MapID="64" xpos="-150.222" ypos="215.322" zpos="141.197" type="fvd_guide.se.p2.info" GUID="hr9JeMTFPkOKI3foQwRo8g==" iconFile="Data/Icons/F_Key.png" behavior="6" miniMapVisibility="0" mapVisibility="0"/>
 		<POI MapID="64" xpos="-154.193" ypos="215.325" zpos="134.04" type="fvd_guide.se.p2.info" GUID="F2ntt203/kGxaZwoNax6rg==" info="If the door isn't open, interact with the chains to the left."/>
 		<POI MapID="64" xpos="-106.998" ypos="210.948" zpos="137.501" type="fvd_guide.se.p2.info" GUID="mujm70wKQEeve26ogIlCIA==" info="Attack the generals."/>
 		<POI MapID="64" xpos="-86.2825" ypos="211.13" zpos="220.103" type="fvd_guide.se.p2.path" GUID="DERIjOvwZ0C/uUQS2NUszg==" info="P2: Rasolov - Part 2"/>
