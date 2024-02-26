@@ -10,9 +10,14 @@
 
 - Fixed X
 
-## [0.2.0-beta]
 
-- Cutting Edge
+## [0.3.0]- 2024-02-25
+- Cleaned up the text
+- Added creator contact info
+
+## [0.2.0]
+
+- Cutting Edge - Back from the dead... and trying different things with the releases.
 
 ## [0.1.0]- 2020-05-18
 
