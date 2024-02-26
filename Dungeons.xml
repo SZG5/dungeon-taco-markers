@@ -406,14 +406,14 @@
 		<POI MapID="67" xpos="-291.896" ypos="3.59879" zpos="186.647" type="fvd_guide.ta.aether.info" GUID="/NE2rdnzzU+ueW8Kk8gqwQ==" info="Pull the boss over here."/>
 		<POI MapID="67" xpos="-308.305" ypos="2.84377" zpos="202.596" type="fvd_guide.ta.aether.path" GUID="flqDTb/1jE6Ni4e4f5E9QQ==" info="Aether - Part 4"/>
 		<Trail trailData="Data/Trails/TA/TA_Aether_Part4.trl" type="fvd_guide.ta.aether.path" texture="Data/Icons/trail_TA_aether.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
-		<POI MapID="67" xpos="-302.887" ypos="17.546" zpos="154.396" type="fvd_guide.ta.aether.info" GUID="29JQLxlxo0yU3jGNptJoJw==" info="Avoid the electric floor while getting to the pad. When all of the pads are occupied by a person, a Holographic Thug spawns. Stay on the pads while luring him to the control panel and killing him there."/>
+		<POI MapID="67" xpos="-302.887" ypos="17.546" zpos="154.396" type="fvd_guide.ta.aether.info" GUID="29JQLxlxo0yU3jGNptJoJw==" info="Everyone should stow or dismiss their minons or pets. Avoid the electric floor while getting to the pad. When all of the pads are occupied by a person, a Holographic Thug spawns. Stay on the pads while luring him to the control panel and killing him there."/>
 		<POI MapID="67" xpos="-277.724" ypos="17.5016" zpos="116.896" type="fvd_guide.ta.aether.path" GUID="6JYQS79rTECyOWrxvSz/tA==" info="Aether - Part 5"/>
 		<Trail trailData="Data/Trails/TA/TA_Aether_Part5.trl" type="fvd_guide.ta.aether.path" texture="Data/Icons/trail_TA_aether.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
-		<POI MapID="67" xpos="-203.748" ypos="19.3973" zpos="182.789" type="fvd_guide.ta.aether.info" GUID="2U32uGOc3kKhv6gKOeeewA==" info="Kill 8 Generators. Use the Pads to avoid the electric floor. After the cutscene ends, dodge out of the death gears. If the boss builds up shielding, remove it by killing an aetherblade on him."/>
+		<POI MapID="67" xpos="-203.748" ypos="19.3973" zpos="182.789" type="fvd_guide.ta.aether.info" GUID="2U32uGOc3kKhv6gKOeeewA==" info="Kill 8 Generators. Use the Pads to avoid the electric floor. After the cutscene ends, QUICKLY dodge out of the death gears. The gears last a long time. If the boss builds up shielding, remove it by killing an aetherblade on him."/>
 
 
 		<!-- Aether Chests -->
-		<POI MapID="67" xpos="-266.137" ypos="19.5596" zpos="186.614" type="fvd_guide.ta.aether.chests" GUID="rLEybNHQT0uHh4YwvUo9WQ==" info="Aether Chests after the dungeon is complete."/>
+		<POI MapID="67" xpos="-266.137" ypos="19.5596" zpos="186.614" type="fvd_guide.ta.aether.chests" GUID="rLEybNHQT0uHh4YwvUo9WQ==" info="Aether Chests after the dungeon is complete. You must have a key to open each chest. The path will also seal if you take too long."/>
 		<Trail trailData="Data/Trails/TA/TA_Aether_Chests_Water.trl" type="fvd_guide.ta.aether.chests" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<Trail trailData="Data/Trails/TA/TA_Aether_Chests_Part2.trl" type="fvd_guide.ta.aether.chests" texture="Data/Icons/trail.png" color="E69F00" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 
@@ -493,9 +493,9 @@
 		<POI MapID="71" xpos="-50.2991" ypos="45.0816" zpos="-8.64276" type="fvd_guide.hotw.p2.path" GUID="z+GqoP+lJUi4GVp8nYLQAQ==" info="P2: The Plunderer - Start"/>
 		<Trail trailData="Data/Trails/HOTW/HOTW_P2_Part1.trl" type="fvd_guide.hotw.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="71" xpos="40.2769" ypos="58.8955" zpos="-31.3581" type="fvd_guide.hotw.p2.info" GUID="9tERYlYfu02M+tcF6ZZ87w==" info="Most of the adds nearby stay out of the fight. Boss has a few knockdowns/backs but doesn't hit too hard."/>
-		<POI MapID="71" xpos="111.541" ypos="51.9762" zpos="-8.54066" type="fvd_guide.hotw.p2.info" GUID="3tn33LN9F0SMNF7i9JiHLQ==" info="Can be ignored but might chase after, making the next boss fight harder. Stay out of his charge knockdown and his icy trail aoe."/>
+		<POI MapID="71" xpos="111.541" ypos="51.9762" zpos="-8.54066" type="fvd_guide.hotw.p2.info" GUID="3tn33LN9F0SMNF7i9JiHLQ==" info="Can be ignored but might chase after, making the next boss fight harder. Stay out of his charge knockdown and his icy trail AoE."/>
 		<POI MapID="71" xpos="146.233" ypos="43.19" zpos="48.0621" type="fvd_guide.hotw.p2.info" GUID="7nkvH5ANLECqOcI4O5Z8lA==" info="Boss can fear you off the ship so fight him with your back against something stable. Bring Stability and Stun breakers."/>
-		<POI MapID="71" xpos="17.994" ypos="1.005" zpos="66.7056" type="fvd_guide.hotw.p2.info" GUID="YpefMI+C00eIb6+ozstdWA==" info="You can pull the two quaggans and kill them separately. Boss has a high damage cone aoe and drops ice spikes aoe which also hit hard."/>
+		<POI MapID="71" xpos="17.994" ypos="1.005" zpos="66.7056" type="fvd_guide.hotw.p2.info" GUID="YpefMI+C00eIb6+ozstdWA==" info="You can pull the two quaggans and kill them separately. Boss has a high damage cone AoE and drops ice spikes AoE which also hit hard."/>
 		<POI MapID="71" xpos="28.636" ypos="5.02327" zpos="39.1237" type="fvd_guide.hotw.p2.path" GUID="+0nDSEGMBk6fsoTYSc3+MQ==" info="P2: The Plunderer - Part 2"/>
 		<Trail trailData="Data/Trails/HOTW/HOTW_P2_Part2.trl" type="fvd_guide.hotw.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="71" xpos="31.9061" ypos="-13.7731" zpos="47.2716" type="fvd_guide.hotw.p2.info" GUID="8+o3X9xYlUmP4s1LSY6oeg==" info="Rest of the path is underwater. - If you have a lot of stealth you can sneak past and get into the boss room. Otherwise, it *might* be best to kill the enemies here."/>
@@ -518,7 +518,7 @@
 		<POI MapID="71" xpos="-129.518" ypos="14.7994" zpos="18.421" type="fvd_guide.hotw.p3.path" GUID="hg8daL92vU+ZfPCPdigJ6Q==" info="P3: Zealot - Part 3"/>
 		<Trail trailData="Data/Trails/HOTW/HOTW_P3_Part3.trl" type="fvd_guide.hotw.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="71" xpos="29.3846" ypos="-7.62398" zpos="15.7622" type="fvd_guide.hotw.p3.info" GUID="6hSr/fOMOU6px+vSDh3r2A==" info="Rest of the path is underwater. Consider: Stealthing past enemies."/>
-		<POI MapID="71" xpos="-51.7964" ypos="-13.4727" zpos="7.90949" type="fvd_guide.hotw.p3.info" GUID="phQ0F2eesES5RM0q/5MkkA==" info="Boss summons: Jellyfish which explode for high aoe damage and Barracuda moderate damage. If you choose to fight him on land on the stairs to the left, he hits a lot harder."/>
+		<POI MapID="71" xpos="-51.7964" ypos="-13.4727" zpos="7.90949" type="fvd_guide.hotw.p3.info" GUID="phQ0F2eesES5RM0q/5MkkA==" info="Boss summons: Jellyfish which explode for high AoE damage and Barracuda moderate damage. If you choose to fight him on land on the stairs to the left, he hits a lot harder."/>
 
 
 
@@ -535,7 +535,7 @@
 		<POI MapID="69" xpos="-251.063" ypos="64.1369" zpos="21.9247" type="fvd_guide.cof.p1.info" GUID="qQl/EJ5dxEyXFgYX0qYYpQ==" info="Focus the slave driver. The Effigy will respawn."/>
 		<POI MapID="69" xpos="-292.282" ypos="57.0455" zpos="46.9105" type="fvd_guide.cof.p1.path" GUID="ff7vnP9GTkirZo0Y+LJ+2w==" info="P1: Ferrah - Part 2"/>
 		<Trail trailData="Data/Trails/COF/COF_P1_Part2.trl" type="fvd_guide.cof.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="69" xpos="-161.768" ypos="105.257" zpos="217.876" type="fvd_guide.cof.p1.info" GUID="TBD2ZvuMykyQhtJLBl3GoQ==" info="KillKill 10 acolytes. (Acolytes respawn every 40~ seconds) You can ignore everyone else."/>
+		<POI MapID="69" xpos="-161.768" ypos="105.257" zpos="217.876" type="fvd_guide.cof.p1.info" GUID="TBD2ZvuMykyQhtJLBl3GoQ==" info="Kill 10 acolytes. (Acolytes respawn every 40~ seconds) You can ignore everyone else."/>
 		<POI MapID="69" xpos="-129.813" ypos="109.629" zpos="221.85" type="fvd_guide.cof.p1.path" GUID="i+yGrHMRdkiv8YAaRgQO5w==" info="P1: Ferrah - Part 3"/>
 		<Trail trailData="Data/Trails/COF/COF_P1_Part3.trl" type="fvd_guide.cof.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="69" xpos="-125.115" ypos="110.455" zpos="210.479" type="fvd_guide.cof.p1.info" GUID="DpsOInKT1Eq94sCeFzFImQ==" info="If you have a blink skill, you move past the locked gate before the event fire boulder room event starts to take out the gate controller and skip the mandatory 5 people for the braziers. After the controller is destroyed, come back to do the flame boulders."/>
@@ -561,7 +561,7 @@
 		<POI MapID="69" xpos="160.934" ypos="101.022" zpos="-217.985" type="fvd_guide.cof.p2.path" GUID="P5GBqR6wu0SZ+iNyFSHASg==" info="P2: Magg - Part 4"/>
 		<Trail trailData="Data/Trails/COF/COF_P2_Part4.trl" type="fvd_guide.cof.p2.path" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>		
 		<POI MapID="69" xpos="254.15" ypos="99.9891" zpos="-99.7838" type="fvd_guide.cof.p2.info" GUID="xpBBC83Fhkqj+HqIIyxRHQ==" info="Protect Magg from the spawning mobs and kill assassins."/>
-		<POI MapID="69" xpos="281.728" ypos="102.277" zpos="-51.7689" type="fvd_guide.cof.p2.info" GUID="TWatH0RLq0GphWfAImrjKw==" info="You can ignore Gaheron Baelfire. Attack the Eternal Flame in the center of the room when the acolytes protecting it are dead. They respawn so time their deaths and then attack the Eternal Flame. Repeat until its dead."/>
+		<POI MapID="69" xpos="281.728" ypos="102.277" zpos="-51.7689" type="fvd_guide.cof.p2.info" GUID="TWatH0RLq0GphWfAImrjKw==" info="You can ignore Gaheron Baelfire. Attack the Eternal Flame in the center of the room when the acolytes protecting it are dead. They respawn so time their deaths and then attack the Eternal Flame. Repeat until it's dead."/>
 
 
 
@@ -588,7 +588,7 @@
 		<POI MapID="69" xpos="209.865" ypos="76.6631" zpos="-13.6833" type="fvd_guide.cof.p3.path" GUID="HrgIK+Rd2UmulZ7EzYdNQg==" info="P3: Rhiannon - Part 3"/>
 		<Trail trailData="Data/Trails/COF/COF_P3_Part3.trl" type="fvd_guide.cof.p3.path" texture="Data/Icons/trail_path3.png" color="7D7DF8" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="69" xpos="219.788" ypos="79.435" zpos="-6.76806" type="fvd_guide.cof.p3.info" GUID="CmP8xsv8iU+nQSa3+M8ogQ==" info="Avoid the bombs when they are on, or use stealth. Safe spots are marked with an arrow. You can kill the pet drake and open a new waypoint."/>
-		<POI MapID="69" xpos="238.206" ypos="86.115" zpos="10.947" type="fvd_guide.cof.p3.info" GUID="j6x1ncygik6NbZcV21C1Pw==" info="Wait for the cycle and be careful bc team members can trigger the bomb blast. Even if you are in a safe spot, if the bomb is armed the aoe will kill you there. If you see the aoe, dodge to avoid the damage."/>
+		<POI MapID="69" xpos="238.206" ypos="86.115" zpos="10.947" type="fvd_guide.cof.p3.info" GUID="j6x1ncygik6NbZcV21C1Pw==" info="Wait for the cycle and be careful bc team members can trigger the bomb blast. Even if you are in a safe spot, if the bomb is armed the AoE will kill you there. If you see the AoE, dodge to avoid the damage."/>
 
 		<!-- Bomb Safe Spots Cause them to trigger when near so you dont blind people -->
 		<POI MapID="69" xpos="216.992" ypos="95.7723" zpos="29.4783" type="fvd_guide.cof.p3.info" GUID="aqIcc6HmI0mthDDux2cTew==" iconFile="Data/Icons/arrow.png" behavior="4" resetLength="8" triggerRange="1" autoTrigger="1"/>
@@ -679,7 +679,7 @@
 		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part5.trl" GUID="3bmWilWpskW9jSvwU/o4fQ==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="-74.9655" ypos="17.4296" zpos="-125.45" type="fvd_guide.arah.p1.info" GUID="q5cIbvAczkW3UxR5FzFTGA==" info="Use stealth or just run fast past the gorillas. Run past Korga unless you think the group will wipe on the last boss and would want the closer WP."/>
 		<POI MapID="112" xpos="-132.893" ypos="64.9518" zpos="-380.981" type="fvd_guide.arah.p1.info" GUID="OYq6mUYcIkSPAKtLJUirYg==" info="Stealth and run."/>
-		<POI MapID="112" xpos="-133.611" ypos="55.4456" zpos="-516.539" type="fvd_guide.arah.p1.info" GUID="g2NIpFlUrkaLiFFOt4nA2A==" info="Swiftness then run past the aoes from the glowing stones."/>
+		<POI MapID="112" xpos="-133.611" ypos="55.4456" zpos="-516.539" type="fvd_guide.arah.p1.info" GUID="g2NIpFlUrkaLiFFOt4nA2A==" info="Swiftness then run past the AoEs from the glowing stones."/>
 		<POI MapID="112" xpos="-266.49" ypos="63.1076" zpos="-554.499" type="fvd_guide.arah.p1.info" GUID="zriHYPsP5kmfqWhNdDutuQ==" info="Reflects are your friend. If no one has any, you can take the reflect crystals from the other parts and stand inside the hit box with it, and dodge once it breaks. Don't stand in lava founts, and the fire ring will down you if you cross it."/>
 		<POI MapID="112" xpos="-283.881" ypos="74.1915" zpos="-487.295" type="fvd_guide.arah.p1.path" GUID="Axdm+qN7z0SEctSKH5hQNA==" info="Path 1: Jotun - Part 6"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P1_Part6.trl" GUID="2TtRXC8MFky6y2UOQq5Qvg==" type="fvd_guide.arah.p1.path" texture="Data/Icons/trail_path1.png" color="56B4E9" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
@@ -705,7 +705,7 @@
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_MineSkip.trl" GUID="/nvefCms5kWE7aSlgxB5KA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="525.381" ypos="11.8219" zpos="541.08" type="fvd_guide.arah.p2.path" GUID="Yu3pHDshf0Sn1m+WLGQvkw==" info="Path 2: Mursaat - Part 6"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part6.trl" type="fvd_guide.arah.p2.path" GUID="eVKx59/mwk2pGaZclZdZwA==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
-		<POI MapID="112" xpos="407.858" ypos="-0.461914" zpos="429.889" type="fvd_guide.arah.p2.info" GUID="KAutDgIy90a+YoSVRMXcRA==" info="Hide behind crate. Use projectile reflect or destruction. If you see red AOE circle, dodge."/>
+		<POI MapID="112" xpos="407.858" ypos="-0.461914" zpos="429.889" type="fvd_guide.arah.p2.info" GUID="KAutDgIy90a+YoSVRMXcRA==" info="Hide behind crate. Use projectile reflect or destruction. If you see red AoE circle, dodge."/>
 		<POI MapID="112" xpos="375.637" ypos="9.22489" zpos="511.992" type="fvd_guide.arah.p2.path" GUID="lu64ivskZ0iunV5WNef+CA==" info="Path 2: Mursaat - Part 7"/>
 		<Trail trailData="Data/Trails/ARAH/ARAH_P2_Part7.trl" type="fvd_guide.arah.p2.path" GUID="QktPpeOtg0qUO/0O/gbgOQ==" texture="Data/Icons/trail_path2.png" color="D5008A" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 		<POI MapID="112" xpos="12.6587" ypos="8.45003" zpos="389.149" type="fvd_guide.arah.p2.info" GUID="wGyPZeXdhUShoJnfa2v2AQ==" info="One person use the terminal to be shifted, bring the boss down to 50%. Melee her and sidestep the laser attack. Other players can face their back to the shield and walk backwards into it to get through."/>
@@ -765,7 +765,7 @@
 		<Trail GUID="qC7syfVXfkyIkh3vPGvqxQ==" trailData="Data/Trails/ARAH/ARAH_P4_Part4.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
 		<POI MapID="112" xpos="434.894" ypos="21.6013" zpos="-128.43" GUID="/zzMij9ry0uUJkwOhXDJlQ==" type="fvd_guide.arah.p4.path" info="P4: Seer - Part 5"/>
-		<POI MapID="112" xpos="442.848" ypos="29.7089" zpos="-157.552" GUID="U62nOri45UeUu9nPhTLkSg==" type="fvd_guide.arah.p4.info" info="Invis to avoid hand knockdowns and dodge the death red circles."/>
+		<POI MapID="112" xpos="442.848" ypos="29.7089" zpos="-157.552" GUID="U62nOri45UeUu9nPhTLkSg==" type="fvd_guide.arah.p4.info" info="Stealth to avoid hand knockdowns and dodge the death red circles."/>
 		<POI MapID="112" xpos="328.669" ypos="1.94812" zpos="-494.479" GUID="4j8yN9vbIky46mLL6VYGDQ==" type="fvd_guide.arah.p4.info" info="Lead sparks to the circles to trap them and start the fight. Use tears to break petrifaction on allies. Repeat until dead."/>
 		<Trail GUID="44vxIvao/E6K1UCiVVfFug==" trailData="Data/Trails/ARAH/ARAH_P4_Part5.trl" type="fvd_guide.arah.p4.path" texture="Data/Icons/trail_path4.png" color="8CF1AB" fadeNear="2000" fadeFar="2200" mapDisplaySize="2"/>
 
