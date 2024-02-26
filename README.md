@@ -1,3 +1,58 @@
+# gw2-dungeon-markers
+
+## About
+**[FvD] Dungeon Guide**
+
+The Friends Versus Dungeons guide for people who get lost easily.
+
+These markers for intended to be used in the unoffical BlishHUD addon (https://blishhud.com/) for Guild Wars 2.
+
+## Content
+**Features:**
+- Trails for all dungeon explorable paths (AC, CM, TA, SE, CoF, HotW, CoE, Arah)
+- Trails for 7 of the story mode dungeons (everything excluding Arah Story mode)
+- Information about the path and some mechanics
+- Some skips and other strats
+
+## Changelog
+Read changes here: [CHANGELOG.md](https://github.com/SZG5/gw2-dungeon-markers/blob/master/CHANGELOG.md)
+
+## Installation
+
+(Future) ~~If you have BlishHUD, you can simply download them from the menu.~~
+
+### Manual Method
+Download the latest FvD_Dungeon_Guide.taco from the [release page](https://github.com/SZG5/gw2-dungeon-markers/releases) (or **Direct Download:** [latest version](https://github.com/SZG5/gw2-dungeon-markers/releases/latest/download/FvD_Dungeon_Guide.taco))
+
+Place the .taco file in the correct folder for markers.
+
+#### BlishHUD (Manual)
+1) Find your blishhud folder. (On windows OS, if you have the shortcut, you can right click and click Open File Location)
+2) Find the settings folder
+3) Find the markers folder
+4) Place the .taco in the marker folder. 
+5) Restart BlishHUD and then check that the marker pack is enabled. 
+
+The folder path might look something like this. Blish.HUD.0.11.7\settings\markers 
+
+#### TacO (Unadvised but it can work, but less clean)
+1) Find your TacO folder. (On windows OS, if you have the shortcut, you can right click and click Open File Location)
+2) Click the POI folder and place the .taco in the folder. 
+3) Restart TacO and then check that the marker pack is enabled. 
+
+The Taco folder path might look something like GW2TacO_066r\POIs
+
+**NOTICE:** These markers were created with BlishHUD in mind. More than likely the info sections will run off the screen in TacO. It's generally a worse experience. I highly recommend transfering over to BlishHUD. You can get it at: https://blishhud.com/
+
+### Contact
+- Creator/In-Game Name: S Z G.4359 
+- You can join the [FvD] Guild Discord here: https://discord.com/invite/SVZANqV
+- FvD is a NA guild for dungeon lovers and enthusiasts.
+
+### Report Issues or Suggestions?:
+- Create a open a issue here: https://github.com/SZG5/gw2-dungeon-markers/issues/new
+
+## Notes to Self
 Markers Tool: https://www.heinze.fr/taco/tool.php?lang=en
 
 Marker notes: https://www.heinze.fr/taco/?lang=en
@@ -28,54 +83,6 @@ linebreak = `&#xA;`
 
 
 ### ===TODO===
-
-Dungeons:
-
-- AC - Finished but check for errors
-- CM 
-- TA - Finsihed Up/Fwd
-- SE - Finished but check for errors
-- COF - Finished but check forerrors
-- HOTW - Finished but check for errors
-- COE
-- Arah
-
-
-
-### ===Paths===
-- AC 1 - Check
-- AC 2 - Check
-- AC 3 - Check
-
-- TA UP - Check
-- TA FWD - Check
-- Aether
-
-- CM 1
-- CM 2
-- CM 3
-
-- SE 1 - Check
-- SE 2 - Check
-- SE 3 - Check
-
-- COF 1 - Check
-- COF 2 - Check
-- COF 3 - Check
-
-- HOTW 1 - Check
-- HOTW 2 - Check
-- HOTW 3 - Check
-
-- COE 1 - Check
-- COE 2 
-- COE 3 - Check
-
-- Arah 1
-- Arah 2
-- Arah 3 - Completed
-- Arah 4
-
 
 ### CM
 * Skips
