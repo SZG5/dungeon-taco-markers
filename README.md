@@ -46,8 +46,9 @@ The Taco folder path might look something like GW2TacO_066r\POIs
 
 ### Contact
 - Creator/In-Game Name: S Z G.4359 
-- You can join the [FvD] Guild Discord here: https://discord.com/invite/SVZANqV
+- Interested in [FvD]? [Join from the Guild Website](https://friendsvsdungeons.com/)
 - FvD is a NA guild for dungeon lovers and enthusiasts.
+- **Need Help** reach out in the BlishHUD discord: https://discord.gg/FYKN3qh
 
 ### Report Issues or Suggestions?:
 - Create a open a issue here: https://github.com/SZG5/gw2-dungeon-markers/issues/new
