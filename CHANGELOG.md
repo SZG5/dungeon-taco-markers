@@ -10,6 +10,9 @@
 
 - Fixed X
 
+## [0.5.0] - 2024-06-26
+- Updated links.
+
 ## [0.4.1] - 2024-02-26
 - Fixed the AC categories to match the style of every other category.
 
