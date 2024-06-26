@@ -186,9 +186,10 @@
 				<MarkerCategory name="info" DisplayName="Arah Path 4 - Specific Info" iconFile="Data/Icons/info_path4.png" iconSize="0.5" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 		</MarkerCategory>
-		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: Beta 0.4.1 - 2024.02.26">
+		<MarkerCategory name="separatormenu01" isseparator="1" DisplayName="Build: 0.5.0 - 2024.06.26">
 			<MarkerCategory name="ign_contact" isseparator="1" DisplayName="Creator: S Z G.4359" copy="S Z G.4359" tip-description="Click to copy"/>
-			<MarkerCategory name="fvd_discord" isseparator="1" DisplayName="https://discord.com/invite/SVZANqV" copy="https://discord.com/invite/SVZANqV" tip-description="Click to copy"/>
+			<MarkerCategory name="fvd_contact" isseparator="1" DisplayName="Guild Website/Discord" copy="https://friendsvsdungeons.com/" tip-description="Click to copy"/>
+			<MarkerCategory name="blish_contact" isseparator="1" DisplayName="BlishHUD Discord" copy="https://discord.gg/FYKN3qh" tip-description="Click to copy"/>
 		</MarkerCategory>
 	</MarkerCategory>
 	<POIs>
