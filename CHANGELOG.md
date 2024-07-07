@@ -11,7 +11,7 @@
 - Fixed X
 
 ## [0.6.0] - 2024-07-07
-- Removed extra markers
+- Removed extra markers.
 
 ## [0.5.0] - 2024-06-26
 - Updated links.
